@@ -1,0 +1,10 @@
+.headerRowContainer{
+    background-color: var(--primary-color);
+}
+.headerRowContainer--header_home_superior{
+    padding-left: 9vw;
+    padding-right: 9vw;
+}
+.headerRowContainer--header-mobile{
+    justify-content: space-between;
+}

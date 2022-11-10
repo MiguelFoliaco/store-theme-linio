@@ -1,0 +1,19 @@
+.autoCompleteOuterContainer{
+    width:35vw;
+}
+.imageElement--banner-home-image{
+ margin:auto;
+ margin-top:20px;
+ width: 85vw;
+}
+.imageElement--home-banner2-img-1, .imageElement--home-banner2-img-2, .imageElement--home-banner2-img-3{
+    height: 100%;
+    object-fit: cover;
+}
+.imageElement--home-banner3-img-1{
+    width: 100%;
+}
+.imageElement--home-banner4-img-1{
+    height: 200px;
+    object-fit: cover;
+}

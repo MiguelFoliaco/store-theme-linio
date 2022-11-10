@@ -1,0 +1,11 @@
+.container--text-title-slider .paragraph{
+    font-weight: bold;
+}
+.container--text-title-slider{
+    width: 85vw;
+    margin: auto;
+    margin-top: 30px;
+}
+.paragraph--home-banner2-text{
+    font-weight: bold;
+}

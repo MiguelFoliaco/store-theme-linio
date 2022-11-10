@@ -1,0 +1,55 @@
+{
+  "store.home": { 
+    "blocks": [
+      "responsive-layout.desktop",
+      "flex-layout.row#banner-home",
+      "list-context.image-list#demo",
+      "flex-layout.row#category-home",
+     //* Vitrina 1
+      "rich-text#productlist_1",
+      "flex-layout.row#product-row-list1",
+
+      //* Banner 2
+      "flex-layout.row#home-banner2-items-title",
+      "flex-layout.row#home-banner2-items-group",
+      //* Banner 3
+      "flex-layout.row#home-banner3-items-group",
+      //* Vintrina 2
+      "rich-text#title-product-list-2",
+      "flex-layout.row#product-row-list2",
+      //* Modal
+      "modal-trigger",
+      //* Banner 4
+      "flex-layout.row#home-banner4-items-group"
+    ]
+  },
+  "flex-layout.row#banner-home": {
+    "title": "Banners",
+    "children": ["image#banner"],
+    "props": {
+      "horizontalAlign": "center",
+      "fullWidth": false
+    }
+  },
+  "image#banner": {
+    "props": {
+      "src": "assets/images/banners/banner-home.jpg",
+      "blockClass":"banner-home-image"
+    },
+    "title": "banner img"
+  },
+  // * Titulo vitrina 1
+  "rich-text#productlist_1": {
+    "props": {
+      "text": "TE PUEDEN INTERESAR ✨",
+      "blockClass":"text-title-slider"
+    }
+  },
+  //* Titulo vitrina 2
+  "rich-text#title-product-list-2": {
+    "props": {
+      "text": "DE COLOMBIA Y EL MUNDO A LA PUERTA DE TU CASA ✈️",
+      "blockClass":"text-title-slider"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.menuContainerNav--link-item-header .styledLinkContent{
+    color:var(--text-secondary);
+    font-size: 0.8rem;
+}
+.menuContainerNav--link-item-header .styledLinkContent:hover{
+    opacity: 0.9;
+}
+.menuContainer--menu-content-mobile{
+    flex-direction: column;
+}

@@ -1,0 +1,24 @@
+{
+    "drawer#drawer-header-mobile":{
+        "blocks":[],
+        "children":["menu#drawer"],
+        "props":{
+            "blockClass":"menu-icon"
+        }
+    },
+    "menu#drawer":{
+        "children":[
+            "menu-item#item1",
+            "menu-item#item2",
+            "menu-item#item3",
+            "menu-item#item4",
+            "menu-item#item5",
+            "menu-item#item6",
+            "menu-item#item7",
+            "menu-item#item8"
+        ],
+        "props":{
+            "blockClass":"menu-content-mobile"
+        }
+    }
+}

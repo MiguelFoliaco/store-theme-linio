@@ -1,0 +1,72 @@
+{
+    "flex-layout.row#category-home": {
+        "title":"Categoria en Home",
+        "children": [
+            "flex-layout.col#col-image-1",
+            "flex-layout.col#col-image-2",
+            "flex-layout.col#col-image-3",
+            "flex-layout.col#col-image-4",
+            "flex-layout.col#col-image-5"
+        ],
+        "props": {
+            "marginTop":4,
+            "blockClass": "category-home",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#col-image-1": {
+        "title": "Categoria 1",
+        "children": ["image#image-1"]
+    },
+    "image#image-1": {
+        "props": {
+            "src": "assets/images/categorys/celulares.jpg",
+            "alt": "Categoria 1"
+        },
+        "title": "Primera Imagen"
+    },
+    "flex-layout.col#col-image-2": {
+        "title": "Categoria 2",
+        "children": ["image#image-2"]
+    },
+    "image#image-2": {
+        "props": {
+            "src": "assets/images/categorys/hogar.jpg",
+            "alt": "Categoria 1"
+        },
+        "title": "Segunda Imagen"
+    },
+    "flex-layout.col#col-image-3": {
+        "title": "Categoria 3",
+        "children": ["image#image-3"]
+    },
+    "image#image-3": {
+        "props": {
+            "src": "assets/images/categorys/tenis.jpg",
+            "alt": "Categoria 3"
+        },
+        "title": "Tercera Imagen"
+    },
+    "flex-layout.col#col-image-4": {
+        "title": "Categoria 4",
+        "children": ["image#image-4"]
+    },
+    "image#image-4": {
+        "props": {
+            "src": "assets/images/categorys/navidad.jpg",
+            "alt": "Categoria 1"
+        },
+        "title": "Cuarta Imagen"
+    },
+    "flex-layout.col#col-image-5": {
+        "title": "Categoria 5",
+        "children": ["image#image-5"]
+    },
+    "image#image-5": {
+        "props": {
+            "src": "assets/images/categorys/juguetes.jpg",
+            "alt": "Categoria 5"
+        },
+        "title": "Quinta Imagen"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "modal-trigger": {
+        "props": {
+            "customPixelEventName": "addToCart"
+        },
+        "children":[
+            "modal-layout"
+        ]
+    },
+    "modal-layout": {
+        "props": {
+            "backdrop": "clickable"
+        },
+        "title": "Modal addicion al carrito",
+        "children":[
+            "rich-text#modal-content"
+        ]
+    },
+    "rich-text#modal-content": {
+        "props": {
+            "text":"Hola mundo"
+        }
+    }
+}

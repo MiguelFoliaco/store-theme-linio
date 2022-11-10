@@ -1,0 +1,13 @@
+.container{
+    border:none;
+    margin-left: 10px;
+    text-align: center;
+}
+.container :global(button:hover){
+    background-color:transparent;
+}
+.container span{
+    padding: 0px;
+    color:var(--text-secondary);
+    font-size: 0.8rem;
+}

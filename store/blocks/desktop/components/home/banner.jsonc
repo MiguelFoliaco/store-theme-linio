@@ -1,0 +1,135 @@
+{
+    //* Banner 2
+    "flex-layout.row#home-banner2-items-group": {
+        "children": [
+            "flex-layout.col#home-banner2-item2",
+            "flex-layout.col#home-banner2-item3",
+            "flex-layout.col#home-banner2-item4"
+        ],
+        "props": {
+            "blockClass": "home-banner2-img-content",
+            "colSizing": "auto",
+            "colGap":3
+        }
+    },
+    //* Item 1
+    "flex-layout.row#home-banner2-items-title": {
+        "children": ["flex-layout.col#home-banner2-item1"],
+        "props": {
+            "blockClass": "home-banner-items-titles"
+        }
+    },
+    "flex-layout.col#home-banner2-item1": {
+        "children": ["rich-text#home-banner2-item1"]
+    },
+    "rich-text#home-banner2-item1": {
+        "props": {
+            "text": "DALE UN NUEVO LOOK A TU HOGAR",
+            "blockClass":"home-banner2-text"
+        }
+    },
+    //* Item 2
+    "flex-layout.col#home-banner2-item2": {
+        "children": ["image#home-banner2-item2"]
+    },
+    "image#home-banner2-item2": {
+        "props": {
+            "src": "assets/images/banners/hogar.banner.2.jpg",
+            "alt": "Productos para el Hogar",
+            "blockClass":"home-banner2-img-1"
+        }
+    },
+    //* Item 3
+    "flex-layout.col#home-banner2-item3": {
+        "children": ["image#home-banner2-item3"]
+    },
+    "image#home-banner2-item3": {
+        "props": {
+            "src": "assets/images/banners/muebles.banner.2.jpg",
+            "alt": "Muebles para tu Hogar",
+            "blockClass":"home-banner2-img-2"
+        }
+    },
+    //* Item 4
+    "flex-layout.col#home-banner2-item4": {
+        "children": ["image#home-banner2-item4"]
+    },
+    "image#home-banner2-item4": {
+        "props": {
+            "src": "assets/images/banners/muebles.banner.2.jpg",
+            "alt": "Muebles para tu hogar",
+            "blockClass":"home-banner2-img-3"
+        }
+    },
+
+    //* Banner 3
+    "flex-layout.row#home-banner3-items-group": {
+        "children": [
+            "flex-layout.col#home-banner3-item3"
+        ],
+        "props": {
+            "blockClass": "home-banner3-img-content",
+            "colSizing": "auto",
+            "marginTop":8
+        }
+    },
+    "flex-layout.col#home-banner3-item3":{
+        "children": [
+            "image#home-banner3-item1"
+        ]
+    },
+    "image#home-banner3-item1":{
+        "props": {
+            "alt": "Productos para el cabello",
+            "src": "assets/images/banners/banner3-home.jpg",
+            "blockClass":"home-banner3-img-1"
+        }
+    },
+
+    //* Banner 4
+    "flex-layout.row#home-banner4-items-group": {
+        "children": [
+            "flex-layout.col#home-banner4-item1",
+            "flex-layout.col#home-banner4-item2",
+            "flex-layout.col#home-banner4-item3"
+        ],
+        "props": {
+            "blockClass": "home-banner4-img-content",
+            "colSizing": "auto",
+            "marginTop":8
+        }
+    },
+    //* Item 1
+    "flex-layout.col#home-banner4-item1": {
+        "children": ["image#home-banner4-item1"]
+    },
+    "image#home-banner4-item1":{
+        "props": {
+            "alt": "Productos para el cabello",
+            "src": "assets/images/banners/portatil1.jpg",
+            "blockClass":"home-banner4-img-1"
+        }
+    },
+    //* Item 2
+    "flex-layout.col#home-banner4-item2": {
+        "children": ["image#home-banner4-item2"]
+    },
+    "image#home-banner4-item2":{
+        "props": {
+            "alt": "Productos para el cabello",
+            "src": "assets/images/banners/ropa1.jpg",
+            "blockClass":"home-banner4-img-1"
+        }
+    },
+    //* Item 3
+    "flex-layout.col#home-banner4-item3": {
+        "children": ["image#home-banner4-item3"]
+    },
+    "image#home-banner4-item3":{
+        "props": {
+            "alt": "Productos para el cabello",
+            "src": "assets/images/banners/bebes.jpg",
+            "blockClass":"home-banner4-img-1"
+        }
+    }
+}

@@ -1,0 +1,203 @@
+{
+    "responsive-layout.desktop": {
+        "children": [
+            "flex-layout.row#ups-home-row"
+        ]
+    },
+    "flex-layout.row#ups-home-row": {
+        "props": {
+            "colSizing": "equal",
+            "paddingTop":6,
+            "paddingBottom":3,
+            "blockClass": "ups"
+        },
+        "children": [
+            "flex-layout.col#ups-item1",
+            "flex-layout.col#ups-item2",
+            "flex-layout.col#ups-item3",
+            "flex-layout.col#ups-item4",
+            "flex-layout.col#ups-item5"
+        ]
+    },
+    //* Item 1
+    "flex-layout.col#ups-item1": {
+        "title": "Item 1",
+        "children": [
+            "flex-layout.row#ups-subitem1"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "rowGap":2,
+            "verticalAlign": "bottom"
+        }
+    },
+    "flex-layout.row#ups-subitem1": {
+        "children": [
+            "image#ups-image1",
+            "link#ups-link1"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "center"
+        }
+    },
+    "link#ups-link1": {
+        "props": {
+            "label": "Descarga la app",
+            "href": "#",
+            "blockClass":"ups-link"
+        }
+    },
+    "image#ups-image1":{
+        "title": "Icons 1",
+        "props": {
+            "src": "assets/images/icons/llamada-telefonica.png",
+            "alt": "imagen icon 1",
+            "maxWidth":30
+        }
+    },
+    //* Item 2
+    "flex-layout.col#ups-item2": {
+        "title": "Item 2",
+        "children": [
+            "flex-layout.row#ups-subitem2"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#ups-subitem2": {
+        "children": [
+            "image#ups-image2",
+            "link#ups-link2"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "colGap":2
+        }
+    },
+    "link#ups-link2": {
+        "props": {
+            "label": "Descuentos Banco Falabella",
+            "href": "#",
+            "blockClass":"ups-link"
+        }
+    },
+    "image#ups-image2":{
+        "title": "Icons 1",
+        "props": {
+            "src": "assets/images/icons/crm.png",
+            "alt": "imagen icon 2",
+            "maxWidth":30
+        }
+    },
+    //* Item 3
+    "flex-layout.col#ups-item3": {
+        "title": "Item 3",
+        "children": [
+            "flex-layout.row#ups-subitem3"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#ups-subitem3": {
+        "children": [
+            "image#ups-image3",
+            "link#ups-link3"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "colGap":2
+        }
+    },
+    "image#ups-image3":{
+        "title": "Icons 3",
+        "props": {
+            "src": "assets/images/icons/shop.png",
+            "alt": "imagen icon 3",
+            "maxWidth":30
+        }
+    },
+    "link#ups-link3": {
+        "props": {
+            "label": "Retiro en Tienda",
+            "href": "#",
+            "blockClass":"ups-link"
+        }
+    },
+    //* Item 4
+    "flex-layout.col#ups-item4": {
+        "title": "Item 4",
+        "children": [
+            "flex-layout.row#ups-subitem4"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#ups-subitem4": {
+        "children": [
+            "image#ups-image4",
+            "link#ups-link4"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "colGap":2
+        }
+    },
+    "image#ups-image4":{
+        "title": "Icons 4",
+        "props": {
+            "src": "assets/images/icons/plane.png",
+            "alt": "imagen icon 4",
+            "maxWidth":30
+        }
+    },
+    "link#ups-link4": {
+        "props": {
+            "label": "Productos Internacionales",
+            "href": "#",
+            "blockClass":"ups-link"
+        }
+    },
+    //* Item 5
+    "flex-layout.col#ups-item5": {
+        "title": "Item 5",
+        "children": [
+            "flex-layout.row#ups-subitem5"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#ups-subitem5": {
+        "children": [
+            "image#ups-image5",
+            "link#ups-link5"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "colGap":2
+        }
+    },
+    "link#ups-link5": {
+        "props": {
+            "label": "Mejor Calificados",
+            "href": "#",
+            "blockClass":"ups-link"
+        }
+    },
+    "image#ups-image5":{
+        "title": "Icons 5",
+        "props": {
+            "src": "assets/images/icons/star.png",
+            "alt": "imagen icon 3",
+            "maxWidth":30
+        }
+    }
+}

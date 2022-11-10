@@ -1,0 +1,12 @@
+{
+    "vtex.product-highlights@2.x:product-highlights": {
+        "children": [
+            "product-highlight-text"
+        ]
+    },
+    "product-highlight-text": {
+        "props": {
+            "message": "{highlightName}"
+        }
+    }
+}

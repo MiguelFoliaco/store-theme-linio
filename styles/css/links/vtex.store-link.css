@@ -1,0 +1,25 @@
+.link--link-pedidos{
+    font-size:0.8rem;
+    color:var(--text-secondary);
+    text-decoration: none;
+}
+.link--link_header{
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.label--link_header{
+    width: 100%;
+}
+.link--link_header:hover{
+    opacity: 0.8;
+}
+.link--ups-link{
+    text-decoration: none;
+    color:var(--black-color);
+    align-items: center;
+    display: flex;
+}
+.link--ups-link:hover{
+    color: var(--secondary-color);
+}
