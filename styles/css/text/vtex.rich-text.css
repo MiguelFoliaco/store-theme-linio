@@ -1,5 +1,6 @@
 .container--text-title-slider .paragraph{
     font-weight: bold;
+    font-size: 20px;
 }
 .container--text-title-slider{
     width: 85vw;
@@ -8,4 +9,22 @@
 }
 .paragraph--home-banner2-text{
     font-weight: bold;
+    font-size: 20px;
+}
+.paragraph--text-footer{
+    color:#666;
+    font-size: 0.6rem;
+}
+.wrapper--derechos-autor-text .paragraph{
+    font-size: 0.8rem;
+}
+.container--text-info, .container--text-info2{
+    width: 85vw;
+    margin: auto;
+}
+.container--text-info2{
+    margin-bottom: 100px;
+}
+.paragraph--text-info, .paragraph--text-info2{
+    font-size: 0.8rem;
 }

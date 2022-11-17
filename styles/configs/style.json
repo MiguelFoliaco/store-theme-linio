@@ -80,7 +80,7 @@
     "background": {
       "base": "#ffffff",
       "base--inverted": "#03044e",
-      "action-primary": "#0F3E99",
+      "action-primary": "#f50",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
@@ -172,8 +172,8 @@
       "warning--faded": "#fff6e0"
     },
     "border": {
-      "action-primary": "#0F3E99",
-      "action-secondary": "#eef3f7",
+      "action-primary": "#f50",
+      "action-secondary": "#f60",
       "emphasis": "#f71963",
       "disabled": "#e3e4e6",
       "success": "#8bc34a",

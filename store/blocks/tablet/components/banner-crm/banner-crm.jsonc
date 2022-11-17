@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#mobile_home-banner-crm": {
+        "title": "Banners",
+        "children": [
+          "image#banner"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "fullWidth": true,
+          "blockClass": "home-mobile-banner-crm-content"
+        }
+      }
+}

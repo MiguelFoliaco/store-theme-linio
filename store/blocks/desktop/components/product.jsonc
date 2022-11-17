@@ -2,7 +2,7 @@
   "store.product": {
     "children": [
       //"product.name",
-      "rich-text"
+      "product-summary-name"
     ]
   }
 }

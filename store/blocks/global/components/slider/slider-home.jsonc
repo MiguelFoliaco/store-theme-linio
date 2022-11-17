@@ -1,0 +1,44 @@
+{
+    "list-context.image-list#global_home-slider": {
+        "children": [
+            "slider-layout#demo-images"
+        ],
+        "title": "Lista de imagenes",
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "image": "assets/images/slider_home/1.jpg",
+                    "description": "any descriptions"
+                },
+                {
+                    "image": "assets/images/slider_home/2.jpg",
+                    "description": "any descriptions"
+                },
+                {
+                    "image": "assets/images/slider_home/3.jpg",
+                    "description": "any descriptions"
+                },
+                {
+                    "image": "assets/images/slider_home/4.jpg",
+                    "description": "any descriptions"
+                }
+            ]
+        }
+    },
+    "slider-layout#demo-images": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "autoplay": {
+                "stopOnHover": true,
+                "timeout": 6000
+            },
+            "blockClass": "slide-layout-container"
+        }
+    }
+}

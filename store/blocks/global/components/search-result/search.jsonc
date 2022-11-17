@@ -1,0 +1,201 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.mobile": {
+    "children": [
+      "flex-layout.col#desktop_department__breadcrumb",
+      "flex-layout.row#desktop_department_result"
+    ],
+    "props": {
+      "mobileLayout": {
+        "mode1": "normal",
+        "mode2": "small"
+      }
+    }
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.col#desktop_department__breadcrumb",
+      "flex-layout.row#desktop_department_result"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.col#desktop_department__breadcrumb": {
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  "flex-layout.row#desktop_department_result": {
+    "children": [
+      "flex-layout.col#filter-navigation_desktopt",
+      "flex-layout.col#desktop_department_result"
+    ],
+    "props": {
+      "blockClass": "content-search-result",
+      "colSizing": "auto",
+      "marginTop": 4,
+      "marginBottom": 6
+    }
+  },
+  "flex-layout.col#filter-navigation_desktopt": {
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#desktop_department_result": {
+    "children": [
+      "search-content#result_content_department_product"
+    ],
+    "props": {
+      "width": "70%"
+    }
+  },
+  "search-content#result_content_department_product": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "whole",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": {
+            "desktop": 5,
+            "mobile": 3,
+            "phone": 1
+          }
+        },
+        {
+          "name": "two",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": {
+            "desktop": 5,
+            "mobile": 3,
+            "phone": 1
+          }
+        },
+        {
+          "name": "many",
+          "component": "ManyByLineSummary",
+          "itemsPerRow": {
+            "desktop": 5,
+            "mobile": 3,
+            "phone": 1
+          }
+        }
+      ],
+      "OneOrTwoLineSummary": "product-summary.shelf#product-search",
+      "ManyByLineSummary": "product-summary.shelf#product-search"
+    }
+  },
+  "product-summary.shelf#product-search": {
+    "children": [
+      "product-summary-image#product-search",
+      "product-summary-name#product-search",
+      "product-price",
+      //"add-to-cart-button",
+      "link.product"
+    ],
+    "props": {
+      "trackListName": true,
+      "priceBehavior": "async"
+    }
+  },
+  "product-summary-name#product-search": {
+    "props": {
+      "tag": "h2"
+    }
+  },
+  "product-summary-image#product-search": {
+    "props": {
+      "width": 200,
+      "maxHeight": 120
+    }
+  },
+  "product-brand#product-search": {
+    "props": {
+      "displayMode": "logo"
+    }
+  },
+  "add-to-cart-button": {
+    "props": {
+      "display": "button",
+      "text": "Agregar"
+    }
+  },
+  "link.product": {
+    "props": {
+      "displayMode": "button",
+      "target": "a",
+      "label": "Ver productor"
+    }
+  }
+}

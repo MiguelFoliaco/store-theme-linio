@@ -1,0 +1,9 @@
+{
+    "image#banner": {
+        "props": {
+            "src": "assets/images/banners/banner-home.jpg",
+            "blockClass": "banner-home-image"
+        },
+        "title": "banner img"
+    }
+}

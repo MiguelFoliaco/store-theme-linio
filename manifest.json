@@ -31,6 +31,7 @@
     "vtex.product-kit": "1.x",
     "vtex.search-result": "3.x",
     "vtex.search": "2.x",
+    "vtex.search-resolver": "1.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
     "vtex.flex-layout": "0.x",

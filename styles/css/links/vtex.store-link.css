@@ -23,3 +23,7 @@
 .link--ups-link:hover{
     color: var(--secondary-color);
 }
+.link--text-footer{
+    color:#666;
+    font-size: 0.6rem;
+}

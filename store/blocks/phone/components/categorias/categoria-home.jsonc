@@ -1,0 +1,21 @@
+{
+    "responsive-layout.phone#phone_category-home":{
+        "children":["flex-layout.row#phone_category-home"]
+    },
+    "flex-layout.row#phone_category-home": {
+        "title":"Categoria en Home",
+        "children": [
+            "flex-layout.col#col-image-1",
+            "flex-layout.col#col-image-2",
+            "flex-layout.col#col-image-3",
+            "flex-layout.col#col-image-4",
+            "flex-layout.col#col-image-5"
+        ],
+        "props": {
+            "marginTop":4,
+            "blockClass": "category-home-phone",
+            "colSizing": "auto",
+            "fullWidth": true
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "rich-text#global__novedades--titile": {
+        "props": {
+            "text": "Novedades",
+            "blockClass": "text-title-slider"
+        }
+    },
+    //* Item 1
+    "flex-layout.col#global__banner--novedadescol1": {
+        "children": ["image#global__banner--novedades--img1"],
+        "props": {
+            "width":"grow"
+        }
+    },
+    "image#global__banner--novedades--img1": {
+        "props": {
+            "src": "assets/images/novedades/larebaja1.jpg"
+        }
+    },
+    //* Item 2
+    "flex-layout.col#global__banner--novedadescol2": {
+        "children": ["image#global__banner--novedades--img2"]
+    },
+    "image#global__banner--novedades--img2": {
+        "props": {
+            "src": "assets/images/novedades/larebaja2.jpg"
+        }
+    },
+    //* Item 3
+    "flex-layout.col#global__banner--novedadescol3": {
+        "children": ["image#global__banner--novedades--img3"]
+    },
+    "image#global__banner--novedades--img3": {
+        "props": {
+            "src": "assets/images/novedades/larebaja3.jpg"
+        }
+    },
+    //* Item 4
+    "flex-layout.col#global__banner--novedadescol4": {
+        "children": ["image#global__banner--novedades--img4"]
+    },
+    "image#global__banner--novedades--img4": {
+        "props": {
+            "src": "assets/images/novedades/larebaja4.jpg"
+        }
+    }
+}

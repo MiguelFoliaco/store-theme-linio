@@ -1,14 +1,22 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "responsive-layout.desktop",
-      "flex-layout.row#banner-home",
-      "list-context.image-list#demo",
-      "flex-layout.row#category-home",
-     //* Vitrina 1
+      //* banner crm
+      "responsive-layout.desktop#desktop_home-banner-crm",
+      "responsive-layout.phone#phone_home-banner-crm",
+      
+      //* slider home 
+      "responsive-layout.desktop#desktop_home_slider",
+      "responsive-layout.phone#phone_home-slider",
+
+      //* Categorias
+      "responsive-layout.desktop#desktop_category-home",
+      "responsive-layout.phone#phone_category-home",
+
+      //* Vitrina 1
       "rich-text#productlist_1",
       "flex-layout.row#product-row-list1",
-
       //* Banner 2
       "flex-layout.row#home-banner2-items-title",
       "flex-layout.row#home-banner2-items-group",
@@ -20,36 +28,81 @@
       //* Modal
       "modal-trigger",
       //* Banner 4
-      "flex-layout.row#home-banner4-items-group"
+      "flex-layout.row#home-banner4-items-group",
+      //*Vitrina 3
+      "rich-text#title-product-list-3",
+      "flex-layout.row#product-row-list3",
+      //* Vendedores oficiales
+      "rich-text#title-sellers",
+      "list-context.image-list#global__slider2--seller",
+      //* Novedades
+      "rich-text#global__novedades--titile",
+      "flex-layout.row#desktop__banner4--novedadesrow--img1",
+      "flex-layout.row#desktop__banner4--novedadesrow--imgs",
+      //* Info
+      "flex-layout.row#home-info",
+      //* Banco Falabella
+      "flex-layout.row#home-banner5",
+      //* descarga la app,
+      "flex-layout.row#home-banner6",
+      "rich-text#info-home",
+      "rich-text#info-home2"
     ]
-  },
-  "flex-layout.row#banner-home": {
-    "title": "Banners",
-    "children": ["image#banner"],
-    "props": {
-      "horizontalAlign": "center",
-      "fullWidth": false
-    }
-  },
-  "image#banner": {
-    "props": {
-      "src": "assets/images/banners/banner-home.jpg",
-      "blockClass":"banner-home-image"
-    },
-    "title": "banner img"
   },
   // * Titulo vitrina 1
   "rich-text#productlist_1": {
     "props": {
       "text": "TE PUEDEN INTERESAR ✨",
-      "blockClass":"text-title-slider"
+      "blockClass": "text-title-slider"
     }
   },
   //* Titulo vitrina 2
   "rich-text#title-product-list-2": {
     "props": {
       "text": "DE COLOMBIA Y EL MUNDO A LA PUERTA DE TU CASA ✈️",
-      "blockClass":"text-title-slider"
+      "blockClass": "text-title-slider"
+    }
+  },
+  //* Titulo vitrina 3
+  "rich-text#title-product-list-3": {
+    "props": {
+      "text": "EQUIPA TU ESPACIO DE ESTUDIO O TRABAJO",
+      "blockClass": "text-title-slider"
+    }
+  },
+  //* Titulo Vendedores
+  "rich-text#title-sellers": {
+    "props": {
+      "text": "**TIENDAS OFICIALES [Ver más](/)**",
+      "blockClass": "text-title-slider"
+    }
+  },
+  //* Novedades
+  "flex-layout.row#desktop__banner4--novedadesrow--img1": {
+    "children": [
+      "flex-layout.col#global__banner--novedadescol1"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": [
+        "width-85"
+      ]
+    }
+  },
+  "flex-layout.row#desktop__banner4--novedadesrow--imgs": {
+    "children": [
+      "flex-layout.col#global__banner--novedadescol2",
+      "flex-layout.col#global__banner--novedadescol3",
+      "flex-layout.col#global__banner--novedadescol4"
+    ],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "colJustify": "around",
+      "colSizing": "auto",
+      "blockClass": [
+        "desktop__banner4--novedadesrow--imgs-85"
+      ]
     }
   }
 }

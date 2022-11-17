@@ -1,5 +1,6 @@
 :global(.vtex-store__template) {
     --primary-color: #3D3D3D;
+    --border-color: #3d3d3d8b;
     --secondary-color: #f50;
     --white-color: #fff;
     --black-color: rgb(92, 92, 92);

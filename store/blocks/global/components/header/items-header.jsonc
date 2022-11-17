@@ -2,7 +2,7 @@
     "header-layout.desktop": {
         "children": [
             "header-row#1-desktop",
-            "header-row#2-desktop"
+           "header-row#2-desktop"
         ]
     },
     "header-row#1-desktop": {
@@ -11,7 +11,7 @@
             "flex-layout.row#flex-child",
             "flex-layout.row#login-container",
             "flex-layout.row#pedidos-container",
-            "minicart.v2"
+            "minicart.v2#header"
         ],
         "props": {
             "fullWidth": true,
@@ -25,6 +25,18 @@
         ],
         "props": {
             "colJustify": "between"
+        }
+    },
+    "minicart.v2#header": {
+        "props": {
+            "MinicartIcon": "icon",
+            "variation": "popup",
+            "backdropMode": "visible"
+        }
+    },
+    "icon": {
+        "props": {
+            "id": "hpa-cart"
         }
     },
     "logo": {
@@ -41,6 +53,11 @@
         "props": {
             "openAutocompleteOnFocus": true
         }
+    },
+    "autocomplete-result-list.v2": {
+        "blocks": [
+            "product-summary"
+        ]
     },
     //* Login items
     "flex-layout.row#login-container": {
@@ -67,7 +84,7 @@
                 "c-on-emphasis"
             ],
             "iconLabel": "Ingresa",
-            "showIconProfile": true
+            "showIconProfile": false
         }
     },
     //* Pedidos items
@@ -78,7 +95,7 @@
         ],
         "props": {
             "colSizing": "auto",
-            "colGap":2
+            "colGap": 2
         }
     },
     "flex-layout.col#pedidos-item1": {

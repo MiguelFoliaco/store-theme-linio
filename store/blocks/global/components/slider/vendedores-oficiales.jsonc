@@ -1,0 +1,75 @@
+{
+    //* Slider
+    "list-context.image-list#global__slider2--seller": {
+        "children": [
+            "slider-layout#global__slider2_config"
+        ],
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "src": "assets/images/tiendas/asus.jpg",
+                    "title": "imagen 1 slider 2"
+                },
+                {
+                    "src": "assets/images/tiendas/mabe.jpg",
+                    "title": "imagen 1 slider 2"
+                },
+                {
+                    "src": "assets/images/tiendas/laroche.jpg",
+                    "title": "imagen 1 slider 2"
+                },
+                {
+                    "src": "assets/images/tiendas/mariohernandes.jpg",
+                    "title": "imagen 1 slider 2"
+                },
+                {
+                    "src": "assets/images/tiendas/nesspreso.jpg",
+                    "title": "imagen 1 slider 2"
+                },
+                {
+                    "src": "assets/images/tiendas/prinsel.jpg",
+                    "title": "imagen 1 slider 2"
+                },
+                {
+                    "src": "assets/images/tiendas/pulliman.jpg",
+                    "title": "imagen 1 slider 2"
+                },
+                {
+                    "src": "assets/images/tiendas/remington.jpg",
+                    "title": "imagen 1 slider 2"
+                },
+                {
+                    "src": "assets/images/tiendas/rta.jpg",
+                    "title": "imagen 1 slider 2"
+                },
+                {
+                    "src": "assets/images/tiendas/samsung.jpg",
+                    "title": "imagen 1 slider 2"
+                },
+                {
+                    "src": "assets/images/tiendas/sportfitnest.jpg",
+                    "title": "imagen 1 slider 2"
+                },
+                {
+                    "src": "assets/images/tiendas/xiaomi.jpg",
+                    "title": "imagen 1 slider 2"
+                }
+            ]
+        },
+        "title": "Slider Vendedores"
+    },
+    "slider-layout#global__slider2_config": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 1
+            },
+            "centerMode": "center",
+            "infinite": true,
+            "blockClass": "slide-layout-container",
+            "showPaginationDots": "mobileOnly"
+        }
+    }
+}

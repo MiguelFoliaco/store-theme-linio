@@ -1,0 +1,11 @@
+{
+    "flex-layout.row#home-info": {
+        "children": ["rich-text#home-info-text"]
+    },
+    "rich-text#home-info-text": {
+        "title": "Informacion",
+        "props": {
+            "text":"[Help](https://developers.vtex.com/vtex-developer-docs/docs/welcome).\n**Be Bold!**\n*This is italic*"
+        }
+    }
+}

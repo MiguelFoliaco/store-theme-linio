@@ -1,0 +1,46 @@
+{
+    "responsive-layout.phone#phone_home-slider":{
+        "children":["list-context.image-list#phone_home-slider"]
+    },
+    "slider-layout#phone_demo-images": {
+        "props": {
+            "itemsPerPage": {
+                "phone": 1
+            },
+            "infinite": true,
+            "autoplay": {
+                "stopOnHover": true,
+                "timeout": 6000
+            },
+            "blockClass": "phone-slide-layout-container",
+            "fullWidth": true
+        }
+    },
+    "list-context.image-list#phone_home-slider": {
+        "children": [
+            "slider-layout#phone_demo-images"
+        ],
+        "title": "Lista de imagenes",
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "image": "assets/images/slider_home/1.jpg",
+                    "description": "any descriptions"
+                },
+                {
+                    "image": "assets/images/slider_home/2.jpg",
+                    "description": "any descriptions"
+                },
+                {
+                    "image": "assets/images/slider_home/3.jpg",
+                    "description": "any descriptions"
+                },
+                {
+                    "image": "assets/images/slider_home/4.jpg",
+                    "description": "any descriptions"
+                }
+            ]
+        }
+    }
+}
