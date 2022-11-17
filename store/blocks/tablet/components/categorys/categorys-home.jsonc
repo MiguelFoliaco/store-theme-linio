@@ -1,0 +1,5 @@
+{
+    "responsive-layout.mobile#mobile_category-home":{
+        "children":["flex-layout.row#desktop_category-home"]
+    }
+}

@@ -5,14 +5,16 @@
       //* banner crm
       "responsive-layout.desktop#desktop_home-banner-crm",
       "responsive-layout.phone#phone_home-banner-crm",
-      
+      "responsive-layout.mobile#tablet_home-banner-crm",
       //* slider home 
       "responsive-layout.desktop#desktop_home_slider",
       "responsive-layout.phone#phone_home-slider",
+      "responsive-layout.mobile#mobile_home-slider",
 
       //* Categorias
       "responsive-layout.desktop#desktop_category-home",
       "responsive-layout.phone#phone_category-home",
+      "responsive-layout.mobile#mobile_category-home",
 
       //* Vitrina 1
       "rich-text#productlist_1",
