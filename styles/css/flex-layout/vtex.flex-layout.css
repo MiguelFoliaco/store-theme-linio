@@ -99,3 +99,7 @@
     width:90vw;
     margin:30px auto;
 }
+.flexRowContent--product-modal{
+    min-width: 80vw;
+    max-width: 80vw;
+}

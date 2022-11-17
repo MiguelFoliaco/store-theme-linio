@@ -1,8 +1,7 @@
 {
   "store.product": {
     "children": [
-      //"product.name",
-      "product-summary-name"
+      "product-name"
     ]
   }
 }

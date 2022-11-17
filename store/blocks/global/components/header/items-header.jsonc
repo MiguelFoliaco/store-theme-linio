@@ -11,7 +11,7 @@
             "flex-layout.row#flex-child",
             "flex-layout.row#login-container",
             "flex-layout.row#pedidos-container",
-            "minicart.v2#header"
+            "minicart.v2"
         ],
         "props": {
             "fullWidth": true,
@@ -27,13 +27,13 @@
             "colJustify": "between"
         }
     },
-    "minicart.v2#header": {
-        "props": {
-            "MinicartIcon": "icon",
-            "variation": "popup",
-            "backdropMode": "visible"
-        }
-    },
+    // "minicart.v2#header": {
+    //     "props": {
+    //         "MinicartIcon": "icon",
+    //         "variation": "drawer",
+    //         "backdropMode": "visible"
+    //     }
+    // },
     "icon": {
         "props": {
             "id": "hpa-cart"

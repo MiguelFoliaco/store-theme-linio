@@ -1,0 +1,8 @@
+{
+    "store.custom#about-us": {
+        "blocks": [
+            "rich-text#info-home",
+            "rich-text#info-home2"
+        ]
+    }
+}
