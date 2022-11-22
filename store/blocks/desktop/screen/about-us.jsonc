@@ -1,0 +1,13 @@
+{
+    "store.custom#aboutus": {
+        "blocks": [
+            //* Banner Desktop
+            "responsive-layout.desktop#about-us-desktop-banner",
+            //* Banner Mobile
+            "responsive-layout.mobile#about-us-mobile-banner",
+            
+            //* Content Items 1
+            "flex-layout.row#aboutus-content-items1"
+        ]
+    }
+}

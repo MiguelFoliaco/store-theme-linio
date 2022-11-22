@@ -1,5 +1,6 @@
 {
     "rich-text#global__novedades--titile": {
+        "title": "Titulo Bannner Novedades",
         "props": {
             "text": "Novedades",
             "blockClass": "text-title-slider"
@@ -13,6 +14,7 @@
         }
     },
     "image#global__banner--novedades--img1": {
+        "title": "Imagen 1",
         "props": {
             "src": "assets/images/novedades/larebaja1.jpg"
         }
@@ -22,6 +24,7 @@
         "children": ["image#global__banner--novedades--img2"]
     },
     "image#global__banner--novedades--img2": {
+        "title": "Imagen 2",
         "props": {
             "src": "assets/images/novedades/larebaja2.jpg"
         }
@@ -31,6 +34,7 @@
         "children": ["image#global__banner--novedades--img3"]
     },
     "image#global__banner--novedades--img3": {
+        "title": "Imagen 3",
         "props": {
             "src": "assets/images/novedades/larebaja3.jpg"
         }
@@ -40,6 +44,7 @@
         "children": ["image#global__banner--novedades--img4"]
     },
     "image#global__banner--novedades--img4": {
+        "title": "Imagen 4",
         "props": {
             "src": "assets/images/novedades/larebaja4.jpg"
         }

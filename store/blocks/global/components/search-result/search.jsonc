@@ -122,42 +122,23 @@
       "not-found"
     ]
   },
-  // "gallery": {
-  //   "props": {
-  //     "layouts":     [
-  //       {
-  //         "name": "whole",
-  //         "component": "OneOrTwoLineSummary",
-  //         "itemsPerRow": {
-  //           "desktop": 5,
-  //           "mobile": 3,
-  //           "phone": 1
-  //         }
-  //       },
-  //       {
-  //         "name": "two",
-  //         "component": "OneOrTwoLineSummary",
-  //         "itemsPerRow": {
-  //           "desktop": 5,
-  //           "mobile": 3,
-  //           "phone": 1
-  //         }
-  //       },
-  //       {
-  //         "name": "many",
-  //         "component": "ManyByLineSummary",
-  //         "itemsPerRow": {
-  //           "desktop": 5,
-  //           "mobile": 3,
-  //           "phone": 1
-  //         }
-  //       }
-  //     ],
-  //     "OneOrTwoLineSummary": "product-summary.shelf#product-search",
-  //     "ManyByLineSummary": "product-summary.shelf#product-search",
-  //     "ListSummary":"product-summary.shelf#product-search-list"
-  //   }
-  // },
+  "gallery#gird-and-list": {
+    "props": {
+      "layouts":     [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1008px)":4,
+            "(min-width:623px) and (max-width:1007px)":3,
+            "(max-width:622px)":2
+          }
+        }
+      ],
+      "GridSummary": "product-summary.shelf#product-search",
+      "ListSummary":"product-summary.shelf#product-search-list"
+    }
+  },
   "product-summary.shelf#product-search": {
     "children": [
       "product-summary-image#product-search",
@@ -288,7 +269,7 @@
       "marginTop": 4,
       "marginBottom": 7
     },
-    "children": ["buy-button"]
+    "children": ["add-to-cart-button"]
   },
 
   "share#default": {
@@ -299,25 +280,6 @@
         "Twitter": false,
         "Pinterest": true
       }
-    }
-  },
-
-  //! test
-  "gallery#gird-and-list": {
-    "props": {
-      "layouts":     [
-        {
-          "name": "grid",
-          "component": "GridSummary",
-          "itemsPerRow": {
-            "(min-width:1008px)":4,
-            "(min-width:623px) and (max-width:1007px)":3,
-            "(max-width:622px)":2
-          }
-        }
-      ],
-      "GridSummary": "product-summary.shelf#product-search",
-      "ListSummary":"product-summary.shelf#product-search-list"
     }
   }
 }

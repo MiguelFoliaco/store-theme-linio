@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#aboutus-content-items1": {
+        "children": ["flex-layout.col#aboutus-content-items1-sup"]
+    },
+    "flex-layout.col#aboutus-content-items1-sup": {
+        "children": [
+                "flex-layout.row#aboutus-content-items1-sup"
+        ]
+    },
+    "flex-layout.row#aboutus-content-items1-sup": {
+        "children": [
+            "flex-layout.col#aboutus-content-items1-sup-item1"
+        ]
+    },
+
+    //* Item 1
+    "flex-layout.col#aboutus-content-items1-sup-item1": {
+        "children": [
+            "image#about-us-content-item1-sup-items1-img",
+            "rich-text#about-us-content-item1-sup-items1-text"
+        ]
+    },
+    "image#about-us-content-item1-sup-items1-img": {
+        "title": "Image",
+        "props": {
+            "src": "assets/images/icons/track.png",
+            "maxHeight": "30px"
+        }
+    },
+    "rich-text#about-us-content-item1-sup-items1-text": {
+        "props": {
+            "text": "**COMPRAS SEGURAS** <br/> Tus compras son protegidas por el mismo olimpo algun cambio"
+        }
+    }
+}

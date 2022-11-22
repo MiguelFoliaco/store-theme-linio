@@ -1,0 +1,36 @@
+{
+    //* contenedor de vitrina 1
+    "rich-text#productlist_1": {
+        "title": "Titulo de vitrina 1",
+        "props": {
+            "text": "TE PUEDEN INTERESAR ✨",
+            "blockClass": "text-title-slider"
+        }
+    },
+    "flex-layout.row#product-row-list1": {
+        "title": "Contenedor de vitrina [1]",
+        "children": [
+            "flex-layout.col#product-col-list1"
+        ],
+        "props": {
+            "blockClass": "product-row-list1",
+            "horizontalAlign": "center",
+            "marginTop": 4
+        }
+    },
+    "list-context.product-list#productlist_1": {
+        "title": "Vitrina",
+        "blocks": [
+            "product-summary.shelf#productlist_1"
+        ],
+        "children": [
+            "rich-text#productlist_1",
+            "slider-layout#productlist_1"
+        ]
+    },
+    "flex-layout.col#product-col-list1": {
+        "children": [
+            "list-context.product-list#productlist_1"
+        ]
+    }
+}

@@ -103,3 +103,18 @@
     min-width: 80vw;
     max-width: 80vw;
 }
+.flexRowContent--pdp-product-main{
+    width: 90vw;
+    margin:30px auto;
+}
+.flexRowContent--banner-text-container{
+    background-color: #cd8ad4;
+}
+.flexRowContent--mobile-banner-text-container{
+    background:linear-gradient(45deg,  rgb(205, 140, 212) 0%,rgb(195, 100, 232) 70%,rgb(100, 140, 242) 100%)
+}
+.flexRowContent--mobile-banner-text-container .flexCol{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

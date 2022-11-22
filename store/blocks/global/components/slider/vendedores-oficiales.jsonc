@@ -1,5 +1,26 @@
 {
     //* Slider
+    "flex-layout.row#global_contenedor_slider2-seller": {
+        "title": "Vendedores Oficiales",
+        "children": [
+            "flex-layout.col#global_contenedor_slider2-seller"
+        ]
+    },
+    "flex-layout.col#global_contenedor_slider2-seller": {
+        "children": [
+            "rich-text#title-sellers",
+            "list-context.image-list#global__slider2--seller",
+            "slider-layout#global__slider2_config"
+        ]
+    },
+    //* Titulo Vendedores
+    "rich-text#title-sellers": {
+        "title": "Titulos Vendedores",
+        "props": {
+            "text": "**TIENDAS OFICIALES [Ver más](/)**",
+            "blockClass": "text-title-slider"
+        }
+    },
     "list-context.image-list#global__slider2--seller": {
         "children": [
             "slider-layout#global__slider2_config"

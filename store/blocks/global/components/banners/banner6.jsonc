@@ -1,0 +1,33 @@
+{
+    //* descarga la app
+    "flex-layout.row#home-banner6": {
+        "title": "Descarga la App",
+        "children": [
+            "flex-layout.col#home-banner6-item1"
+        ],
+        "props": {
+            "blockClass": "home-banner3-img-content",
+            "colSizing": "auto",
+            "marginTop": 8
+        }
+    },
+    "rich-text#title-home-banner6": {
+        "props": {
+            "text": "Descarga la app",
+            "blockClass": "text-title-slider"
+        }
+    },
+    "flex-layout.col#home-banner6-item1": {
+        "children": [
+            "rich-text#title-home-banner6",
+            "image#home-banner6-item1"
+        ]
+    },
+    "image#home-banner6-item1": {
+        "props": {
+            "alt": "Descarga la app",
+            "src": "assets/images/banners/descarga_la_app.jpg",
+            "blockClass": "home-banner2-text"
+        }
+    }
+}

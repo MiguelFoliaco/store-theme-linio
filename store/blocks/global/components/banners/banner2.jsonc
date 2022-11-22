@@ -1,0 +1,80 @@
+{
+        //* Banner 2
+        "flex-layout.row#home-banner2-items-group": {
+            "title": "Banner 2",
+            "children": [
+                "flex-layout.col#home-banner2-item2",
+                "flex-layout.col#home-banner2-item3",
+                "flex-layout.col#home-banner2-item4"
+            ],
+            "props": {
+                "blockClass": "home-banner2-img-content",
+                "colSizing": "auto",
+                "colGap": 3
+            }
+        },
+        //* Item 1
+        "flex-layout.row#home-banner2-items-title": {
+            "title": "Contenedor Titulo Banner 2",
+            "children": [
+                "flex-layout.col#home-banner2-item1"
+            ],
+            "props": {
+                "blockClass": "home-banner-items-titles"
+            }
+        },
+        "flex-layout.col#home-banner2-item1": {
+            "children": [
+                "rich-text#home-banner2-item1"
+            ]
+        },
+        "rich-text#home-banner2-item1": {
+            "title": "Titulo Banner 2",
+            "props": {
+                "text": "DALE UN NUEVO LOOK A TU HOGAR",
+                "blockClass": "home-banner2-text"
+            }
+        },
+        //* Item 2
+        "flex-layout.col#home-banner2-item2": {
+            "children": [
+                "image#home-banner2-item2"
+            ]
+        },
+        "image#home-banner2-item2": {
+            "title": "Imagen 1",
+            "props": {
+                "src": "assets/images/banners/hogar.banner.2.jpg",
+                "alt": "Productos para el Hogar",
+                "blockClass": "home-banner2-img-1"
+            }
+        },
+        //* Item 3
+        "flex-layout.col#home-banner2-item3": {
+            "children": [
+                "image#home-banner2-item3"
+            ]
+        },
+        "image#home-banner2-item3": {
+            "title": "Imagen 2",
+            "props": {
+                "src": "assets/images/banners/muebles.banner.2.jpg",
+                "alt": "Muebles para tu Hogar",
+                "blockClass": "home-banner2-img-2"
+            }
+        },
+        //* Item 4
+        "flex-layout.col#home-banner2-item4": {
+            "children": [
+                "image#home-banner2-item4"
+            ]
+        },
+        "image#home-banner2-item4": {
+            "title": "Imagen 3",
+            "props": {
+                "src": "assets/images/banners/muebles.banner.2.jpg",
+                "alt": "Muebles para tu hogar",
+                "blockClass": "home-banner2-img-3"
+            }
+        }
+}

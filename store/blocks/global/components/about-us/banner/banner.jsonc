@@ -1,0 +1,88 @@
+{
+    "responsive-layout.desktop#about-us-desktop-banner": {
+        "children": [
+            "flex-layout.row#about-us-banner-row"
+        ]
+    },
+    "responsive-layout.mobile#about-us-mobile-banner": {
+        "children": [
+            "flex-layout.row#about-us-banner-text-row"
+        ]
+    },
+    "flex-layout.row#about-us-banner-row": {
+        "title": "Banner",
+        "children": [
+            "flex-layout.col#about-us-banner-text-col",
+            "flex-layout.col#about-us-banner-col-img"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "banner-text-container"
+        }
+    },
+    "flex-layout.col#about-us-banner-col-img": {
+        "children": [
+            "image#about-us-banner-img"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    },
+    "image#about-us-banner-img": {
+        "title": "Imagen",
+        "props": {
+            "src": "assets/images/banners/about-us.jpeg",
+            "width": "100%",
+            "blockClass": "about-us-banner-img"
+        }
+    },
+    "flex-layout.row#about-us-banner-text-row": {
+        "children": [
+            "flex-layout.col#about-us-banner-text-col"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "mobile-banner-text-container"
+        }
+    },
+    "flex-layout.col#about-us-banner-text-col": {
+        "children": [
+            "flex-layout.col#about-us-banner-col-title",
+            "flex-layout.col#about-us-banner-col-text"
+        ],
+        "props": {
+            "paddingLeft": {
+                "desktop": 10,
+                "mobile": 5
+            },
+            "paddingRight": {
+                "desktop": 10,
+                "mobile": 5
+            }
+        }
+    },
+    "flex-layout.col#about-us-banner-col-title": {
+        "children": [
+            "rich-text#about-us-banner-title"
+        ]
+    },
+    "rich-text#about-us-banner-title": {
+        "title": "Titulo del banner",
+        "props": {
+            "text": "Bienvenido a Linio",
+            "blockClass": "about-us-banner-title"
+        }
+    },
+    "flex-layout.col#about-us-banner-col-text": {
+        "children": [
+            "rich-text#about-us-banner-text"
+        ]
+    },
+    "rich-text#about-us-banner-text": {
+        "title": "Texto",
+        "props": {
+            "text": "Somos el portal interdimensional de las compras. Queremos hacer tu vida más sencilla, tú solo preocúpate de encontrar al elegido entre nuestros megatones de productos.",
+            "blockClass": "about-us-banner-text"
+        }
+    }
+}

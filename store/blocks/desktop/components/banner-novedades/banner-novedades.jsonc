@@ -1,0 +1,44 @@
+{
+    //* Novedades
+    "flex-layout.row#desktop__novedades_content": {
+        "title": "Contenedor Banner 4",
+        "children": ["flex-layout.col#desktop__novedadesrow--content-img"]
+    },
+    "flex-layout.col#desktop__novedadesrow--content-img": {
+        "title": "Banner 4",
+        "children": [
+            "rich-text#global__novedades--titile",
+            "flex-layout.row#desktop__novedadesrow--img1",
+            "flex-layout.row#desktop__novedadesrow--imgs"
+        ]
+    },
+    "flex-layout.row#desktop__novedadesrow--img1": {
+        "title": "Contenedor imagen - banner 4",
+        "children": [
+            "flex-layout.col#global__banner--novedadescol1"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": [
+                "width-85"
+            ]
+        }
+    },
+    "flex-layout.row#desktop__novedadesrow--imgs": {
+        "title": "Contenedor imagenes - banner 4",
+        "children": [
+            "flex-layout.col#global__banner--novedadescol2",
+            "flex-layout.col#global__banner--novedadescol3",
+            "flex-layout.col#global__banner--novedadescol4"
+        ],
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "colJustify": "around",
+            "colSizing": "auto",
+            "blockClass": [
+                "desktop__banner4--novedadesrow--imgs-85"
+            ]
+        }
+    }
+}

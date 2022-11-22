@@ -1,0 +1,35 @@
+{
+    //* banco falabela
+    "flex-layout.row#home-banner5": {
+        "title": "Banner 5",
+        "children": [
+            "flex-layout.col#home-banner5-item1"
+        ],
+        "props": {
+            "blockClass": "home-banner3-img-content",
+            "colSizing": "auto",
+            "marginTop": 3
+        }
+    },
+    "rich-text#title-home-banner5": {
+        "title": "Titulo banner 5",
+        "props": {
+            "text": "Banco Falabella",
+            "blockClass": "text-title-slider"
+        }
+    },
+    "flex-layout.col#home-banner5-item1": {
+        "children": [
+            "rich-text#title-home-banner5",
+            "image#home-banner5-item1"
+        ]
+    },
+    "image#home-banner5-item1": {
+        "title": "Imagen 1",
+        "props": {
+            "alt": "Banco Falabella",
+            "src": "assets/images/banners/banco-falabella.jpg",
+            "blockClass": "home-banner2-text"
+        }
+    }
+}

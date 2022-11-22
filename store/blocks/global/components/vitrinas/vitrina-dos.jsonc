@@ -1,0 +1,36 @@
+{
+    //* contenedor de vitrina 2
+    "flex-layout.row#product-row-list2": {
+        "title": "Contenedor vitrina 2",
+        "children": [
+            "flex-layout.col#product-col-list2"
+        ],
+        "props": {
+            "blockClass": "product-row-list1",
+            "horizontalAlign": "center",
+            "marginTop": 4
+        }
+    },
+    "rich-text#title-product-list-2": {
+        "title": "Titulo vitrina 2",
+        "props": {
+          "text": "DE COLOMBIA Y EL MUNDO A LA PUERTA DE TU CASA ✈️",
+          "blockClass": "text-title-slider"
+        }
+      },
+    "list-context.product-list#productlist_2": {
+        "title": "Vitrina",
+        "blocks": [
+            "product-summary.shelf#productlist_1"
+        ],
+        "children": [
+            "rich-text#title-product-list-2",
+            "slider-layout#productlist_1"
+        ]
+    },
+    "flex-layout.col#product-col-list2": {
+        "children": [
+            "list-context.product-list#productlist_2"
+        ]
+    }
+}

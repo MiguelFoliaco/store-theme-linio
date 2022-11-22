@@ -1,0 +1,58 @@
+{
+    //* Banner 4
+    "flex-layout.row#home-banner4-items-group": {
+        "title": "Banner 4",
+        "children": [
+            "flex-layout.col#home-banner4-item1",
+            "flex-layout.col#home-banner4-item2",
+            "flex-layout.col#home-banner4-item3"
+        ],
+        "props": {
+            "blockClass": "home-banner4-img-content",
+            "colSizing": "auto",
+            "marginTop": 8
+        }
+    },
+    //* Item 1
+    "flex-layout.col#home-banner4-item1": {
+        "children": [
+            "image#home-banner4-item1"
+        ]
+    },
+    "image#home-banner4-item1": {
+        "title": "Imagen 1",
+        "props": {
+            "alt": "Productos para el cabello",
+            "src": "assets/images/banners/portatil1.jpg",
+            "blockClass": "home-banner4-img-1"
+        }
+    },
+    //* Item 2
+    "flex-layout.col#home-banner4-item2": {
+        "children": [
+            "image#home-banner4-item2"
+        ]
+    },
+    "image#home-banner4-item2": {
+        "title": "Imagen 2",
+        "props": {
+            "alt": "Productos para el cabello",
+            "src": "assets/images/banners/ropa1.jpg",
+            "blockClass": "home-banner4-img-1"
+        }
+    },
+    //* Item 3
+    "flex-layout.col#home-banner4-item3": {
+        "children": [
+            "image#home-banner4-item3"
+        ]
+    },
+    "image#home-banner4-item3": {
+        "title": "Imagen 3",
+        "props": {
+            "alt": "Productos para el cabello",
+            "src": "assets/images/banners/bebes.jpg",
+            "blockClass": "home-banner4-img-1"
+        }
+    }
+}

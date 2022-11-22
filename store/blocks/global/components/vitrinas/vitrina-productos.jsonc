@@ -1,0 +1,73 @@
+{
+    //* Layout
+    "slider-layout#productlist_1": {
+        "title": "Slider de productos",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "mobile": 1,
+                "phone": 1,
+                "tablet": 2
+            },
+            "infinite": false,
+            "fullWidth": false,
+            "arrowSize": 10,
+            "blockClass": "productlist_1"
+        }
+    },
+    "flex-layout.col#add-to-cart": {
+        "children": [
+            "add-to-cart-button#productlist_1"
+        ],
+        "props": {
+            "blockClass": "button-add-cart"
+        }
+    },
+    "flex-layout.col#show-product": {
+        "children": [
+            "add-to-cart-button#add-product"
+        ]
+    },
+    "add-to-cart-button#productlist_1": {
+        "title": "Botton ver producto",
+        "props": {
+            "text": "VER PRODUCTO",
+            "onClickBehavior": "go-to-product-page",
+            "blockClass": "show_product"
+        }
+    },
+    "add-to-cart-button#add-product": {
+        "title": "Botton añadir producto",
+        "props": {
+            "onClickBehavior": "add-to-cart"
+        }
+    },
+    //? En una aplicacion real deberias crear una vitrina por cada seccion o categoria que vayas requiriendo
+    "product-summary.shelf#productlist_1": {
+        "title": "Producto",
+        "children": [
+            "product-summary-image#img-list-product1",
+            "product-summary-name#shelf_product-list",
+            //"product-selling-price#summary",
+            "flex-layout.col#show-product",
+            "flex-layout.col#add-to-cart"
+        ],
+        "props": {
+            "blockClass": "product-card",
+            "priceBehavior": "async"
+        }
+    },
+    "product-summary-image#img-list-product1": {
+        "title": "Imagen de Producto",
+        "props": {
+            "maxHeight": 120,
+            "height": 120
+        }
+    },
+    "product-summary-name#shelf_product-list": {
+        "title": "Nombre de producto",
+        "props": {
+            "tag": "h2"
+        }
+    }
+}

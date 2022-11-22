@@ -53,7 +53,11 @@
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
-    "vtex.add-to-cart-button": "0.x"
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.product-specifications": "1.x",
+    "vtex.product-gifts": "0.x",
+    "itgloberspartnercl.whatsapp-button": "0.x",
+    "itgloberspartnercl.bullets-diagramations": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
