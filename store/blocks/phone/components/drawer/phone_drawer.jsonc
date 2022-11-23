@@ -1,0 +1,24 @@
+{
+    "drawer#phone__drawer":{
+        "blocks":[],
+        "children":["menu#phone__drawer-menu"],
+        "props":{
+            "blockClass":"menu-icon"
+        }
+    },
+    "menu#phone__drawer-menu":{
+        "children":[
+            "menu-item#global_menu-item1",
+            "menu-item#global_menu-item2",
+            "menu-item#global_menu-item3",
+            "menu-item#global_menu-item4",
+            "menu-item#global_menu-item5",
+            "menu-item#global_menu-item6",
+            "menu-item#global_menu-item7",
+            "menu-item#global_menu-item8"
+        ],
+        "props":{
+            "blockClass":"menu-content-mobile"
+        }
+    }
+}

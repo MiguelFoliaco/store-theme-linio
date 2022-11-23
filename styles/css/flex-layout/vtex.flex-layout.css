@@ -4,11 +4,14 @@
 .flexRowContent--ups .link{
     text-decoration: none;
 }
-.flexRowContent--header_links{
+/*? Header*/
+/** Refactory - Buenas Practicas*/
+.flexRowContent--desktop__header-inferior-menu{
     width: 85vw;
     justify-content: flex-start;
 }
-.flexRow--header_links{
+/** Refactory - Buenas Practicas*/
+.flexRow--desktop__header-inferior-menu{
     margin:auto;
 }
 .flexRow--home-desktop-banner-crm-content{

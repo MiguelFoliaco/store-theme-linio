@@ -1,19 +1,11 @@
 {
-    "header-row#2-desktop": {
+    "flex-layout.row#desktop__header-inferior-menu": {
         "children": [
-            "flex-layout.row#header_menu"
-        ],
-        "props": {
-            "fullWidth": true
-        }
-    },
-    "flex-layout.row#header_menu": {
-        "children": [
-            "vtex.menu@2.x:menu#websites"
+            "vtex.menu@2.x:menu#global__menu"
         ],
         "props": {
             "colGap": 6,
-            "blockClass": "header_links",
+            "blockClass": "desktop__header-inferior-menu",
             "border": "top",
             "borderColor": "white-60",
             "paddingBottom": 3,
@@ -21,22 +13,22 @@
             "colSizing": "auto"
         }
     },
-    "vtex.menu@2.x:menu#websites": {
+    "vtex.menu@2.x:menu#global__menu": {
         "children": [
-            "menu-item#item1",
-            "menu-item#item2",
-            "menu-item#item3",
-            "menu-item#item4",
-            "menu-item#item5",
-            "menu-item#item6",
-            "menu-item#item7",
-            "menu-item#item8"
+            "menu-item#global_menu-item1",
+            "menu-item#global_menu-item2",
+            "menu-item#global_menu-item3",
+            "menu-item#global_menu-item4",
+            "menu-item#global_menu-item5",
+            "menu-item#global_menu-item6",
+            "menu-item#global_menu-item7",
+            "menu-item#global_menu-item8"
         ],
         "props": {
-            "blockClass": "link-item-header"
+            "blockClass": "global__menu"
         }
     },
-    "menu-item#item1": {
+    "menu-item#global_menu-item1": {
         "props": {
             "id": "item-menu-1",
             "type": "custom",
@@ -49,7 +41,7 @@
             }
         }
     },
-    "menu-item#item2": {
+    "menu-item#global_menu-item2": {
         "props": {
             "id": "item-menu-2",
             "type": "custom",
@@ -62,7 +54,7 @@
             }
         }
     },
-    "menu-item#item3": {
+    "menu-item#global_menu-item3": {
         "props": {
             "id": "item-menu-3",
             "type": "custom",
@@ -75,7 +67,7 @@
             }
         }
     },
-    "menu-item#item4": {
+    "menu-item#global_menu-item4": {
         "props": {
             "id": "item-menu-4",
             "type": "custom",
@@ -88,7 +80,7 @@
             }
         }
     },
-    "menu-item#item5": {
+    "menu-item#global_menu-item5": {
         "props": {
             "id": "item-menu-5",
             "type": "custom",
@@ -101,7 +93,7 @@
             }
         }
     },
-    "menu-item#item6": {
+    "menu-item#global_menu-item6": {
         "props": {
             "id": "item-menu-6",
             "type": "custom",
@@ -114,7 +106,7 @@
             }
         }
     },
-    "menu-item#item7": {
+    "menu-item#global_menu-item7": {
         "props": {
             "id": "item-menu-7",
             "type": "custom",
@@ -127,7 +119,7 @@
             }
         }
     },
-    "menu-item#item8": {
+    "menu-item#global_menu-item8": {
         "props": {
             "id": "item-menu-8",
             "type": "custom",

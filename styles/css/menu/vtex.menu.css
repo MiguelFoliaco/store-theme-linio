@@ -1,8 +1,8 @@
-.menuContainerNav--link-item-header .styledLinkContent{
+.menuContainerNav--global__menu .styledLinkContent{
     color:var(--text-secondary);
     font-size: 0.8rem;
 }
-.menuContainerNav--link-item-header .styledLinkContent:hover{
+.menuContainerNav--global__menu .styledLinkContent:hover{
     opacity: 0.9;
 }
 .menuContainer--menu-content-mobile{

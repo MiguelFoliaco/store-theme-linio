@@ -1,0 +1,125 @@
+{
+    "header-layout.desktop#desktop__header": {
+        "children": [
+            "header-row#desktop__header-superior-row",
+            "header-row#desktop__header-inferior-row"
+        ]
+    },
+    //* Header Desktop Superior
+    "header-row#desktop__header-superior-row": {
+        "children": [
+            "logo",
+            "flex-layout.row#desktop__header-superor-searchbar",
+            "flex-layout.row#desktop__header-superior-login-row",
+            "flex-layout.row#desktop__header-superior-button-pedidos-row",
+            "minicart.v2"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "desktop__header-superior",
+            "sticky": true
+        }
+    },
+    //* Header Desktop Inferior
+    "header-row#desktop__header-inferior-row": {
+        "children": [
+            "flex-layout.row#desktop__header-inferior-menu"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    //* SearchBar
+    "flex-layout.row#desktop__header-superor-searchbar": {
+        "children": [
+            "search-bar#desktop__header-superior-searchbar"
+        ],
+        "props": {
+            "colJustify": "between"
+        }
+    },
+    "search-bar#desktop__header-superior-searchbar": {
+        "blocks": [
+            "autocomplete-result-list.v2#desktop__header-superior-autocomplete"
+        ],
+        "props": {
+            "openAutocompleteOnFocus": true
+        }
+    },
+    "autocomplete-result-list.v2#desktop__header-superior-autocomplete": {
+        "blocks": [
+            "product-summary"
+        ]
+    },
+    //* Login
+    "flex-layout.row#desktop__header-superior-login-row": {
+        "children": [
+            "flex-layout.row#desktop__header-superior-login-col"
+        ],
+        "props": {
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.row#desktop__header-superior-login-col": {
+        "children": [
+            "login#desktop__header-superior-login"
+        ]
+    },
+    "login#desktop__header-superior-login": {
+        "props": {
+            "emailAndPasswordTitle": "Ingresa",
+            "accessCodeTitle": "Accede con un codigo",
+            "emailPlaceholder": "Correo Electronico",
+            "passwordPlaceholder": "Contraseña",
+            "showPasswordVerificationIntoTooltip": true,
+            "labelClasses": [
+                "c-on-emphasis"
+            ],
+            "iconLabel": "Ingresa",
+            "showIconProfile": false
+        }
+    },
+    //* Button Pedidos
+    "flex-layout.row#desktop__header-superior-button-pedidos-row": {
+        "children": [
+            "flex-layout.col#desktop__header-superior-button-pedidos-col-2",
+            "flex-layout.col#desktop__header-superior-button-pedidos-col-1"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "colGap": 2
+        }
+    },
+    "flex-layout.col#desktop__header-superior-button-pedidos-col-1": {
+        "children": [
+            "link#desktop__header-superior-button-pedidos-link"
+        ],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    },
+    "link#desktop__header-superior-button-pedidos-link": {
+        "title": "Link Header",
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "MIS PEDIDOS",
+            "blockClass": "desktop__header-superior-button",
+            "target": "_blank",
+            "displayMode": "anchor"
+        }
+    },
+    "flex-layout.col#desktop__header-superior-button-pedidos-col-2": {
+        "children": [
+            "image#desktop_header-superior-button-pedidos-icon"
+        ],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    },
+    "image#desktop_header-superior-button-pedidos-icon": {
+        "props": {
+            "src": "assets/images/icons/tracking.png",
+            "maxWidth": 30
+        }
+    }
+}

@@ -1,4 +1,5 @@
-.link--link-pedidos{
+/** Refactory Buenas Practicas */
+.link--desktop__header-superior-button{
     font-size:0.8rem;
     color:var(--text-secondary);
     text-decoration: none;

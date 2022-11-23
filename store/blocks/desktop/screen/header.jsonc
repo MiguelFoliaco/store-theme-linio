@@ -1,0 +1,7 @@
+{
+    "header.full": {
+        "blocks":[
+            "header-layout.desktop#desktop__header", "header-layout.mobile"
+        ]
+    }
+}

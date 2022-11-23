@@ -9,11 +9,14 @@
       "responsive-layout.desktop#desktop_home_slider",
       "responsive-layout.mobile#mobile_home-slider",
       //* Categorias
-      "responsive-layout.desktop#desktop_category-home",
-      "responsive-layout.mobile#mobile_category-home",
+      // "responsive-layout.desktop#desktop_category-home",
+      // "responsive-layout.mobile#mobile_category-home",
+
+      //* Categorias Custom 
+      "list-context.bullets-group#global",
+
       //* Customs
       "whatsapp-button",
-      "list-context.bullets-group",
       //* Vitrina 1
       //"rich-text#productlist_1",
       "flex-layout.row#product-row-list1",
@@ -48,27 +51,6 @@
       "message": "Hola Que tal?",
       "phone": "573217217026",
       "radius": 50
-    }
-  },
-  "list-context.bullets-group": {
-    "props": {
-      "bullets":
-      [ 
-        {
-        "image": "assets/images/icons/plane.png",
-        "titleBullet":"Celulares",
-        "link": {
-          "url":"hola mundo"
-        }
-      },
-      {
-        "image": "assets/images/icons/american-express.png",
-        "titleBullet":"Hogar",
-        "link": {
-          "url":"hola mundo"
-        }
-      }
-    ]
     }
   }
 }

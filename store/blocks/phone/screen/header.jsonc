@@ -39,7 +39,7 @@
     //* Item2
     "flex-layout.col#header-mobile-item2": {
         "children": [
-            "drawer#drawer-header-mobile"
+            "drawer#phone__drawer"
         ]
     },
     //* Item3

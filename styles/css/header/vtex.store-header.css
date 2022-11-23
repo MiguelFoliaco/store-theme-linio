@@ -1,10 +1,13 @@
-.headerRowContainer{
+.headerRowContainer {
     background-color: var(--primary-color);
 }
-.headerRowContainer--header_home_superior{
+
+/** Refactory - Buenas Practicas */
+.headerRowContainer--desktop__header-superior {
     padding-left: 9vw;
     padding-right: 9vw;
 }
-.headerRowContainer--header-mobile{
+
+.headerRowContainer--header-mobile {
     justify-content: space-between;
 }

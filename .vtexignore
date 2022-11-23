@@ -15,3 +15,4 @@ react/.babelrc
 react/.eslintrc
 react/setupTests.js
 custom/
+store/trash
