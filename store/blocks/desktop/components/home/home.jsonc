@@ -1,10 +1,10 @@
 {
   "store.home": {
     "blocks": [
-      "responsive-layout.desktop",
+      "responsive-layout.desktop#desktop__ups-home", //* refactor
       //* banner crm
-      "responsive-layout.desktop#desktop_home-banner-crm",
-      "responsive-layout.mobile#tablet_home-banner-crm",
+      "responsive-layout.desktop#desktop_home-banner-crm", //* refactor
+      "responsive-layout.mobile#tablet_home-banner-crm",//* refactor
       //* slider home 
       "responsive-layout.desktop#desktop_home_slider",
       "responsive-layout.mobile#mobile_home-slider",

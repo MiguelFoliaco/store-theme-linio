@@ -1,0 +1,7 @@
+{
+    "responsive-layout.desktop#desktop__ups-home": {
+        "children": [
+            "flex-layout.row#global__ups-home-row"
+        ]
+    }
+}

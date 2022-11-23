@@ -1,5 +1,16 @@
 {
     "responsive-layout.mobile#tablet_home-banner-crm":{
-      "children":["flex-layout.row#phone_home-banner-crm"]
+      "children":["flex-layout.row#mobile_home-banner-crm"]
+    },
+    "flex-layout.row#mobile_home-banner-crm": {
+      "title": "Banners",
+      "children": [
+        "image#global_banner-image"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "fullWidth": true,
+        "blockClass": "home-mobile-banner-crm-content"
+      }
     }
 }

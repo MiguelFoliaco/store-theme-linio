@@ -15,15 +15,21 @@
 .link--link_header:hover{
     opacity: 0.8;
 }
-.link--ups-link{
+
+/*? UPS */
+/** Refactory Buenas Practicas */
+.link--global__ups-home{
     text-decoration: none;
     color:var(--black-color);
     align-items: center;
     display: flex;
 }
-.link--ups-link:hover{
+.link--global__ups-home:hover{
     color: var(--secondary-color);
 }
+
+
+
 .link--text-footer{
     color:#666;
     font-size: 0.6rem;

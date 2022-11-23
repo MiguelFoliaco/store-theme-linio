@@ -1,9 +1,3 @@
-.flexRowContent--ups{
-    margin: auto;
-}
-.flexRowContent--ups .link{
-    text-decoration: none;
-}
 /*? Header*/
 /** Refactory - Buenas Practicas*/
 .flexRowContent--desktop__header-inferior-menu{
@@ -14,6 +8,16 @@
 .flexRow--desktop__header-inferior-menu{
     margin:auto;
 }
+/*? UPS*/
+/** Refactory - Buenas Practicas*/
+.flexRowContent--global__ups-home{
+    margin: auto;
+}
+.flexRowContent--global__ups-home .link{
+    text-decoration: none;
+}
+
+
 .flexRow--home-desktop-banner-crm-content{
     width: 85vw;
     margin: auto;

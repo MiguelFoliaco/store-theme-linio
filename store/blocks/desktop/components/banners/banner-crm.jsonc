@@ -1,16 +1,12 @@
 {
+  //? ☑️
   "responsive-layout.desktop#desktop_home-banner-crm":{
     "children":["flex-layout.row#desktop_home-banner-crm"]
-  },
-  "rich-text": {
-    "props": {
-      "text": "ok"
-    }
   },
   "flex-layout.row#desktop_home-banner-crm": {
     "title": "Banners",
     "children": [
-      "image#banner"
+      "image#global_banner-image"
     ],
     "props": {
       "horizontalAlign": "center",

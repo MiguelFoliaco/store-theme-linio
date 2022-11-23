@@ -1,5 +1,5 @@
 {
-    "image#banner": {
+    "image#global_banner-image": {
         "props": {
             "src": "assets/images/banners/banner-home.jpg",
             "blockClass": "banner-home-image"
