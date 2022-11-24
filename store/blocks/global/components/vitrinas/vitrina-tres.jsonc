@@ -1,9 +1,9 @@
 {
     //* contenedor de vitrina 3
-    "flex-layout.row#product-row-list3": {
+    "flex-layout.row#global__home-productlist3-row": {
         "title": "Contenedor vitrina 3",
         "children": [
-            "flex-layout.col#product-col-list3"
+            "flex-layout.col#global__home-productlist3-col"
         ],
         "props": {
             "blockClass": "product-row-list1",
@@ -12,26 +12,26 @@
         }
     },
     //* Titulo vitrina 3
-    "rich-text#title-product-list-3": {
+    "rich-text#global__home-productlist3-title": {
         "title": "Titulo vitrina",
         "props": {
             "text": "EQUIPA TU ESPACIO DE ESTUDIO O TRABAJO",
             "blockClass": "text-title-slider"
         }
     },
-    "list-context.product-list#productlist_3": {
+    "list-context.product-list#global__home-productlist3-list": {
         "title": "Vitrina",
         "blocks": [
-            "product-summary.shelf#productlist_1"
+            "product-summary.shelf#global__home-productlist-product"
         ],
         "children": [
-            "rich-text#title-product-list-3",
-            "slider-layout#productlist_1"
+            "rich-text#global__home-productlist3-title",
+            "slider-layout#global__home-productlist-layout"
         ]
     },
-    "flex-layout.col#product-col-list3": {
+    "flex-layout.col#global__home-productlist3-col": {
         "children": [
-            "list-context.product-list#productlist_3"
+            "list-context.product-list#global__home-productlist3-list"
         ]
     }
 }

@@ -1,9 +1,9 @@
 {
   "store.product": {
-    "children": [
+    "blocks": [
       "flex-layout.row#pdp_breadcrumb-product",
       "flex-layout.row#pdp_product-main",
-      "flex-layout.row#product-row-list1"
+      "flex-layout.row#global__home-productlist-row"
     ]
   },
   "flex-layout.row#pdp_breadcrumb-product": {

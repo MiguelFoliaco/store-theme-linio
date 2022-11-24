@@ -1,16 +1,16 @@
 {
     //* contenedor de vitrina 1
-    "rich-text#productlist_1": {
+    "rich-text#global__home-productlist-title": {
         "title": "Titulo de vitrina 1",
         "props": {
             "text": "TE PUEDEN INTERESAR ✨",
             "blockClass": "text-title-slider"
         }
     },
-    "flex-layout.row#product-row-list1": {
+    "flex-layout.row#global__home-productlist-row": {
         "title": "Contenedor de vitrina [1]",
         "children": [
-            "flex-layout.col#product-col-list1"
+            "flex-layout.col#global__home-productlist-row"
         ],
         "props": {
             "blockClass": "product-row-list1",
@@ -18,19 +18,90 @@
             "marginTop": 4
         }
     },
-    "list-context.product-list#productlist_1": {
+    "list-context.product-list#global__home-productlist-list": {
         "title": "Vitrina",
         "blocks": [
-            "product-summary.shelf#productlist_1"
+            "product-summary.shelf#global__home-productlist-product"
         ],
         "children": [
-            "rich-text#productlist_1",
-            "slider-layout#productlist_1"
+            "rich-text#global__home-productlist-title",
+            "slider-layout#global__home-productlist-layout"
         ]
     },
-    "flex-layout.col#product-col-list1": {
+    "flex-layout.col#global__home-productlist-row": {
         "children": [
-            "list-context.product-list#productlist_1"
+            "list-context.product-list#global__home-productlist-list"
         ]
+    },
+    "slider-layout#global__home-productlist-layout": {
+        "title": "Slider de productos",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "mobile": 1,
+                "phone": 1,
+                "tablet": 2
+            },
+            "infinite": false,
+            "fullWidth": false,
+            "arrowSize": 10,
+            "blockClass": "productlist_1"
+        }
+    },
+    
+    //* Producto
+    "product-summary.shelf#global__home-productlist-product": {
+        "title": "Producto",
+        "children": [
+            "product-summary-image#global__home-productlist-product-image",
+            "product-summary-name#iglobal__home-productlist-product-name",
+            //"product-selling-price#summary",
+            "flex-layout.col#global__home-productlist-button-show",
+            "flex-layout.col#global__home-productlist-button-add-to-cart"
+        ],
+        "props": {
+            "blockClass": "product-card",
+            "priceBehavior": "async"
+        }
+    },
+    "flex-layout.col#global__home-productlist-button-show": {
+        "children": [
+            "add-to-cart-button#add-product"
+        ]
+    },
+    "add-to-cart-button#add-product": {
+        "title": "Botton añadir producto",
+        "props": {
+            "onClickBehavior": "add-to-cart"
+        }
+    },
+    "flex-layout.col#global__home-productlist-button-add-to-cart": {
+        "children": [
+            "add-to-cart-button#productlist_1"
+        ],
+        "props": {
+            "blockClass": "button-add-cart"
+        }
+    },
+    "add-to-cart-button#productlist_1": {
+        "title": "Botton ver producto",
+        "props": {
+            "text": "VER PRODUCTO",
+            "onClickBehavior": "go-to-product-page",
+            "blockClass": "show_product"
+        }
+    },
+    "product-summary-image#global__home-productlist-product-image": {
+        "title": "Imagen de Producto",
+        "props": {
+            "maxHeight": 120,
+            "height": 120
+        }
+    },
+    "product-summary-name#iglobal__home-productlist-product-name": {
+        "title": "Nombre de producto",
+        "props": {
+            "tag": "h2"
+        }
     }
 }
