@@ -27,8 +27,6 @@
       "flex-layout.row#home-banner3-items-group",
       //* Vintrina 2
       "flex-layout.row#global__home-productlist2-row", //* Refactory
-      //* Modal
-      "modal-trigger",
       //* Banner 4
       "flex-layout.row#home-banner4-items-group",
       //*Vitrina 3

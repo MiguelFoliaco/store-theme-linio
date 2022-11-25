@@ -15,7 +15,8 @@
         "props": {
             "blockClass": "product-row-list1",
             "horizontalAlign": "center",
-            "marginTop": 4
+            "marginTop": 4,
+            "marginBottom":6
         }
     },
     "list-context.product-list#global__home-productlist-list": {

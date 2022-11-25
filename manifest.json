@@ -57,7 +57,8 @@
     "vtex.product-specifications": "1.x",
     "vtex.product-gifts": "0.x",
     "itgloberspartnercl.whatsapp-button": "0.x",
-    "itgloberspartnercl.bullets-diagramations": "0.x"
+    "itgloberspartnercl.bullets-diagramations": "0.x",
+    "itgloberspartnercl.add-to-cart-info": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
