@@ -32,7 +32,8 @@
     //* SearchBar
     "flex-layout.row#desktop__header-superor-searchbar": {
         "children": [
-            "search-bar#desktop__header-superior-searchbar"
+            //"search-bar#desktop__header-superior-searchbar"
+           "department-search"
         ],
         "props": {
             "colJustify": "between"

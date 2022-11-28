@@ -4,17 +4,16 @@
       "responsive-layout.desktop#desktop__ups-home", //* refactor
       //* banner crm
       "responsive-layout.desktop#desktop_home-banner-crm", //* refactor
-      "responsive-layout.mobile#tablet_home-banner-crm",//* refactor
+      "responsive-layout.mobile#tablet_home-banner-crm", //* refactor
       //* slider home 
       "responsive-layout.desktop#desktop_home_slider", //* Refactor
       "responsive-layout.mobile#mobile_home-slider", //* Refactor
       //* Categorias
       // "responsive-layout.desktop#desktop_category-home",
       // "responsive-layout.mobile#mobile_category-home",
-
       //* Categorias Custom 
       "list-context.bullets-group#global",
-
+      "responsive-layout.mobile#departament",
       //* Customs
       "whatsapp-button",
       //* Vitrina 1
@@ -50,5 +49,10 @@
       "phone": "573217217026",
       "radius": 50
     }
+  },
+  "responsive-layout.mobile#departament": {
+    "children": [
+      "department-search"
+    ]
   }
 }
