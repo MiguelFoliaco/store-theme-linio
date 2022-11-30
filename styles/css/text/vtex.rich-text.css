@@ -38,3 +38,8 @@
     font-weight: bold;
     text-align: center;
 }
+.paragraph--aboutus-content-items-sup:hover{
+    text-decoration: underline;
+    color: #f50;
+    cursor: pointer;
+}

@@ -1,0 +1,741 @@
+{
+    "footer": {
+        "blocks": [
+            "footer-layout.desktop",
+            "footer-layout.mobile#phone_footer"
+        ]
+    },
+    //* Metodos de pago
+    "flex-layout.row#desktop__footer--payment-methods": {
+        "children": [
+            "flex-layout.col#global__footer--payment-metods-item1",
+            "flex-layout.col#global__footer--payment-metods-item2",
+            "flex-layout.col#global__footer--payment-metods-item3",
+            "flex-layout.col#global__footer--payment-metods-item4",
+            "flex-layout.col#global__footer--payment-metods-item5",
+            "flex-layout.col#global__footer--payment-metods-item6",
+            "flex-layout.col#global__footer--payment-metods-item7"
+        ],
+        "props": {
+            "blockClass": "desktop-footer",
+            "horizontalAlign": "center",
+            "colJustify": "between",
+            "paddingTop": 3
+        },
+        "title": "Opciones de Pagos"
+    },
+    //* Item 1
+    "flex-layout.col#global__footer--payment-metods-item1": {
+        "children": [
+            "image#global__footer--payment-metods-item1-img",
+            "rich-text#global__footer--payment-metods-item1-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#global__footer--payment-metods-item1-text": {
+        "props": {
+            "text": "Visa",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#global__footer--payment-metods-item1-img": {
+        "props": {
+            "src": "assets/images/icons/visa.png",
+            "maxHeight": 30
+        }
+    },
+    //* Item 2
+    "flex-layout.col#global__footer--payment-metods-item2": {
+        "children": [
+            "image#global__footer--payment-metods-item2-text",
+            "rich-text#global__footer--payment-metods-item2-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#global__footer--payment-metods-item2-text": {
+        "props": {
+            "text": "MasterCard",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#global__footer--payment-metods-item2-text": {
+        "props": {
+            "src": "assets/images/icons/maestro.png",
+            "maxHeight": 30
+        }
+    },
+    //* Item 3
+    "flex-layout.col#global__footer--payment-metods-item3": {
+        "children": [
+            "image#global__footer--payment-metods-item3-text",
+            "rich-text#global__footer--payment-metods-item3-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#global__footer--payment-metods-item3-text": {
+        "props": {
+            "text": "America Express",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#global__footer--payment-metods-item3-text": {
+        "props": {
+            "src": "assets/images/icons/american-express.png",
+            "maxHeight": 30
+        }
+    },
+    //* Item 4
+    "flex-layout.col#global__footer--payment-metods-item4": {
+        "children": [
+            "image#global__footer--payment-metods-item4-text",
+            "rich-text#global__footer--payment-metods-item4-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#global__footer--payment-metods-item4-text": {
+        "props": {
+            "text": "Targeta Codensa",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#global__footer--payment-metods-item4-text": {
+        "props": {
+            "src": "assets/images/icons/credit-card (1).png",
+            "maxHeight": 30
+        }
+    },
+    //* Item 5
+    "flex-layout.col#global__footer--payment-metods-item5": {
+        "children": [
+            "image#global__footer--payment-metods-item5-text",
+            "rich-text#global__footer--payment-metods-item5-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#global__footer--payment-metods-item5-text": {
+        "props": {
+            "text": "PSE",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#global__footer--payment-metods-item5-text": {
+        "props": {
+            "src": "assets/images/icons/Icon-PSE.png",
+            "maxHeight": 30
+        }
+    },
+    //* Item 6
+    "flex-layout.col#global__footer--payment-metods-item6": {
+        "children": [
+            "image#global__footer--payment-metods-item6-text",
+            "rich-text#global__footer--payment-metods-item6-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#global__footer--payment-metods-item6-text": {
+        "props": {
+            "text": "Efecty",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#global__footer--payment-metods-item6-text": {
+        "props": {
+            "maxHeight": 30,
+            "src": "assets/images/icons/logo-vector-efecty.jpg"
+        }
+    },
+    //* Item 7
+    "flex-layout.col#global__footer--payment-metods-item7": {
+        "children": [
+            "image#global__footer--payment-metods-item7-text",
+            "rich-text#global__footer--payment-metods-item7-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#global__footer--payment-metods-item7-text": {
+        "props": {
+            "text": "Contra entrega",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#global__footer--payment-metods-item7-text": {
+        "props": {
+            "maxHeight": 30,
+            "src": "assets/images/icons/track.png"
+        }
+    },
+    //* Footer seccition
+    "flex-layout.row#global__footer--aboutus": {
+        "children": [
+            "flex-layout.col#global__footer--aboutus--pos1",
+            "flex-layout.col#global__footer--aboutus--pos2",
+            "flex-layout.col#global__footer--aboutus--pos3",
+            "flex-layout.col#global__footer--aboutus--pos4"
+        ],
+        "props": {
+            "blockClass": "footer-secction-bottom"
+        }
+    },
+    //* Footer seccition pos 1
+    "flex-layout.col#global__footer--aboutus--pos1": {
+        "children": [
+            "flex-layout.row#global__footer--aboutus--left-row",
+            "flex-layout.row#global__footer--aboutus--left-list1",
+            "flex-layout.row#global__footer--aboutus--left-list2",
+            "flex-layout.row#global__footer--aboutus--left-list3",
+            "flex-layout.row#global__footer--aboutus--left-list4",
+            "flex-layout.row#global__footer--aboutus--left-list5",
+            "flex-layout.row#global__footer--aboutus--left-list6",
+            "flex-layout.row#global__footer--aboutus--left-list7",
+            "flex-layout.row#global__footer--aboutus--left-list8",
+            "flex-layout.row#global__footer--aboutus--left-list9",
+            "flex-layout.row#global__footer--aboutus--left-list10",
+            "flex-layout.row#global__footer--aboutus--left-list11",
+            "flex-layout.row#global__footer--aboutus--left-list12",
+            "flex-layout.row#global__footer--aboutus--left-list13",
+            "flex-layout.row#global__footer--aboutus--left-list14",
+            "flex-layout.row#global__footer--aboutus--left-list15",
+            "flex-layout.row#global__footer--aboutus--left-list16"
+        ],
+        "props": {
+            "blockClass":"footer-secction-1"
+        }
+    },
+    //* Footer seccition  pos1 title
+    "flex-layout.row#global__footer--aboutus--left-row": {
+        "children": [
+            "rich-text#global__footer-aboutus--title"
+        ]
+    },
+    "rich-text#global__footer-aboutus--title": {
+        "props": {
+            "text": "**Acerca de Linio**",
+            "blockClass": "text-footer"
+        }
+    },
+    //* Item 1
+    "flex-layout.row#global__footer--aboutus--left-list1": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item1"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item1": {
+        "props": {
+            "label": "Conocenos",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 2
+    "flex-layout.row#global__footer--aboutus--left-list2": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item2"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item2": {
+        "props": {
+            "label": "¿Quienes somos?",
+            "blockClass": "text-footer",
+            "href": "/sobre-nosotros"
+        }
+    },
+    //* Item 3
+    "flex-layout.row#global__footer--aboutus--left-list3": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item3"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item3": {
+        "props": {
+            "label": "Terminos de Uso",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 4
+    "flex-layout.row#global__footer--aboutus--left-list4": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item4"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item4": {
+        "props": {
+            "label": "Terminos de uso",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 5
+    "flex-layout.row#global__footer--aboutus--left-list5": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item5"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item5": {
+        "props": {
+            "label": "Proteccion de propiedad Intelectual",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 6
+    "flex-layout.row#global__footer--aboutus--left-list6": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item6"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item6": {
+        "props": {
+            "label": "Ventas Corporativas",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 7
+    "flex-layout.row#global__footer--aboutus--left-list7": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item7"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item7": {
+        "props": {
+            "label": "Programas de Leatad",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 8
+    "flex-layout.row#global__footer--aboutus--left-list8": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item8"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item8": {
+        "props": {
+            "label": "Velevete un Afiliado",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 9
+    "flex-layout.row#global__footer--aboutus--left-list9": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item9"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item9": {
+        "props": {
+            "label": "Directorio",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 10
+    "flex-layout.row#global__footer--aboutus--left-list10": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item10"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item10": {
+        "props": {
+            "label": "Login",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 11
+    "flex-layout.row#global__footer--aboutus--left-list11": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item11"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item11": {
+        "props": {
+            "label": "Beneficios",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 12
+    "flex-layout.row#global__footer--aboutus--left-list12": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item12"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item12": {
+        "props": {
+            "label": "Trabaje con nosotros",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 13
+    "flex-layout.row#global__footer--aboutus--left-list13": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item13"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item13": {
+        "props": {
+            "label": "Canal de Integridad",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 14
+    "flex-layout.row#global__footer--aboutus--left-list14": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item14"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item14": {
+        "props": {
+            "label": "Grupo Falabella",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 15
+    "flex-layout.row#global__footer--aboutus--left-list15": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item15"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item15": {
+        "props": {
+            "label": "Developers",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 16
+    "flex-layout.row#global__footer--aboutus--left-list16": {
+        "children": [
+            "link#global__footer-aboutus--pos1--item16"
+        ]
+    },
+    "link#global__footer-aboutus--pos1--item16": {
+        "props": {
+            "label": "Notificaciones judiciales",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Footer seccition bottom pos 2
+    "flex-layout.col#global__footer--aboutus--pos2": {
+        "children": [
+            "flex-layout.row#global__footer--aboutus--pos2-row",
+            "flex-layout.row#global__footer--aboutus--pos2-list1",
+            "flex-layout.row#global__footer--aboutus--pos2-list2",
+            "flex-layout.row#global__footer--aboutus--pos2-list3",
+            "flex-layout.row#global__footer--aboutus--pos2-list4",
+            "flex-layout.row#global__footer--aboutus--pos2-list5",
+            "flex-layout.row#global__footer--aboutus--pos2-list6",
+            "flex-layout.row#global__footer--aboutus--pos2-list7",
+            "flex-layout.row#global__footer--aboutus--pos2-list8",
+            "flex-layout.row#global__footer--aboutus--pos2-list9"
+        ]
+    },
+    "flex-layout.row#global__footer--aboutus--pos2-row": {
+        "children": [
+            "rich-text#global__footer-aboutus--pos2--title"
+        ]
+    },
+    "rich-text#global__footer-aboutus--pos2--title": {
+        "props": {
+            "text": "**Servicio al Cliente**",
+            "blockClass": "text-footer"
+        }
+    },
+    //* Item 1
+    "flex-layout.row#global__footer--aboutus--pos2-list1": {
+        "children": [
+            "link#global__footer-aboutus--pos2--item1"
+        ]
+    },
+    "link#global__footer-aboutus--pos2--item1": {
+        "props": {
+            "label": "Preguntas Frecuentes",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 2
+    "flex-layout.row#global__footer--aboutus--pos2-list2": {
+        "children": [
+            "link#global__footer-aboutus--pos2--item2"
+        ]
+    },
+    "link#global__footer-aboutus--pos2--item2": {
+        "props": {
+            "label": "Aplicar mi garantía",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 3
+    "flex-layout.row#global__footer--aboutus--pos2-list3": {
+        "children": [
+            "link#global__footer-aboutus--pos2--item3"
+        ]
+    },
+    "link#global__footer-aboutus--pos2--item3": {
+        "props": {
+            "label": "Aplicar mi garantía",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 4
+    "flex-layout.row#global__footer--aboutus--pos2-list4": {
+        "children": [
+            "link#global__footer-aboutus--pos2--item4"
+        ]
+    },
+    "link#global__footer-aboutus--pos2--item4": {
+        "props": {
+            "label": "Estado de mi recolección",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 5
+    "flex-layout.row#global__footer--aboutus--pos2-list5": {
+        "children": [
+            "link#global__footer-aboutus--pos2--item5"
+        ]
+    },
+    "link#global__footer-aboutus--pos2--item5": {
+        "props": {
+            "label": "Autorización para el Tratamiento de Datos Personales",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 6
+    "flex-layout.row#global__footer--aboutus--pos2-list6": {
+        "children": [
+            "link#global__footer-aboutus--pos2--item6"
+        ]
+    },
+    "link#global__footer-aboutus--pos2--item6": {
+        "props": {
+            "label": "Términos y Condiciones",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 7
+    "flex-layout.row#global__footer--aboutus--pos2-list7": {
+        "children": [
+            "link#global__footer-aboutus--pos2--item7"
+        ]
+    },
+    "link#global__footer-aboutus--pos2--item7": {
+        "props": {
+            "label": "Política de venta de productos internacionales",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 8
+    "flex-layout.row#global__footer--aboutus--pos2-list8": {
+        "children": [
+            "link#global__footer-aboutus--pos2--item8"
+        ]
+    },
+    "link#global__footer-aboutus--pos2--item8": {
+        "props": {
+            "label": "Legales",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 9
+    "flex-layout.row#global__footer--aboutus--pos2-list9": {
+        "children": [
+            "link#global__footer-aboutus--pos2--item9"
+        ]
+    },
+    "link#global__footer-aboutus--pos2--item9": {
+        "props": {
+            "label": "Peticiones, quejas o reclamos",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Footer seccition bottom pos 3
+    "flex-layout.col#global__footer--aboutus--pos3": {
+        "children": [
+            "flex-layout.row#global__footer--aboutus--pos3-row",
+            "flex-layout.row#global__footer--aboutus--pos3-list1",
+            "flex-layout.row#global__footer--aboutus--pos3-list2"
+        ]
+    },
+    "flex-layout.row#global__footer--aboutus--pos3-row": {
+        "children": [
+            "rich-text#global__footer-aboutus--pos3--title"
+        ]
+    },
+    "rich-text#global__footer-aboutus--pos3--title": {
+        "props": {
+            "text": "**Linio Latinoamerica**",
+            "blockClass": "text-footer"
+        }
+    },
+    //* Item 1
+    "flex-layout.row#global__footer--aboutus--pos3-list1": {
+        "children": [
+            "link#global__footer-aboutus--pos3--item1",
+            "link#global__footer-aboutus--pos3--item2"
+        ]
+    },
+    "link#global__footer-aboutus--pos3--item1": {
+        "props": {
+            "label": "Colombia",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    "link#global__footer-aboutus--pos3--item2": {
+        "props": {
+            "label": "Chile",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Item 2
+    "flex-layout.row#global__footer--aboutus--pos3-list2": {
+        "children": [
+            "link#global__footer-aboutus--pos3--item3",
+            "link#global__footer-aboutus--pos3--item4"
+        ]
+    },
+    "link#global__footer-aboutus--pos3--item3": {
+        "props": {
+            "label": "Mexico",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    "link#global__footer-aboutus--pos3--item4": {
+        "props": {
+            "label": "Peru",
+            "blockClass": "text-footer",
+            "href": "#"
+        }
+    },
+    //* Footer seccition bottom pos 4
+    "flex-layout.col#global__footer--aboutus--pos4": {
+        "children": [
+            "flex-layout.row#global__footer--aboutus--pos4-row",
+            "flex-layout.col#global__footer--aboutus--pos4-item1",
+            "flex-layout.col#global__footer--aboutus--pos4-item2"
+        ],
+        "props": {
+            "blockClass": "footer-section-4"
+        }
+    },
+    "flex-layout.row#global__footer--aboutus--pos4-row": {
+        "children": [
+            "rich-text#global__footer-aboutus--pos4--title"
+        ]
+    },
+    "rich-text#global__footer-aboutus--pos4--title": {
+        "props": {
+            "text": "**Linio Latinoamerica**",
+            "blockClass": "text-footer"
+        }
+    },
+
+    //* Item 1
+    "flex-layout.col#global__footer--aboutus--pos4-item1": {
+        "children": [
+            "rich-text#global__footer-aboutus--pos3--item4",
+            "social-networks#footer"
+        ],
+        "props": {
+            "horizontalAlign": "left",
+            "blockClass": "siguenos-container"
+        }
+    },
+    "rich-text#global__footer-aboutus--pos3--item4": {
+        "props": {
+            "text": "Siguenos: ",
+            "blockClass":"text-footer"
+        }
+    },
+    "social-networks#footer": {
+        "props": {
+            "socialNetworks": [
+                {
+                    "url": "https://facebook.com/",
+                    "name": "Facebook"
+                },
+                {
+                    "url": "https://twitter.com/",
+                    "name": "Twitter"
+                },
+                {
+                    "uri": "https://youtube.com/",
+                    "name": "Youtube"
+                }
+            ]
+        }
+    },
+    //* Item 2
+    "flex-layout.col#global__footer--aboutus--pos4-item2": {
+        "children": [
+            "image#playstore",
+            "image#appstore"
+        ],
+        "props": {
+            //"horizontalAlign": "left",
+            //"blockClass": "siguenos-container"
+        }
+    },
+    "image#playstore": {
+        "props": {
+            "src": "assets/images/apps/app.jpg",
+            "maxWidth": 60
+        }
+    },
+    "image#appstore": {
+        "props": {
+            "src": "assets/images/apps/play.png",
+            "maxWidth": 60
+        }
+    },
+    //* Derecho de autor
+    "flex-layout.row#global__footer--abouts--derechos_autor-row": {
+        "children": ["flex-layout.col#global__footer--abouts--derechos_autor-col"],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "derechos-autor"
+        }
+    },
+    "flex-layout.col#global__footer--abouts--derechos_autor-col": {
+        "children": ["rich-text#derechos_autor"]
+    },
+    "rich-text#derechos_autor": {
+        "title": "Derechos de autor",
+        "props": {
+            "text": "© 2022 Linio Colombia | Todos los derechos reservados. Linio Colombia S.A.S. NIT 900.499.362-8. Teléfono (571) 4842220. Dirección: Calle 99 #14-49 Piso 9, Bogotá Colombia. E-mail de notificaciones judiciales: notificacionesjudicialeslinio@linio.com",
+            "blockClass": "derechos-autor-text"
+        }
+    }
+}

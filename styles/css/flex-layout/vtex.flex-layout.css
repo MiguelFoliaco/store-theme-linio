@@ -23,7 +23,6 @@
     margin: auto;
 }
 .flexRow--home-mobile-banner-crm-content{
-    width: 100vw;
     margin-top: 0px;
 }
 .flexRowContent--category-home{
@@ -124,4 +123,38 @@
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+
+/** ABOUT US*/
+
+.flexCol--aboutus-content-items1-sup{
+    width: 95% !important;
+    margin:auto;
+    padding: 30px;
+    box-shadow: 6px 6px 6px #eee;
+    border:1px solid #eee;
+}
+
+.flexCol--aboutus-content-items-sup{
+    padding: 10px;
+}
+.flexColChild--aboutus-content-items-sup{
+    display: flex;
+    justify-content: center;
+    height: initial !important;
+    padding-bottom: 0px;
+}
+@media screen and (min-width:800px) {
+    .flexCol--aboutus-content-items1-sup-item5{
+        width: 20%;
+        margin: center;
+    }
+}
+.flexCol--aboutus-content-items1-sup-item5{
+    margin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

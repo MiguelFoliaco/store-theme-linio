@@ -1,5 +1,6 @@
 {
     "drawer#phone__drawer":{
+        "title":"Drawer Vista Mobile",
         "blocks":[],
         "children":["menu#phone__drawer-menu"],
         "props":{
@@ -7,6 +8,7 @@
         }
     },
     "menu#phone__drawer-menu":{
+        "title":"Menu Vista Mobile",
         "children":[
             "menu-item#global_menu-item1",
             "menu-item#global_menu-item2",

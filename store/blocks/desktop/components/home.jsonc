@@ -13,12 +13,16 @@
       // "responsive-layout.mobile#mobile_category-home",
       //* Categorias Custom 
       "list-context.bullets-group#global",
-      "responsive-layout.mobile#departament",
+      //"responsive-layout.mobile#departament",
       //* Customs
       "whatsapp-button",
+
       //* Vitrina 1
       //"rich-text#productlist_1",
       "flex-layout.row#global__home-productlist-row", //* Refactory
+
+      //* Quick store
+      "quick-store",
       //* Banner 2
       "flex-layout.row#home-banner2-items-title",
       "flex-layout.row#home-banner2-items-group",
@@ -49,10 +53,5 @@
       "phone": "573217217026",
       "radius": 50
     }
-  },
-  "responsive-layout.mobile#departament": {
-    "children": [
-      "department-search"
-    ]
   }
 }

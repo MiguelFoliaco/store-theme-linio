@@ -5,9 +5,24 @@
             "responsive-layout.desktop#about-us-desktop-banner",
             //* Banner Mobile
             "responsive-layout.mobile#about-us-mobile-banner",
-            
             //* Content Items 1
-            "flex-layout.row#aboutus-content-items1"
+            "flex-layout.row#aboutus-content-items1",
+            "flex-layout.row#about-pdf"
         ]
+    },
+    "flex-layout.row#about-pdf": {
+        "children": [
+            "pdf-reader"
+        ],
+        "props": {
+            "marginTop":8
+        }
+    },
+    "pdf-reader": {
+        "props": {
+            "width": "80%",
+            "height": "600px",
+            "pdfUrl": "assets/pdf-test.pdf"
+        }
     }
 }

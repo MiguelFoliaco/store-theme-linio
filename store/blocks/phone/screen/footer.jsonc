@@ -1,0 +1,29 @@
+{
+    "footer-layout.mobile#phone_footer": {
+        "blocks":[
+            "flex-layout.row#phone__footer--payment-methods"
+            //"flex-layout.row#phone__footer--payment-methods"
+        ],
+        "props": {
+            "blockClass": "global__footer"
+        }
+    },
+    "flex-layout.row#phone__footer--payment-methods": {
+        "children": [
+            "flex-layout.col#global__footer--payment-metods-item1",
+            "flex-layout.col#global__footer--payment-metods-item2",
+            "flex-layout.col#global__footer--payment-metods-item3",
+            "flex-layout.col#global__footer--payment-metods-item4",
+            "flex-layout.col#global__footer--payment-metods-item5",
+            "flex-layout.col#global__footer--payment-metods-item6",
+            "flex-layout.col#global__footer--payment-metods-item7"
+        ],
+        "props": {
+            "blockClass": "desktop-footer",
+            "horizontalAlign": "center",
+            "colJustify": "between",
+            "paddingTop": 3
+        },
+        "title": "Opciones de Pagos Mobile"
+    }
+}
