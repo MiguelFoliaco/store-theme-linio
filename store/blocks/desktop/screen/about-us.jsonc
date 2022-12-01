@@ -7,6 +7,8 @@
             "responsive-layout.mobile#about-us-mobile-banner",
             //* Content Items 1
             "flex-layout.row#aboutus-content-items1",
+            "flex-layout.row#global_aboutus_linio-numeros_row",
+            "flex-layout.row#global_aboutus_aliados-row",
             "flex-layout.row#about-pdf"
         ]
     },

@@ -43,3 +43,12 @@
     color: #f50;
     cursor: pointer;
 }
+.paragraph--aboutus-content-title-item1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.paragraph--global_aboutus_linio-numeros-grid-item{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}

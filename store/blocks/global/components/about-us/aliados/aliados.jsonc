@@ -1,0 +1,102 @@
+{
+    "flex-layout.row#global_aboutus_aliados-row": {
+        "children": [
+            "flex-layout.col#global_aboutus_aliados-col"
+        ],
+        "props": {
+            "marginTop":8
+        }
+    },
+    "flex-layout.col#global_aboutus_aliados-col":{
+        "children": [
+            "rich-text#global_aboutus_aliados-title",
+            "flex-layout.row#global_aboutus_aliados-group-image1",
+            "flex-layout.row#global_aboutus_aliados-group-image2",
+            "flex-layout.col#global_aboutus_aliados-group-link"
+        ],
+        "props": {
+            "blockClass":""
+        }
+    },
+    //* TITULO
+    "rich-text#global_aboutus_aliados-title": {
+        "props": {
+            "text": "Aliados de la galaxia Linio",
+            "blockClass": "aboutus-content-title-item1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+
+    //* ITEM 1
+    "flex-layout.row#global_aboutus_aliados-group-image1": {
+        "children": [
+            "image#global_aboutus_aliados-image-1",
+            "image#global_aboutus_aliados-image-2",
+            "image#global_aboutus_aliados-image-3"
+        ]
+    },
+    "image#global_aboutus_aliados-image-1": {
+        "props": {
+            "src": "assets/images/marca/hp.png",
+            "maxHeight": 50
+        }
+    },
+    "image#global_aboutus_aliados-image-2": {
+        "props": {
+            "src": "assets/images/marca/lenovo.png",
+            "maxHeight": 50
+        }
+    },
+    "image#global_aboutus_aliados-image-3": {
+        "props": {
+            "src": "assets/images/marca/mbe.png",
+            "maxHeight": 50
+        }
+    },
+    //* ITEM 2
+    "flex-layout.row#global_aboutus_aliados-group-image2": {
+        "children": [
+            "image#global_aboutus_aliados-image-4",
+            "image#global_aboutus_aliados-image-5",
+            "image#global_aboutus_aliados-image-6"
+        ],
+        "props": {
+            "marginTop":7,
+            "marginBottom":7
+        }
+    },
+    "image#global_aboutus_aliados-image-4": {
+        "props": {
+            "src": "assets/images/marca/motorola.png",
+            "maxHeight": 50
+        }
+    },
+    "image#global_aboutus_aliados-image-5": {
+        "props": {
+            "src": "assets/images/marca/oster.webp",
+            "maxHeight": 50
+        }
+    },
+    "image#global_aboutus_aliados-image-6": {
+        "props": {
+            "src": "assets/images/marca/rgminton.png",
+            "maxHeight": 50
+        }
+    },
+    //* ITEM 3
+    "flex-layout.col#global_aboutus_aliados-group-link":{
+        "children": ["link#global_aboutus_aliados-group-link"],
+        "props": {
+            "width":"10%",
+            "horizontalAlign": "center"
+        }
+    },
+    "link#global_aboutus_aliados-group-link":{
+        "props": {
+            "label": "Ver Todas",
+            "href": "#",
+            "displayMode": "button"
+        }
+    }
+}

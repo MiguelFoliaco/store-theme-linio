@@ -1,10 +1,22 @@
 {
     "flex-layout.row#aboutus-content-items1": {
+        "children": ["flex-layout.col#aboutus-content-items1"]
+    },
+    "flex-layout.col#aboutus-content-items1": {
         "children": [
+            "rich-text#aboutus-content-title-item1",
             "flex-layout.col#aboutus-content-items1-sup"
         ],
         "props": {
             "marginTop":8
+        }
+    },
+    "rich-text#aboutus-content-title-item1": {
+        "props": {
+            "text": "Que Tenemos Para Ti",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "aboutus-content-title-item1"
         }
     },
     "flex-layout.col#aboutus-content-items1-sup": {
@@ -158,7 +170,7 @@
     "rich-text#about-us-content-item1-sup-items5-text": {
         "props": {
             "text": "**DEVOLUCIONES FACILES Y GRATIS** <br/> Si no te gusto o hubo una falla en la matrix, te regresamos el 100% de tu compra",
-            "textPosition": "CENTER"
+            "textAlignment": "CENTER"
         }
     },
     //* Medios de pagos
@@ -171,6 +183,10 @@
             "flex-layout.col#global__footer--payment-metods-item5",
             "flex-layout.col#global__footer--payment-metods-item6",
             "flex-layout.col#global__footer--payment-metods-item7"
-        ]
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "colJustify": "around"
+        }
     }
 }

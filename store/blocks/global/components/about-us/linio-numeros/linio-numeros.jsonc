@@ -1,0 +1,95 @@
+{
+    "flex-layout.row#global_aboutus_linio-numeros_row": {
+        "children": [
+            "flex-layout.col#global_aboutus_linio-numeros_col"
+        ]
+    },
+    "flex-layout.col#global_aboutus_linio-numeros_col": {
+        "children": [
+            "rich-text#global_aboutus_linio-numeros-title",
+            "flex-layout.row#global_aboutus_linio-numeros-grid_item"
+        ]
+    },
+    "rich-text#global_aboutus_linio-numeros-title": {
+        "props": {
+            "text": "Linio En Numeros",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "aboutus-content-title-item1"
+        }
+    },
+    //* GRID
+    "flex-layout.row#global_aboutus_linio-numeros-grid_item": {
+        "children": [
+            "flex-layout.col#global_aboutus_linio_numeros-productos-orbita",
+            "flex-layout.col#global_aboutus_linio_numeros-grid-item2",
+            "flex-layout.col#global_aboutus_linio_numeros-grid-item3",
+            "flex-layout.col#global_aboutus_linio_numeros-grid-item4"
+        ],
+        "props": {
+            "blockClass": "global_aboutus_linio-numeros-grid",
+            "colSizing": "auto",
+            "preventHorizontalStretch": false
+        }
+    },
+    //* item1
+    "flex-layout.col#global_aboutus_linio_numeros-productos-orbita": {
+        "children": [
+            "rich-text#global_aboutus_linio_numeros-productos-orbita"
+        ],
+        "props": {
+            "blockClass": "global_aboutus_linio-numeros-grid-item"
+        }
+    },
+    "rich-text#global_aboutus_linio_numeros-productos-orbita": {
+        "props": {
+            "text": "***+4M*** <br/> De productos<br/>en orbita",
+            "blockClass": "global_aboutus_linio-numeros-grid-item"
+        }
+    },
+    //* item2
+    "flex-layout.col#global_aboutus_linio_numeros-grid-item2": {
+        "children": [
+            "rich-text#global_aboutus_linio_numeros-grid-item2"
+        ],
+        "props": {
+            "blockClass": "global_aboutus_linio-numeros-grid-item2"
+        }
+    },
+    "rich-text#global_aboutus_linio_numeros-grid-item2": {
+        "props": {
+            "text": "***+4M*** <br/> De productos<br/>en orbita",
+            "blockClass": "global_aboutus_linio-numeros-grid-item"
+        }
+    },
+    //* item3
+    "flex-layout.col#global_aboutus_linio_numeros-grid-item3": {
+        "children": [
+            "rich-text#global_aboutus_linio_numeros-grid-item3"
+        ],
+        "props": {
+            "blockClass": "global_aboutus_linio-numeros-grid-item3"
+        }
+    },
+    "rich-text#global_aboutus_linio_numeros-grid-item3": {
+        "props": {
+            "text": "***+4M*** <br/> De productos<br/>en orbita",
+            "blockClass": "global_aboutus_linio-numeros-grid-item"
+        }
+    },
+    //* item4
+    "flex-layout.col#global_aboutus_linio_numeros-grid-item4": {
+        "children": [
+            "rich-text#global_aboutus_linio_numeros-grid-item4"
+        ],
+        "props": {
+            "blockClass": "global_aboutus_linio-numeros-grid-item4"
+        }
+    },
+    "rich-text#global_aboutus_linio_numeros-grid-item4": {
+        "props": {
+            "text": "***+4M*** <br/> De productos<br/>en orbita",
+            "blockClass": "global_aboutus_linio-numeros-grid-item"
+        }
+    }
+}
