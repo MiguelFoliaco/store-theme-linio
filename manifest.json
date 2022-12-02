@@ -61,7 +61,8 @@
     "itgloberspartnercl.add-to-cart-info": "0.x",
     "itgloberspartnercl.custom-department-search": "0.x",
     "itgloberspartnercl.read-pdf": "0.x",
-    "itgloberspartnercl.quick-store": "0.x"
+    "itgloberspartnercl.quick-store": "0.x",
+    "itgloberspartnercl.special-diagramations": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

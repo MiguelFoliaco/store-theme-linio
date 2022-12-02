@@ -10,8 +10,7 @@
     "flex-layout.col#global_aboutus_aliados-col":{
         "children": [
             "rich-text#global_aboutus_aliados-title",
-            "flex-layout.row#global_aboutus_aliados-group-image1",
-            "flex-layout.row#global_aboutus_aliados-group-image2",
+            "flex-layout.row#custom-grid-4",
             "flex-layout.col#global_aboutus_aliados-group-link"
         ],
         "props": {
@@ -29,6 +28,27 @@
     },
 
     //* ITEM 1
+    "flex-layout.row#custom-grid-4": {
+        "children": [
+            "custom-grid#grid-4"
+        ]
+    },
+    "custom-grid#grid-4": {
+        "props": {
+            "gridType": 3,
+            "gap":14,
+            "marginTop":10,
+            "marginBottom":40
+        },
+        "children": [
+            "image#global_aboutus_aliados-image-1",
+            "image#global_aboutus_aliados-image-2",
+            "image#global_aboutus_aliados-image-3",
+            "image#global_aboutus_aliados-image-4",
+            "image#global_aboutus_aliados-image-5",
+            "image#global_aboutus_aliados-image-6"
+        ]
+    },
     "flex-layout.row#global_aboutus_aliados-group-image1": {
         "children": [
             "image#global_aboutus_aliados-image-1",

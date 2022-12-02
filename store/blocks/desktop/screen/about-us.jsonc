@@ -9,7 +9,8 @@
             "flex-layout.row#aboutus-content-items1",
             "flex-layout.row#global_aboutus_linio-numeros_row",
             "flex-layout.row#global_aboutus_aliados-row",
-            "flex-layout.row#about-pdf"
+            "flex-layout.row#about-pdf",
+            "whatsapp-button"
         ]
     },
     "flex-layout.row#about-pdf": {
@@ -17,7 +18,7 @@
             "pdf-reader"
         ],
         "props": {
-            "marginTop":8
+            "marginTop": 8
         }
     },
     "pdf-reader": {

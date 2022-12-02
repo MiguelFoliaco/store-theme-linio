@@ -12,7 +12,8 @@
             "flex-layout.row#header-mobile-row"
         ],
         "props": {
-            "fullWidth": true
+            "fullWidth": true,
+            "sticky": true
         }
     },
     "flex-layout.row#header-mobile-row": {
