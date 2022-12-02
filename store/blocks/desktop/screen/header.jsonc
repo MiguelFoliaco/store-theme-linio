@@ -1,5 +1,6 @@
 {
     "header.full": {
+        "title":"Encabezado",
         "blocks":[
             "header-layout.desktop#desktop__header", "header-layout.mobile"
         ]

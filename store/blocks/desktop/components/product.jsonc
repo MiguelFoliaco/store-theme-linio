@@ -3,10 +3,12 @@
     "blocks": [
       "flex-layout.row#pdp_breadcrumb-product",
       "flex-layout.row#pdp_product-main",
+      "flex-layout.row#pdp_product_comentarios",
       "flex-layout.row#global__home-productlist-row"
     ]
   },
   "flex-layout.row#pdp_breadcrumb-product": {
+    "title": "Ruta de la pagina",
     "children": [
       "breadcrumb#pdp_breadcrumb-product"
     ],
@@ -20,6 +22,7 @@
     }
   },
   "flex-layout.row#pdp_product-main": {
+    "title": "Detalle de producto",
     "children": [
       "flex-layout.row#pdp_product-main--left",
       "flex-layout.col#pdp_product-main--right"
@@ -32,61 +35,121 @@
     }
   },
   "flex-layout.row#pdp_product-main--left": {
+    "title": "Caracteristicas del producto",
     "children": [
       "flex-layout.col#pdp_product-main--left"
-    ]
+    ],
+    "props": {
+      "blockClass": "pdp_product-main--left-row"
+    }
   },
   "flex-layout.col#pdp_product-main--left": {
     "children": [
       "product-images#pdp_product-img",
-      "product-description",
+      "flex-layout.row#pdp_product-description",
       "product-specification-group"
     ],
     "props": {
       "width": "100%",
-      "rowGap": 1
+      "rowGap": 1,
+      "blockClass":"pdp_product-main--left-col"
     }
   },
   "product-images#pdp_product-img": {
+    "title": "Imagen de producto",
     "props": {
       "displayThumbnailsArrows": true
       //"ModalZoom": tr layout modal
     }
   },
   "flex-layout.col#pdp_product-main--right": {
+    "title": "Formulario de producto",
     "props": {
       "preventVerticalStretch": true,
       "rowGap": 0,
-      "width": "45%"
+      "width": "30%"
     },
     "children": [
       "product-name",
-      "product-brand",
+      "flex-layout.row#pdp_product_brand-and-rating",
       "product-price",
       "product-separator",
-      "product-quantity",
       "product-identifier.product",
       "sku-selector",
+      "flex-layout.row#pdp_product_buy-and-quantity",
       "shipping-simulator",
-      "flex-layout.row#pdp_product-button-add-to-cart",
       "share#default",
       "product-gifts",
       "modal-trigger#product__add-to-cart-info" //? Custom
     ]
   },
-  "flex-layout.row#pdp_product-button-add-to-cart": {
-    "props": {
-      "width":"90%",
-      "marginTop":4,
-      "marginBottom":4
-
-    },
+  "flex-layout.row#pdp_product-description": {
     "children": [
-      "add-to-cart-button"
+    "product-description"   
+    ],
+    "props": {
+      "marginTop":4
+    }
+  },
+  "product-description":{
+    "title": "Descripcion de Producto",
+    "props": {
+      "title": "Descripcion de Producto"
+    }
+  },
+  //* Rating y Marca
+  "flex-layout.row#pdp_product_brand-and-rating": {
+    "children": [
+      "product-brand",
+      "product-rating-summary"
     ]
+  },
+  //* Buy y quantity
+  "flex-layout.row#pdp_product_buy-and-quantity": {
+    "children": [
+      "flex-layout.col#pdp_product_buy-and-quantity-grid-item1",
+      "flex-layout.col#pdp_product_buy-and-quantity-grid-item2"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "pdp_product_buy-and-quantity",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#pdp_product_buy-and-quantity-grid-item2": {
+    "children": ["add-to-cart-button#pdp_product_buy-and-quantity"],
+    "props": {
+      "width":"70%"
+    }
+  },
+  "add-to-cart-button#pdp_product_buy-and-quantity":{
+    "props": {
+      "blockClass":"pdp_product_buy-and-quantity",
+      "text": "Comprar"
+    }
+  },
+  "flex-layout.col#pdp_product_buy-and-quantity-grid-item1": {
+    "children": ["product-quantity"],
+    "props": {
+      "blockClass":"pdp_product_buy-and-quantity-grid-item1",
+      "width":"30%"
+    }
+  },
+  "product-quantity":{
+    "props": {
+      "selectorType": "dropdown",
+      "showLabel": false,
+      "size": "regular"
+    }
+  },
+
+  //* Comentarios
+  "flex-layout.row#pdp_product_comentarios":{
+    "children": ["product-reviews"]
   },
   //* Especificaciones de producto
   "product-specification-group": {
+    "title":"Especificacion de producto",
     "children": [
       "product-specification-text#group",
       "product-specification"

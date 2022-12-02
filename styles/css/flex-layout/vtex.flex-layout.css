@@ -181,3 +181,9 @@
 .flexColChild--global_aboutus_linio-numeros-grid-item4{
     background-image: linear-gradient(rgba(203, 0, 169, 0.74) 0%, rgb(136, 1, 255) 100%);
 }
+/** PDP */
+.flexRowContent--pdp_product_buy-and-quantity{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}

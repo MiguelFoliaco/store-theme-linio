@@ -1,6 +1,6 @@
 {
     "footer-layout.desktop": {
-
+        "title":"Pie de Pagina",
         "children": [
             "flex-layout.row#desktop__footer--payment-methods",
             "flex-layout.row#global__footer--aboutus",

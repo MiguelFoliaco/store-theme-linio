@@ -22,3 +22,6 @@
 .imageElement--about-us-banner-img{
     height: 100%;
 }
+:global(.vtex-reviews-and-ratings-3-x-star){
+    color: var(--secondary-color);
+}
