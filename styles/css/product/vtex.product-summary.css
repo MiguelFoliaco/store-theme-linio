@@ -4,8 +4,13 @@
     width: 80%;
     padding-left:5px;
     padding-right: 5px;
-    border: 1px solid #eee;
+    border: 1px solid #dbdbdb;
+    border-radius: 0px;
+    transition: 200ms;
 }
+/* .container--product-card:hover{
+    transform: scale(1.1);
+} */
 .container--product-card .productBrand, .container--product-card .sellingPrice{
     font-weight: bold;
     font-size: 1.2rem;

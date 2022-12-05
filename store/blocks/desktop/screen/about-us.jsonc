@@ -10,6 +10,7 @@
             "flex-layout.row#global_aboutus_linio-numeros_row",
             "flex-layout.row#global_aboutus_aliados-row",
             "flex-layout.row#about-pdf",
+            "flex-layout.row#global_about_us-feedback",
             "whatsapp-button"
         ]
     },

@@ -52,7 +52,7 @@
     "props": {
       "width": "100%",
       "rowGap": 1,
-      "blockClass":"pdp_product-main--left-col"
+      "blockClass": "pdp_product-main--left-col"
     }
   },
   "product-images#pdp_product-img": {
@@ -74,10 +74,12 @@
       "flex-layout.row#pdp_product_brand-and-rating",
       "product-price",
       "product-separator",
+      "flex-layout.col#pdp_product-delivery-days",
       "product-identifier.product",
       "sku-selector",
       "flex-layout.row#pdp_product_buy-and-quantity",
-      "shipping-simulator",
+      //"shipping-simulator",
+      "flex-layout.row#pdp_product_promotion-crm-fallabela",
       "share#default",
       "product-gifts",
       "modal-trigger#product__add-to-cart-info" //? Custom
@@ -85,13 +87,13 @@
   },
   "flex-layout.row#pdp_product-description": {
     "children": [
-    "product-description"   
+      "product-description"
     ],
     "props": {
-      "marginTop":4
+      "marginTop": 4
     }
   },
-  "product-description":{
+  "product-description": {
     "title": "Descripcion de Producto",
     "props": {
       "title": "Descripcion de Producto"
@@ -117,39 +119,44 @@
     }
   },
   "flex-layout.col#pdp_product_buy-and-quantity-grid-item2": {
-    "children": ["add-to-cart-button#pdp_product_buy-and-quantity"],
+    "children": [
+      "add-to-cart-button#pdp_product_buy-and-quantity"
+    ],
     "props": {
-      "width":"70%"
+      "width": "70%"
     }
   },
-  "add-to-cart-button#pdp_product_buy-and-quantity":{
+  "add-to-cart-button#pdp_product_buy-and-quantity": {
     "props": {
-      "blockClass":"pdp_product_buy-and-quantity",
+      "blockClass": "pdp_product_buy-and-quantity",
       "text": "Comprar"
     }
   },
   "flex-layout.col#pdp_product_buy-and-quantity-grid-item1": {
-    "children": ["product-quantity"],
+    "children": [
+      "product-quantity"
+    ],
     "props": {
-      "blockClass":"pdp_product_buy-and-quantity-grid-item1",
-      "width":"30%"
+      "blockClass": "pdp_product_buy-and-quantity-grid-item1",
+      "width": "30%"
     }
   },
-  "product-quantity":{
+  "product-quantity": {
     "props": {
       "selectorType": "dropdown",
       "showLabel": false,
       "size": "regular"
     }
   },
-
   //* Comentarios
-  "flex-layout.row#pdp_product_comentarios":{
-    "children": ["product-reviews"]
+  "flex-layout.row#pdp_product_comentarios": {
+    "children": [
+      "product-reviews"
+    ]
   },
   //* Especificaciones de producto
   "product-specification-group": {
-    "title":"Especificacion de producto",
+    "title": "Especificacion de producto",
     "children": [
       "product-specification-text#group",
       "product-specification"
@@ -200,7 +207,7 @@
     }
   },
   "modal-trigger#product__add-to-cart-info": {
-    "children":[
+    "children": [
       "modal-layout#product__add-to-cart-info"
     ],
     "props": {
@@ -208,8 +215,107 @@
     }
   },
   "modal-layout#product__add-to-cart-info": {
-    "children":[
+    "children": [
       "add-to-cart-info"
     ]
+  },
+  //* Bloque Dias de entrega
+  "flex-layout.col#pdp_product-delivery-days": {
+    "children": [
+      "flex-layout.row#pdp_product_delivery-days-icon-content",
+      "rich-text#pdp_product_delivery-days-text-link"
+    ],
+    "props": {
+      "blockClass": "pdp_product-delivery-days"
+    }
+  },
+  "flex-layout.row#pdp_product_delivery-days-icon-content": {
+    "children": [
+      "flex-layout.col#pdp_product_delivery-days-icon-content",
+      "flex-layout.col#rich-text#pdp_product_delivery-days-text-icon"
+    ],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "left",
+      "colSizing": "auto",
+      "colGap": 5
+    }
+  },
+  "flex-layout.col#rich-text#pdp_product_delivery-days-text-icon": {
+    "children": [
+      "rich-text#pdp_product_delivery-days-text"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#pdp_product_delivery-days-text": {
+    "title": "Titulo",
+    "props": {
+      "text": "**Recibelo mañana**",
+      "textPosition": "CENTER",
+      "blockClass": "pdp_product_delivery-days-text"
+    }
+  },
+  "flex-layout.col#pdp_product_delivery-days-icon-content": {
+    "children": [
+      "image#flex-layout.col#pdp_product_delivery-days-icon"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "image#flex-layout.col#pdp_product_delivery-days-icon": {
+    "props": {
+      "src": "assets/images/icons/track.png",
+      "maxWidth": 30,
+      "maxHeight": 30
+    }
+  },
+  "rich-text#pdp_product_delivery-days-text-link": {
+    "props": {
+      "text": "Recíbelo el 6 de diciembre Gratis en Usaquen<br/>[Calcular envío en otra dirección](/checkout)",
+      "blockClass": "pdp_product_delivery-days-text-link"
+    }
+  },
+  //* Promocion CMR
+  "flex-layout.row#pdp_product_promotion-crm-fallabela": {
+    "children": [
+      "flex-layout.col#pdp_product_promotion-crm-fallabela-img-content",
+      "flex-layout.col#pdp_product_promotion-crm-fallabela-text-content"
+    ],
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "blockClass": "pdp_product_promotion-crm-fallabela"
+    }
+  },
+  "flex-layout.col#pdp_product_promotion-crm-fallabela-img-content": {
+    "children": [
+      "image#pdp_product_promotion-crm-fallabela-img"
+    ],
+    "props": {
+      "width": "30%"
+    }
+  },
+  "image#pdp_product_promotion-crm-fallabela-img": {
+    "props": {
+      "src": "assets/images/icons/cmr.svg",
+      "width": 90
+    }
+  },
+  "flex-layout.col#pdp_product_promotion-crm-fallabela-text-content": {
+    "children": [
+      "rich-text#pdp_product_promotion-crm-fallabela-text"
+    ],
+    "props": {
+      "width":"70%"
+    }
+  },
+  "rich-text#pdp_product_promotion-crm-fallabela-text": {
+    "props": {
+      "text": "¡Obtén $45.000 en tu primera compra! Solicita tu tarjeta de crédito Banco Falabella aquí.*. Aplican TYC.",
+      "blockClass": "pdp_product_promotion-crm-fallabela-text"
+    }
   }
 }

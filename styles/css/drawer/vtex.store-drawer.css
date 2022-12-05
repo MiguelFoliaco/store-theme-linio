@@ -1,3 +1,7 @@
 .openIconContainer--menu-icon{
     color:var(--text-secondary);
+    width: 100%;
+}
+.childrenContainer--menu-icon{
+    width: 100%;
 }

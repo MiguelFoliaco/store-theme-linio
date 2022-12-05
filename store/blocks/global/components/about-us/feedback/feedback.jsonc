@@ -1,0 +1,146 @@
+{
+    "flex-layout.row#global_about_us-feedback": {
+        "children": [
+            "flex-layout.col#global_about_us-feedback-col"
+        ],
+        "props": {
+            "marginBottom": 10,
+            "marginTop": 8,
+            "blockClass": "global_about_us-feedback"
+        }
+    },
+    "flex-layout.col#global_about_us-feedback-col":{
+        "children": [
+            "rich-text#global_about_us-feedback",
+            "flex-layout.row#global_about_us_feedback-clients"
+        ]
+    },
+    "rich-text#global_about_us-feedback": {
+        "props": {
+            "text": "Qué dicen nuestros Linionautas",
+            "font": "t-heading-2",
+            "textColor": "c-on-disabled",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "image#global_about_us_feedback-client-image": {
+        "props": {
+            "src": "assets/images/icons/user.png",
+            "maxWidth": 60,
+            "maxHeight": 60
+        }
+    },
+    "flex-layout.row#global_about_us_feedback-clients": {
+        "children": [
+            "flex-layout.col#global_about_us_feedback-client-1",
+            "flex-layout.col#global_about_us_feedback-client-2",
+            "flex-layout.col#global_about_us_feedback-client-3"
+        ]
+    },
+    //* Cliente 1
+    "flex-layout.col#global_about_us_feedback-client-1": {
+        "children": [
+            "flex-layout.row#global_about_us_feedback-client-1",
+            "rich-text#global_about_us_feedback-client-text-1"
+        ],
+        "props": {
+            "blockClass": "global_about_us_feedback-client-1"
+        }
+    },
+    "flex-layout.row#global_about_us_feedback-client-1": {
+        "children": [
+            "image#global_about_us_feedback-client-image",
+            "rich-text#global_about_us_feedback-client-text-nombre"
+        ],
+        "props": {
+            "colSizing": "auto"
+        }
+    },
+    "rich-text#global_about_us_feedback-client-text-nombre": {
+        "title": "Nombre de cliente [1]",
+        "props": {
+            "text": "Carlos Hernandez",
+            "textColor": "c-on-action-primary",
+            "font": "t-heading-6"
+        }
+    },
+    "rich-text#global_about_us_feedback-client-text-1": {
+        "title": "Opinion Cliente [1]",
+        "props": {
+            "text": "Buen precio, rapidez en la entrega y tengo la posibilidad de devolver el producto si no me gusta",
+            "textColor": "c-on-action-primary",
+            "font": "t-heading-6"
+        }
+    },
+    //* Cliente 2
+    "flex-layout.col#global_about_us_feedback-client-2": {
+        "children": [
+            "flex-layout.row#global_about_us_feedback-client-2",
+            "rich-text#global_about_us_feedback-client-text-2"
+        ],
+        "props": {
+            "blockClass": "global_about_us_feedback-client-2"
+        }
+    },
+    "flex-layout.row#global_about_us_feedback-client-2": {
+        "children": [
+            "image#global_about_us_feedback-client-image",
+            "rich-text#global_about_us_feedback-client-text-nombre-2"
+        ],
+        "props": {
+            "colSizing": "auto"
+        }
+    },
+    "rich-text#global_about_us_feedback-client-text-nombre-2": {
+        "title": "Nombre de cliente [2]",
+        "props": {
+            "text": "Carlos Hernandez",
+            "textColor": "c-on-action-primary",
+            "font": "t-heading-6"
+        }
+    },
+    "rich-text#global_about_us_feedback-client-text-2": {
+        "title": "Opinion Cliente [2]",
+        "props": {
+            "text": "Buen precio, rapidez en la entrega y tengo la posibilidad de devolver el producto si no me gusta",
+            "textColor": "c-on-action-primary",
+            "font": "t-heading-6"
+        }
+    },
+    //* Cliente 3
+    "flex-layout.col#global_about_us_feedback-client-3": {
+        "children": [
+            "flex-layout.row#global_about_us_feedback-client-3",
+            "rich-text#global_about_us_feedback-client-text-3"
+        ],
+        "props": {
+            "blockClass": "global_about_us_feedback-client-3"
+        }
+    },
+    "flex-layout.row#global_about_us_feedback-client-3": {
+        "children": [
+            "image#global_about_us_feedback-client-image",
+            "rich-text#global_about_us_feedback-client-text-nombre-3"
+        ],
+        "props": {
+            "colSizing": "auto"
+        }
+    },
+    "rich-text#global_about_us_feedback-client-text-nombre-3": {
+        "title": "Nombre de cliente [3]",
+        "props": {
+            "text": "Carlos Hernandez",
+            "textColor": "c-on-action-primary",
+            "font": "t-heading-6"
+        }
+    },
+    "rich-text#global_about_us_feedback-client-text-3": {
+        "title": "Opinion Cliente [3]",
+        "props": {
+            "text": "Buen precio, rapidez en la entrega y tengo la posibilidad de devolver el producto si no me gusta",
+            "textColor": "c-on-action-primary",
+            "font": "t-heading-6"
+        }
+    }
+}

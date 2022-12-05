@@ -52,3 +52,14 @@
     font-size: 25px;
     text-align: center;
 }
+.paragraph--pdp_product_delivery-days-text{
+    margin:0;
+    color:var(--green);
+}
+.link--pdp_product_delivery-days-text-link{
+    color:var(--secondary-color);
+    text-decoration: none;
+}
+.paragraph--pdp_product_promotion-crm-fallabela-text{
+    font-size: 15px;
+}

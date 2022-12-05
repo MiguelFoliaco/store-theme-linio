@@ -1,15 +1,27 @@
 {
-    "drawer#phone__drawer":{
-        "title":"Drawer Vista Mobile",
-        "blocks":[],
-        "children":["menu#phone__drawer-menu"],
-        "props":{
-            "blockClass":"menu-icon"
+    "drawer#phone__drawer": {
+        "title": "Drawer Vista Mobile",
+        "blocks": [],
+        "children": [
+            "flex-layout.col#phone_items_drawer"
+        ],
+        "props": {
+            "blockClass": "menu-icon",
+            "fullWidth":true
         }
     },
-    "menu#phone__drawer-menu":{
-        "title":"Menu Vista Mobile",
-        "children":[
+    "flex-layout.col#phone_items_drawer": {
+        "children": [
+            "flex-layout.row#phone_drawer_loging-content",
+            "menu#phone__drawer-menu"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "menu#phone__drawer-menu": {
+        "title": "Menu Vista Mobile",
+        "children": [
             "menu-item#global_menu-item1",
             "menu-item#global_menu-item2",
             "menu-item#global_menu-item3",
@@ -19,8 +31,34 @@
             "menu-item#global_menu-item7",
             "menu-item#global_menu-item8"
         ],
-        "props":{
-            "blockClass":"menu-content-mobile"
+        "props": {
+            "blockClass": "menu-content-mobile"
+        }
+    },
+    "flex-layout.row#phone_drawer_loging-content": {
+        "children": [
+            //"rich-text#phone__drawer_login-text",
+            "login#phone__drawer-login"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "fullWidth": true,
+            "colJustify": "between"
+        }
+    },
+    "login#phone__drawer-login": {
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showIconProfile": true,
+            "showPasswordVerificationIntoTooltip": true
+          }
+    },
+    "rich-text#phone__drawer_login-text": {
+        "props": {
+            "text": "Ingresa Aqui"
         }
     }
 }

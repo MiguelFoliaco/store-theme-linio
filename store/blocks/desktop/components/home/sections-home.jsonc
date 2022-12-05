@@ -27,8 +27,9 @@
             //"rich-text#productlist_1",
             "flex-layout.row#global__home-productlist-row", //* Refactory
       
-            //* Quick store
-            "quick-store",
+            //! No funciona
+            // //* Quick store //
+            // "quick-store",
             //* Banner 2
             "flex-layout.row#home-banner2-items-title",
             "flex-layout.row#home-banner2-items-group",
