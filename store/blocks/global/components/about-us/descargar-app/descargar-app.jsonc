@@ -1,0 +1,94 @@
+{
+    "flex-layout.row#aboutus_descargar-app-row": {
+        "children": [
+            "flex-layout.col#aboutus_descargar-app-col"
+        ],
+        "props": {
+            "blockClass": "aboutus_descargar-app-row",
+            "fullWidth": true,
+            "marginBottom": 6,
+            "marginTop": 4,
+            "paddingBottom": 4,
+            "paddingTop": 4
+        }
+    },
+    "flex-layout.col#aboutus_descargar-app-col": {
+        "children": [
+            "rich-text#aboutus_descargar-app-title",
+            "flex-layout.row#aboutus_descargar-app-items"
+        ],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#aboutus_descargar-app-title": {
+        "title": "Titulo - descarga apps",
+        "props": {
+            "text": "Compra desde cualquier lugar",
+            "textPosition": "CENTER",
+            "font": "t-heading-5 pa0",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-base"
+        }
+    },
+    "flex-layout.row#aboutus_descargar-app-items": {
+        "children": [
+            "image#aboutus_descargar-app-img-trofeo",
+            "flex-layout.col#aboutus_descargar-app-detalles",
+            "image#aboutus_descargar-app-img-app"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "colJustify": "around",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#aboutus_descargar-app-detalles": {
+        "children": [
+            "rich-text#aboutus_descargar-app-desc",
+            "powered-by#aboutus_descargar-app-detalles-power-by",
+            "flex-layout.row#aboutus_descargar-app-link-apps"
+        ],
+        "props": {
+            "verticalAlign": "top",
+            "horizontalAlign": "center",
+            "preventVerticalStretch": false
+        }
+    },
+    "rich-text#aboutus_descargar-app-desc": {
+        "title": "desc - descarga apps",
+        "props": {
+            "text": "Descarga nuestra app",
+            "textPosition": "CENTER",
+            "font": "t-heading-3 pa0",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-base"
+        }
+    },
+    "powered-by#aboutus_descargar-app-detalles-power-by": {
+        "props": {
+            "showInColor": true
+        }
+    },
+    "flex-layout.row#aboutus_descargar-app-link-apps": {
+        "children": [
+            "image#playstore",
+            "image#appstore"
+        ],
+        "props": {
+            "preventHorizontalStretch": true
+        }
+    },
+    "image#aboutus_descargar-app-img-trofeo": {
+        "props": {
+            "src": "assets/images/trofeo.png",
+            "maxWidth": 300
+        }
+    },
+    "image#aboutus_descargar-app-img-app": {
+        "props": {
+            "src": "assets/images/movil_app.png",
+            "maxWidth": 300
+        }
+    }
+}

@@ -5,5 +5,50 @@
             "blockClass": "banner-home-image"
         },
         "title": "banner img"
+    },
+    "image#playstore": {
+        "props": {
+            "src": "assets/images/apps/app.jpg",
+            "maxWidth": 80
+        }
+    },
+    "image#appstore": {
+        "props": {
+            "src": "assets/images/apps/play.png",
+            "maxWidth": 80
+        }
+    },
+    "image#global__image_pais_1": {
+        "props": {
+            "src": "assets/images/icons/colombia.png",
+            "maxWidth": 60
+        }
+    },
+    "image#global__image_pais_2": {
+        "props": {
+            "src": "assets/images/icons/peru.png",
+            "maxWidth": 60
+        }
+    },
+    "image#global__image_pais_3": {
+        "props": {
+            "src": "assets/images/icons/mexico.png",
+            "maxWidth": 60,
+            "blockClass":"global__image_pais_3"
+        }
+    },
+    "image#global__image_pais_4": {
+        "props": {
+            "src": "assets/images/icons/china.png",
+            "maxWidth": 60,
+            "blockClass":"global__image_pais_4"
+        }
+    },
+    "image#global__image_pais_5": {
+        "props": {
+            "src": "assets/images/icons/usa.png",
+            "maxWidth": 60,
+            "blockClass":"global__image_pais_4"
+        }
     }
 }

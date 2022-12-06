@@ -5,7 +5,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
@@ -27,7 +27,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
@@ -49,7 +49,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
@@ -58,7 +58,7 @@
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
-      "search-not-found-layout"
+      "search-not-found-layout#custom_not_found"
     ]
   },
   "search-result-layout.mobile": {
@@ -260,7 +260,6 @@
       "sku-selector",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      // "shipping-simulator",
       "share#default"
     ]
   },

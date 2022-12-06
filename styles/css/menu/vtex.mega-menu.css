@@ -1,0 +1,12 @@
+.menuContainerNav--mega-menu-header{
+    top:65px !important;
+    width:70vw !important;
+    left:10vw !important;
+    height: 65vh;
+}
+.menuItem--mega-menu-header:hover{
+    background-color: var(--secondary-color)!important;
+}
+.menuItem--mega-menu-header:hover .styledLink--mega-menu-header{
+    color:white;
+}

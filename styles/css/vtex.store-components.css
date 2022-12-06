@@ -25,3 +25,11 @@
 :global(.vtex-reviews-and-ratings-3-x-star){
     color: var(--secondary-color);
 }
+:global(.vtex-mega-menu-2-x-menuContainerNav--mega-menu-header){
+    width: 50vw;
+    overflow: hidden;
+}
+.imageElement--global__image_pais_3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

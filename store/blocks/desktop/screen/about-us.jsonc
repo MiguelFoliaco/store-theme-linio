@@ -11,6 +11,9 @@
             "flex-layout.row#global_aboutus_aliados-row",
             "flex-layout.row#about-pdf",
             "flex-layout.row#global_about_us-feedback",
+            "flex-layout.row#aboutus_descargar-app-row",
+            "flex-layout.row#aboutus_time-line",
+            "category-menu",
             "whatsapp-button"
         ]
     },
@@ -27,6 +30,15 @@
             "width": "80%",
             "height": "600px",
             "pdfUrl": "assets/pdf-test.pdf"
+        }
+    },
+    "category-menu": {
+        "props": {
+            "showAllDepartments": true,
+            "showSubcategories": true,
+            "menuDisposition": "center",
+            "departments": [],
+            "sortSubcategories": "name"
         }
     }
 }

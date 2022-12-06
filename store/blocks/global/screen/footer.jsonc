@@ -708,18 +708,6 @@
             //"blockClass": "siguenos-container"
         }
     },
-    "image#playstore": {
-        "props": {
-            "src": "assets/images/apps/app.jpg",
-            "maxWidth": 60
-        }
-    },
-    "image#appstore": {
-        "props": {
-            "src": "assets/images/apps/play.png",
-            "maxWidth": 60
-        }
-    },
     //* Derecho de autor
     "flex-layout.row#global__footer--abouts--derechos_autor-row": {
         "children": ["flex-layout.col#global__footer--abouts--derechos_autor-col"],
@@ -736,6 +724,22 @@
         "props": {
             "text": "© 2022 Linio Colombia | Todos los derechos reservados. Linio Colombia S.A.S. NIT 900.499.362-8. Teléfono (571) 4842220. Dirección: Calle 99 #14-49 Piso 9, Bogotá Colombia. E-mail de notificaciones judiciales: notificacionesjudicialeslinio@linio.com",
             "blockClass": "derechos-autor-text"
+        }
+    },
+    //* Form
+    "newsletter-form#global__footer--suscribete": {
+        "children":[
+            "newsletter-input-email",
+            "newsletter-input-name",
+            "newsletter-submit"
+        ],
+        "props": {
+            "ErrorState": "rich-text#global__footer--suscribete-msg-error"
+        }
+    },
+    "rich-text#global__footer--suscribete-msg-error": {
+        "props": {
+            "text": "El mensaje no se pudo enviar"
         }
     }
 }

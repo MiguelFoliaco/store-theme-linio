@@ -1,0 +1,18 @@
+{
+    "search-not-found-layout#custom_not_found":{
+        "children": [
+            "rich-text#not_found"
+        ]
+    },
+    "rich-text#test": {
+        "props": {
+            "text": "Prueba de not found"
+        }
+    },
+    "rich-text#not_found": {
+        "props": {
+            "text": "No Encontrado",
+            "font": "t-heading-h1"
+        }
+    }
+}

@@ -1,0 +1,288 @@
+{
+    "flex-layout.row#aboutus_time-line": {
+        "children": [
+            "flex-layout.col#aboutus_time-line-grid-content"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#aboutus_time-line-grid-content": {
+        "children": [
+            "custom-grid#aboutus_time-line-grid",
+            "flex-layout.col#aboutus_time-line-info-col"
+        ],
+        "props": {
+            "width":"80%"
+        }
+    },
+    "custom-grid#aboutus_time-line-grid": {
+        "children": [
+            "flex-layout.col#aboutus_time-line-item1",
+            "flex-layout.col#aboutus_time-line-item2",
+            "flex-layout.col#aboutus_time-line-item3",
+            "flex-layout.col#aboutus_time-line-item4",
+            "flex-layout.col#aboutus_time-line-item5",
+            "flex-layout.col#aboutus_time-line-item6"
+        ],
+        "props": {
+            "gridType": 3,
+            "gap": 15,
+            "width":"70%"
+        }
+    },
+    "flex-layout.col#aboutus_time-line-info-col": {
+        "children": ["rich-text#aboutus_time-line-info"],
+        "props": {
+            "width":"80%"
+        }
+    },
+    "rich-text#aboutus_time-line-info": {
+        "props": {
+            "text": "¹ Empresas Falabella cuenta con presencia en Chile, Perú, Colombia, Argentina, Brasil, Uruguay y México, a través de cinco unidades de negocio: tiendas por departamento, mejoramiento del hogar, supermercados, inmobiliario y servicios financieros. Con esta adquisición Linio será el marketplace principal del grupo para brindar el mejor servicio junto con mejores productos tanto a clientes finales como a sellers, manteniendo su marca.",
+            "textAlignment": "CENTER"
+        }
+    },
+    //* item 1
+    "flex-layout.col#aboutus_time-line-item1": {
+        "children": [
+            "rich-text#aboutus_time-line-item1-year",
+            "image#aboutus_time-line-item1-image",
+            "rich-text#aboutus_time-line-item1-description",
+            "custom-grid#aboutus_time-line-item1-paises"
+        ],
+        "props": {
+            "blockClass": "aboutus_time-line-item1",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#aboutus_time-line-item1-year": {
+        "props": {
+            "text": "2012",
+            "font": "t-heading-2",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "image#aboutus_time-line-item1-image": {
+        "props": {
+            "src": "assets/images/lini.svg",
+            "maxWidth": 100
+        }
+    },
+    "rich-text#aboutus_time-line-item1-description": {
+        "props": {
+            "text": "Nace Linio que singifica en líne en Epseranto Inicia su negocio en México, Perú y Colombia",
+            "font": "t-action",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "custom-grid#aboutus_time-line-item1-paises": {
+        "props": {
+            "gridType": 2,
+            "gap": 14
+        },
+        "children": [
+            "image#global__image_pais_1",
+            "image#global__image_pais_2",
+            "image#global__image_pais_3"
+        ]
+    },
+    //* item 2
+    "flex-layout.col#aboutus_time-line-item2": {
+        "children": [
+            "rich-text#aboutus_time-line-item2-year",
+            "image#aboutus_time-line-item2-image",
+            "rich-text#aboutus_time-line-item2-description",
+            "custom-grid#aboutus_time-line-item2-paises"
+        ],
+        "props": {
+            "blockClass": "aboutus_time-line-item2",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#aboutus_time-line-item2-year": {
+        "props": {
+            "text": "2013",
+            "font": "t-heading-2",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "image#aboutus_time-line-item2-image": {
+        "props": {
+            "src": "assets/images/icons/conect_user.png",
+            "maxWidth": 80
+        }
+    },
+    "rich-text#aboutus_time-line-item2-description": {
+        "props": {
+            "text": "Nace Linio que singifica en líne en Epseranto Inicia su negocio en México, Perú y Colombia",
+            "font": "t-action",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "custom-grid#aboutus_time-line-item2-paises": {
+        "props": {
+            "gridType": 1,
+            "gap": 14
+        },
+        "children": [
+            "image#global__image_pais_4"
+        ]
+    },
+    //* item 3
+    "flex-layout.col#aboutus_time-line-item3": {
+        "children": [
+            "rich-text#aboutus_time-line-item3-year",
+            // "image#aboutus_time-line-item3-image",
+            "rich-text#aboutus_time-line-item3-description",
+            "custom-grid#aboutus_time-line-item3-paises"
+        ],
+        "props": {
+            "blockClass": "aboutus_time-line-item3",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#aboutus_time-line-item3-year": {
+        "props": {
+            "text": "2014",
+            "font": "t-heading-2",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "image#aboutus_time-line-item3-image": {
+        "props": {
+            "src": "assets/images/lini.svg",
+            "maxWidth": 100
+        }
+    },
+    "rich-text#aboutus_time-line-item3-description": {
+        "props": {
+            "text": "Llegamos a chile",
+            "font": "t-action",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "custom-grid#aboutus_time-line-item3-paises": {
+        "props": {
+            "gridType": 1,
+            "gap": 14
+        },
+        "children": [
+            "image#global__image_pais_5"
+        ]
+    },
+    //* item 4
+    "flex-layout.col#aboutus_time-line-item4": {
+        "children": [
+            "rich-text#aboutus_time-line-item4-year",
+            "image#aboutus_time-line-item4-image",
+            "rich-text#aboutus_time-line-item4-description",
+            "custom-grid#aboutus_time-line-item4-paises"
+        ],
+        "props": {
+            "blockClass": "aboutus_time-line-item4",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#aboutus_time-line-item4-year": {
+        "props": {
+            "text": "2015",
+            "font": "t-heading-2",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "image#aboutus_time-line-item4-image": {
+        "props": {
+            "src": "assets/images/icons/world.png",
+            "maxWidth": 100
+        }
+    },
+    "rich-text#aboutus_time-line-item4-description": {
+        "props": {
+            "text": "Abre Marketplace Internacional y las oficinas de Linio en Miami",
+            "font": "t-action",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "custom-grid#aboutus_time-line-item4-paises": {
+        "props": {
+            "gridType": 1,
+            "gap": 14
+        },
+        "children": [
+            "image#global__image_pais_5"
+        ]
+    },
+    //* item 5
+    "flex-layout.col#aboutus_time-line-item5": {
+        "children": [
+            "rich-text#aboutus_time-line-item5-year",
+            "image#aboutus_time-line-item5-image",
+            "rich-text#aboutus_time-line-item5-description"
+            //"custom-grid#aboutus_time-line-item5-paises"
+        ],
+        "props": {
+            "blockClass": "aboutus_time-line-item5",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#aboutus_time-line-item5-year": {
+        "props": {
+            "text": "2016",
+            "font": "t-heading-2",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "image#aboutus_time-line-item5-image": {
+        "props": {
+            "src": "assets/images/icons/stonk.png",
+            "maxWidth": 100
+        }
+    },
+    "rich-text#aboutus_time-line-item5-description": {
+        "props": {
+            "text": "Linio recibe financiación por los fondos de inversión mexicanos LIV Capital y Northgate Capital, junto con Kinnevik.",
+            "font": "t-action",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    //* item 6
+    "flex-layout.col#aboutus_time-line-item6": {
+        "children": [
+            "rich-text#aboutus_time-line-item6-year",
+            "image#aboutus_time-line-item6-image",
+            "rich-text#aboutus_time-line-item6-description"
+            //"custom-grid#aboutus_time-line-item5-paises"
+        ],
+        "props": {
+            "blockClass": "aboutus_time-line-item6",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#aboutus_time-line-item6-year": {
+        "props": {
+            "text": "2018",
+            "font": "t-heading-2",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "image#aboutus_time-line-item6-image": {
+        "props": {
+            "src": "assets/images/icons/stonk.png",
+            "maxWidth": 100
+        }
+    },
+    "rich-text#aboutus_time-line-item6-description": {
+        "props": {
+            "text": "A partir de agosto de 2018 Linio empezó a formar parte de Grupo S.A.C.I. Falabella¹",
+            "font": "t-action",
+            "textColor": "c-on-emphasis"
+        }
+    }
+}

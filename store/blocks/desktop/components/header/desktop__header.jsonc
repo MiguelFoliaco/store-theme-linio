@@ -8,6 +8,8 @@
     //* Header Desktop Superior
     "header-row#desktop__header-superior-row": {
         "children": [
+            "mega-menu-trigger-btn",
+            "flex-layout.row#mega-menu",
             "logo",
             "flex-layout.row#desktop__header-superor-searchbar",
             "flex-layout.row#desktop__header-superior-login-row",
@@ -121,5 +123,38 @@
             "src": "assets/images/icons/tracking.png",
             "maxWidth": 30
         }
-    }
+    },
+    // "sticky-layout#4-desktop": {
+    //     "children": ["flex-layout.row#4-desktop", "flex-layout.row#mega-menu"]
+    //   },
+    //   "flex-layout.row#4-desktop": {
+    //     "children": [
+    //       "flex-layout.col#trigger-mega-menu"
+    //     ]
+    //   },
+    
+      "flex-layout.row#mega-menu": {
+        "children": ["mega-menu#desktop"],
+        "props": {
+            "blockClass": "mega-menu-header"
+        }
+      },
+      "mega-menu#desktop": {
+        "props": {
+          "openOnly": "horizontal",
+          "blockClass":"mega-menu-header"
+        }
+      },
+    //   "flex-layout.col#trigger-mega-menu": {
+    //     "props": {
+    //       "verticalAlign": "middle"
+    //     },
+    //     "children": ["mega-menu-trigger-btn"]
+    //   },
+      "mega-menu-trigger-btn": {
+        "props": {
+          "Drawer": "drawer",
+          "blockClass":"mega-menu-header"
+        }
+      }
 }
