@@ -38,7 +38,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
@@ -63,7 +63,7 @@
   },
   "search-result-layout.mobile": {
     "children": [
-      "flex-layout.col#desktop_department__breadcrumb",
+      "flex-layout.row#desktop_department__breadcrumb",
       "flex-layout.row#desktop_department_result"
     ],
     "props": {
@@ -75,14 +75,14 @@
   },
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.col#desktop_department__breadcrumb",
+      "flex-layout.row#desktop_department__breadcrumb",
       "flex-layout.row#desktop_department_result"
     ],
     "props": {
       "preventRouteChange": true
     }
   },
-  "flex-layout.col#desktop_department__breadcrumb": {
+  "flex-layout.row#desktop_department__breadcrumb": {
     "children": [
       "breadcrumb.search"
     ]

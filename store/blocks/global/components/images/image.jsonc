@@ -47,8 +47,32 @@
     "image#global__image_pais_5": {
         "props": {
             "src": "assets/images/icons/usa.png",
-            "maxWidth": 60,
+            "maxWidth": 55,
             "blockClass":"global__image_pais_4"
+        }
+    },
+    "image#global_image_hogar": {
+        "props": {
+            "src": "assets/images/icons/home.png",
+            "maxWidth": "80px"
+        }
+    },
+    "image#global_image_electrodomestico": {
+        "props": {
+            "src": "assets/images/icons/electrodomestico.png",
+            "maxWidth": "80px"
+        }
+    },
+    "image#global_image_celulares": {
+        "props": {
+            "src": "assets/images/icons/llamada-telefonica.png",
+            "maxWidth": "80px"
+        }
+    },
+    "image#global_image_deportes": {
+        "props": {
+            "src": "assets/images/icons/futbol.png",
+            "maxWidth": "80px"
         }
     }
 }

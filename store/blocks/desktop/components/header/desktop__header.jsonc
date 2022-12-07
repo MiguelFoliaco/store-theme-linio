@@ -45,7 +45,11 @@
             "autocomplete-result-list.v2#desktop__header-superior-autocomplete"
         ],
         "props": {
-            "openAutocompleteOnFocus": true
+            "customSearchPageUrl": "",
+            "openAutocompleteOnFocus": true,
+            "attemptPageTypeSearch": true,
+            "autocompleteFullWidth": false,
+            "autocompleteAlignment": "left"
         }
     },
     "autocomplete-result-list.v2#desktop__header-superior-autocomplete": {
@@ -154,7 +158,8 @@
       "mega-menu-trigger-btn": {
         "props": {
           "Drawer": "drawer",
-          "blockClass":"mega-menu-header"
+          "color":"c-on-emphacis",
+          "blockClass":"mega-menu-btn"
         }
       }
 }

@@ -90,7 +90,7 @@
             "centerMode": "center",
             "infinite": true,
             "blockClass": "slide-layout-container",
-            "showPaginationDots": "mobileOnly"
+            "showPaginationDots": "never"
         }
     }
 }

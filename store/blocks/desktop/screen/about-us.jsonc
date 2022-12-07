@@ -13,7 +13,8 @@
             "flex-layout.row#global_about_us-feedback",
             "flex-layout.row#aboutus_descargar-app-row",
             "flex-layout.row#aboutus_time-line",
-            "category-menu",
+            //"category-menu",
+            "flex-layout.row#global__aboutus_empieza-comprar",
             "whatsapp-button"
         ]
     },

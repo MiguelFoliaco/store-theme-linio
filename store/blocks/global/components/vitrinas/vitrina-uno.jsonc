@@ -49,7 +49,8 @@
             "infinite": false,
             "fullWidth": false,
             "arrowSize": 10,
-            "blockClass": "productlist_1"
+            "blockClass": "productlist_1",
+            "showPaginationDots": "never"
         }
     },
     
@@ -59,13 +60,20 @@
         "children": [
             "product-summary-image#global__home-productlist-product-image",
             "product-summary-name#iglobal__home-productlist-product-name",
-            //"product-selling-price#summary",
-            "flex-layout.col#global__home-productlist-button-show",
-            "flex-layout.col#global__home-productlist-button-add-to-cart"
+            "product-price-savings",
+            "product-selling-price",
+            "product-installments-list",
+            "flex-layout.col#global__home-productlist-button-show-product"
+            //"flex-layout.col#global__home-productlist-button-add-to-cart"
         ],
         "props": {
             "blockClass": "product-card",
             "priceBehavior": "async"
+        }
+    },
+    "product-price-savings":{
+        "props":{
+            "percentageStyle":"compact"
         }
     },
     "flex-layout.col#global__home-productlist-button-show": {
@@ -79,15 +87,15 @@
             "onClickBehavior": "add-to-cart"
         }
     },
-    "flex-layout.col#global__home-productlist-button-add-to-cart": {
+    "flex-layout.col#global__home-productlist-button-show-product": {
         "children": [
-            "add-to-cart-button#productlist_1"
+            "add-to-cart-button#global__home-productlist-button-show-product"
         ],
         "props": {
             "blockClass": "button-add-cart"
         }
     },
-    "add-to-cart-button#productlist_1": {
+    "add-to-cart-button#global__home-productlist-button-show-product": {
         "title": "Botton ver producto",
         "props": {
             "text": "VER PRODUCTO",

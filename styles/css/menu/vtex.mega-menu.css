@@ -3,10 +3,25 @@
     width:70vw !important;
     left:10vw !important;
     height: 65vh;
+    max-height: 65vh;
+}
+.menuContainer{
+    height: 65vh;
+    max-height: 65vh;
+}
+.menuContainer::-webkit-scrollbar, .submenuContainer::-webkit-scrollbar{
+    display: none;
 }
 .menuItem--mega-menu-header:hover{
     background-color: var(--secondary-color)!important;
 }
 .menuItem--mega-menu-header:hover .styledLink--mega-menu-header{
     color:white;
+}
+.triggerButtonIcon--mega-menu-btn{
+    color:white;
+}
+.submenuContainer{
+    height: 65vh;
+    max-height: 65vh;
 }

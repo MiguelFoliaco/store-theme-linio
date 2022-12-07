@@ -1,0 +1,85 @@
+{
+    "flex-layout.row#global__aboutus_empieza-comprar": {
+        "children": [
+            "flex-layout.col#global__aboutus_empieza-comprar-col"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "global__aboutus_empieza-comprar"
+        }
+    },
+    "flex-layout.col#global__aboutus_empieza-comprar-col": {
+        "children": [
+            "flex-layout.col#global__aboutus_empieza-comprar-row"
+        ]
+    },
+    "flex-layout.col#global__aboutus_empieza-comprar-row": {
+        "children": [
+            "rich-text#global__aboutus_empieza-comprar-text",
+            "rich-text#global__aboutus_empieza-comprar-detalle",
+            "flex-layout.row#global__aboutus_empieza-comprar-grid"
+        ],
+        "props": {
+            "verticalAlign": "top"
+        }
+    },
+    //* Titulo
+    "rich-text#global__aboutus_empieza-comprar-text": {
+        "props": {
+            "font": "t-heading-4",
+            "textPosition": "CENTER",
+            "text": "**EMPIEZA A COMPRAR**",
+            "textColor": "c-on-warning"
+        }
+    },
+    "rich-text#global__aboutus_empieza-comprar-detalle": {
+        "props": {
+            "font": "t-heading-6",
+            "textPosition": "CENTER",
+            "text": "Tenemos tus categorías favoritas esperando por ti.",
+            "textColor": "c-on-warning"
+        }
+    },
+    //* Categorias
+    "flex-layout.row#global__aboutus_empieza-comprar-grid": {
+        "props": {},
+        "children": [
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-1",
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-2"
+        ]
+    },
+    //* Item 1
+    "flex-layout.col#global__aboutus_empieza-comprar-categoria-1": {
+        "children": [
+            "image#global_image_hogar",
+            "link#global__aboutus_empieza-comprar-categoria-1-link"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "link#global__aboutus_empieza-comprar-categoria-1-link": {
+        "props": {
+            "label": "Hogar >",
+            "href": "/electrodomesticos",
+            "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
+        }
+    },
+    //* Item 2
+    "flex-layout.col#global__aboutus_empieza-comprar-categoria-2": {
+        "children": [
+            "image#global_image_electrodomestico",
+            "link#global__aboutus_empieza-comprar-categoria-2-link"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "link#global__aboutus_empieza-comprar-categoria-2-link": {
+        "props": {
+            "label": "Electrodomesticos >",
+            "href": "/electrodomesticos",
+            "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
+        }
+    }
+}

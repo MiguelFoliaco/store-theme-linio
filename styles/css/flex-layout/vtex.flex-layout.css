@@ -91,6 +91,16 @@
     margin-top: 0px !important;
 }
 
+/** Vitrinas */
+.flexColChild--button-add-cart {
+    /* background-color: var(--secondary-color); */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+/** Footer */
 .flexRowContent--desktop-footer {
     border-bottom: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
@@ -289,6 +299,10 @@
 .flexCol--aboutus_time-line-item6{
     background-image: linear-gradient(rgba(77, 33, 255, 0.93) 0%, rgb(22, 166, 255) 100%);
 }
+
+.flexRowContent--global__aboutus_empieza-comprar{
+    background-color: #232836;
+}
 /** PDP */
 .flexRowContent--pdp_product_buy-and-quantity {
     display: flex;
@@ -318,3 +332,8 @@
     background-color: var(--green);
     color:white;
 } */
+/** not found*/
+
+.flexCol--custom_not_found-col{
+    border-bottom: 1px solid var(--border-color);
+}

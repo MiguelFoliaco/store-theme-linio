@@ -118,7 +118,8 @@
                 "desktop": 4,
                 "tablet": 4
             },
-            "infinite": true
+            "infinite": true,
+            "showPaginationDots": "never"
         }
     }
 }

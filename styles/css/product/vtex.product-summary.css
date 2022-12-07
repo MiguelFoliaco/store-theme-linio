@@ -1,20 +1,23 @@
-.container--product-card{
+.container--product-card {
     margin-left: 5px;
     margin-right: 5px;
-    width: 80%;
-    padding-left:5px;
+    width: 70%;
+    padding-left: 5px;
     padding-right: 5px;
     border: 1px solid #dbdbdb;
     border-radius: 0px;
     transition: 200ms;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
+
 /* .container--product-card:hover{
     transform: scale(1.1);
 } */
-.container--product-card .productBrand, .container--product-card .sellingPrice{
+.container--product-card .productBrand,
+.container--product-card .sellingPrice {
     font-weight: bold;
     font-size: 1.2rem;
-}
-.container--product-card .show_product{
-    background-color: var(--secondary-color);
 }

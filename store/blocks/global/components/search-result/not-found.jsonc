@@ -1,18 +1,68 @@
 {
-    "search-not-found-layout#custom_not_found":{
+    "search-not-found-layout#custom_not_found": {
         "children": [
-            "rich-text#not_found"
+            "flex-layout.row#custom_not_found-row"
         ]
     },
-    "rich-text#test": {
+    "flex-layout.row#custom_not_found-row": {
+        "children": [
+            "flex-layout.col#custom_not_found-col"
+        ],
         "props": {
-            "text": "Prueba de not found"
+            "marginTop":4,
+            "paddingBottom": 10,
+            "paddingTop": 3,
+            "fullWidth": true,
+            "horizontalAlign": "center"
         }
     },
-    "rich-text#not_found": {
+    "flex-layout.row#custom_not_found-banner": {
+        "children": [
+            "responsive-layout.mobile#tablet_home-banner-crm"
+        ],
         "props": {
-            "text": "No Encontrado",
-            "font": "t-heading-h1"
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#custom_not_found-col": {
+        "children": [
+            "flex-layout.row#custom_not_found-row-text",
+            "list-context.bullets-group#global"
+           // "responsive-layout.desktop#desktop_home-banner-crm"
+        ],
+        "props": {
+            "width": "80%",
+            "blockClass":"custom_not_found-col"
+        }
+    },
+    "flex-layout.row#custom_not_found-row-text":{
+        "children": ["flex-layout.col#custom_not_found-col-text"],
+        "props": {
+            "marginBottom":8,
+            "fullWidth": true,
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#custom_not_found-col-text": {
+        "children": [
+            "rich-text#custom_not_found-text",
+            "rich-text#custom_not_found-help"
+        ],
+        "props": {
+            "width": "100%",
+            "blockClass":"custom_not_found-col"
+        }
+    },
+    "rich-text#custom_not_found-text": {
+        "props": {
+            "text": "Nuestro gurú de compras no encontro resultados",
+            "font": "t-heading-5"
+        }
+    },
+    "rich-text#custom_not_found-help": {
+        "props": {
+            "text": "Te recomendamos verificar la ortografia o intentar con otra palabra",
+            "font": "t-body"
         }
     }
 }
