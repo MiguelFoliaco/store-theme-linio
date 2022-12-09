@@ -54,25 +54,73 @@
     "image#global_image_hogar": {
         "props": {
             "src": "assets/images/icons/home.png",
-            "maxWidth": "80px"
+            "maxWidth": "60px"
         }
     },
     "image#global_image_electrodomestico": {
         "props": {
             "src": "assets/images/icons/electrodomestico.png",
-            "maxWidth": "80px"
+            "maxWidth": "60px"
         }
     },
     "image#global_image_celulares": {
         "props": {
-            "src": "assets/images/icons/llamada-telefonica.png",
-            "maxWidth": "80px"
+            "src": "assets/images/icons/telefono-movil.png",
+            "maxWidth": "60px"
+        }
+    },
+    "image#global_image_audio": {
+        "props": {
+            "src": "assets/images/icons/nota-musical.png",
+            "maxWidth": "60px"
+        }
+    },
+    "image#global_image_jugetes": {
+        "props": {
+            "src": "assets/images/icons/bebe.png",
+            "maxWidth": "60px"
         }
     },
     "image#global_image_deportes": {
         "props": {
             "src": "assets/images/icons/futbol.png",
-            "maxWidth": "80px"
+            "maxWidth": "60px"
+        }
+    },
+    "image#global_image_camara": {
+        "props": {
+            "src": "assets/images/icons/camara.png",
+            "maxWidth": "60px"
+        }
+    },
+    "image#global_image_libro": {
+        "props": {
+            "src": "assets/images/icons/libro-abierto.png",
+            "maxWidth": "60px"
+        }
+    },
+    "image#global_image_tv": {
+        "props": {
+            "src": "assets/images/icons/television.png",
+            "maxWidth": "60px"
+        }
+    },
+    "image#global_image_salud-belleza": {
+        "props": {
+            "src": "assets/images/icons/cambio-de-imagen.png",
+            "maxWidth": "60px"
+        }
+    },
+    "image#global_image_ropa": {
+        "props": {
+            "src": "assets/images/icons/camiseta.png",
+            "maxWidth": "60px"
+        }
+    },
+    "image#global_image_consola": {
+        "props": {
+            "src": "assets/images/icons/consola.png",
+            "maxWidth": "60px"
         }
     }
 }

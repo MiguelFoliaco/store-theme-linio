@@ -5,7 +5,8 @@
         ],
         "props": {
             "fullWidth": true,
-            "blockClass": "global__aboutus_empieza-comprar"
+            "blockClass": "global__aboutus_empieza-comprar",
+            "marginBottom":8
         }
     },
     "flex-layout.col#global__aboutus_empieza-comprar-col": {
@@ -17,7 +18,8 @@
         "children": [
             "rich-text#global__aboutus_empieza-comprar-text",
             "rich-text#global__aboutus_empieza-comprar-detalle",
-            "flex-layout.row#global__aboutus_empieza-comprar-grid"
+            "flex-layout.row#global__aboutus_empieza-comprar-grid-sup",
+            "flex-layout.row#global__aboutus_empieza-comprar-grid-inf"
         ],
         "props": {
             "verticalAlign": "top"
@@ -41,11 +43,31 @@
         }
     },
     //* Categorias
-    "flex-layout.row#global__aboutus_empieza-comprar-grid": {
-        "props": {},
+    "flex-layout.row#global__aboutus_empieza-comprar-grid-sup": {
+        "props": {
+            "marginBottom":8
+        },
         "children": [
             "flex-layout.col#global__aboutus_empieza-comprar-categoria-1",
-            "flex-layout.col#global__aboutus_empieza-comprar-categoria-2"
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-2",
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-3",
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-4",
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-5",
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-6"
+        ]
+    },
+    "flex-layout.row#global__aboutus_empieza-comprar-grid-inf": {
+        "props": {
+            "marginBottom":8,
+            "marginTop":5
+        },
+        "children": [
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-7",
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-8",
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-9",
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-10",
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-11",
+            "flex-layout.col#global__aboutus_empieza-comprar-categoria-12"
         ]
     },
     //* Item 1
@@ -81,5 +103,175 @@
             "href": "/electrodomesticos",
             "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
         }
-    }
+    },
+    //* Item 3
+    "flex-layout.col#global__aboutus_empieza-comprar-categoria-3": {
+        "children": [
+            "image#global_image_celulares",
+            "link#global__aboutus_empieza-comprar-categoria-3-link"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "link#global__aboutus_empieza-comprar-categoria-3-link": {
+        "props": {
+            "label": "Celulares >",
+            "href": "/electrodomesticos",
+            "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
+        }
+    },
+    //* Item 4
+    "flex-layout.col#global__aboutus_empieza-comprar-categoria-4": {
+        "children": [
+            "image#global_image_deportes",
+            "link#global__aboutus_empieza-comprar-categoria-4-link"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "link#global__aboutus_empieza-comprar-categoria-4-link": {
+        "props": {
+            "label": "Deportes >",
+            "href": "/mujer",
+            "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
+        }
+    },
+    //* Item 5
+    "flex-layout.col#global__aboutus_empieza-comprar-categoria-5": {
+        "children": [
+            "image#global_image_audio",
+            "link#global__aboutus_empieza-comprar-categoria-5-link"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "link#global__aboutus_empieza-comprar-categoria-5-link": {
+        "props": {
+            "label": "Audio >",
+            "href": "/electrodomesticos",
+            "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
+        }
+    },
+    //* Item 6
+    "flex-layout.col#global__aboutus_empieza-comprar-categoria-6": {
+        "children": [
+            "image#global_image_jugetes",
+            "link#global__aboutus_empieza-comprar-categoria-6-link"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "link#global__aboutus_empieza-comprar-categoria-6-link": {
+        "props": {
+            "label": "Bebes y Juguetes >",
+            "href": "/electrodomesticos",
+            "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
+        }
+    },
+        //* Item 7
+        "flex-layout.col#global__aboutus_empieza-comprar-categoria-7": {
+            "children": [
+                "image#global_image_camara",
+                "link#global__aboutus_empieza-comprar-categoria-7-link"
+            ],
+            "props": {
+                "horizontalAlign": "center"
+            }
+        },
+        "link#global__aboutus_empieza-comprar-categoria-7-link": {
+            "props": {
+                "label": "Camaras >",
+                "href": "/Queso",
+                "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
+            }
+        },
+        //* Item 8
+        "flex-layout.col#global__aboutus_empieza-comprar-categoria-8": {
+            "children": [
+                "image#global_image_libro",
+                "link#global__aboutus_empieza-comprar-categoria-8-link"
+            ],
+            "props": {
+                "horizontalAlign": "center"
+            }
+        },
+        "link#global__aboutus_empieza-comprar-categoria-8-link": {
+            "props": {
+                "label": "Libros >",
+                "href": "/electrodomesticos",
+                "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
+            }
+        },
+        //* Item 9
+        "flex-layout.col#global__aboutus_empieza-comprar-categoria-9": {
+            "children": [
+                "image#global_image_tv",
+                "link#global__aboutus_empieza-comprar-categoria-9-link"
+            ],
+            "props": {
+                "horizontalAlign": "center"
+            }
+        },
+        "link#global__aboutus_empieza-comprar-categoria-9-link": {
+            "props": {
+                "label": "Televisores >",
+                "href": "/electrodomesticos",
+                "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
+            }
+        },
+        //* Item 10
+        "flex-layout.col#global__aboutus_empieza-comprar-categoria-10": {
+            "children": [
+                "image#global_image_ropa",
+                "link#global__aboutus_empieza-comprar-categoria-10-link"
+            ],
+            "props": {
+                "horizontalAlign": "center"
+            }
+        },
+        "link#global__aboutus_empieza-comprar-categoria-10-link": {
+            "props": {
+                "label": "Moda >",
+                "href": "/mujer",
+                "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
+            }
+        },
+        //* Item 11
+        "flex-layout.col#global__aboutus_empieza-comprar-categoria-11": {
+            "children": [
+                "image#global_image_salud-belleza",
+                "link#global__aboutus_empieza-comprar-categoria-11-link"
+            ],
+            "props": {
+                "horizontalAlign": "center"
+            }
+        },
+        "link#global__aboutus_empieza-comprar-categoria-11-link": {
+            "props": {
+                "label": "Salud y Belleza >",
+                "href": "/electrodomesticos",
+                "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
+            }
+        },
+        //* Item 12
+        "flex-layout.col#global__aboutus_empieza-comprar-categoria-12": {
+            "children": [
+                "image#global_image_consola",
+                "link#global__aboutus_empieza-comprar-categoria-12-link"
+            ],
+            "props": {
+                "horizontalAlign": "center"
+            }
+        },
+        "link#global__aboutus_empieza-comprar-categoria-12-link": {
+            "props": {
+                "label": "Juegos >",
+                "href": "/electrodomesticos",
+                "blockClass": "global__aboutus_empieza-comprar-categoria-1-link"
+            }
+        }
 }
