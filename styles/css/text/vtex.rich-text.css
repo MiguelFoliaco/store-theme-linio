@@ -63,3 +63,11 @@
 .paragraph--pdp_product_promotion-crm-fallabela-text{
     font-size: 15px;
 }
+/** Footer*/
+.container--global__footer--suscribete-msg{
+    width:20%;
+    padding:0px 20px !important;
+}
+.paragraph--global__footer--suscribete-msg{
+    text-align: center;
+}

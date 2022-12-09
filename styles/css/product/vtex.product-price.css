@@ -1,0 +1,10 @@
+.sellingPrice{
+    font-weight: bold;
+    color:#ea2840;
+    text-align: left;
+}
+.savings{
+    font-weight: bold;
+    color: rgb(168, 168, 168);
+    text-decoration: line-through;
+}

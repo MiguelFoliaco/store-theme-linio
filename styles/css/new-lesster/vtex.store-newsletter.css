@@ -1,0 +1,34 @@
+.newsletterForm--global__footer--suscribete{
+    display: flex;
+    margin:20px auto;
+    align-items: center;
+    padding: 40px 0px;
+    width: 90%;
+    flex-wrap: wrap;
+    
+}
+.emailInputContainer--global__footer--suscribete-form-email{
+    width:40%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom: 20px;
+}
+.formSubmitContainer--global__footer--suscribete-button{
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.formSubmitContainer--global__footer--suscribete-button :global(.vtex-button) {
+    background-color: #343a40;
+    border: 1px solid #343a40;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.confirmationCheckboxContainer--global__footer--suscribete-confirmation{
+    width: 50%;
+    margin: auto;
+}
