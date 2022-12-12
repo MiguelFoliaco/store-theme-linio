@@ -727,18 +727,6 @@
         }
     },
     //* Form
-    "newsletter-form#global__footer--suscribete": {
-        "children":[
-            "rich-text#global__footer--suscribete-msg",
-            "newsletter-input-email",
-            "newsletter-submit#global__footer--suscribete-button",
-            "newsletter-checkbox-confirmation#global__footer--suscribete-confirmation"
-        ],
-        "props": {
-            "ErrorState": "rich-text#global__footer--suscribete-msg-error",
-            "blockClass":"global__footer--suscribete"
-        }
-    },
     "rich-text#global__footer--suscribete-msg-error": {
         "props": {
             "text": "El mensaje no se pudo enviar"
@@ -752,20 +740,20 @@
     },
     "newsletter-input-email": {
         "props": {
-            "blockClass":"global__footer--suscribete-form-email",
+            "blockClass": "global__footer--suscribete-form-email",
             "placeholderText": "Suscribete con tu email"
         }
     },
     "newsletter-submit#global__footer--suscribete-button": {
         "props": {
-            "blockClass":"global__footer--suscribete-button",
+            "blockClass": "global__footer--suscribete-button",
             "submitButtonLabel": "Suscribete!"
         }
     },
-    "newsletter-checkbox-confirmation#global__footer--suscribete-confirmation":{
-        "props":{
-            "checkboxLabel":"Declaro que he leído y autorizo el uso de mis datos personales de acuerdo a la Autorización y acepto los Términos y Condiciones de Linio",
-            "blockClass":"global__footer--suscribete-confirmation"
+    "newsletter-checkbox-confirmation#global__footer--suscribete-confirmation": {
+        "props": {
+            "checkboxLabel": "Declaro que he leído y autorizo el uso de mis datos personales de acuerdo a la Autorización y acepto los Términos y Condiciones de Linio",
+            "blockClass": "global__footer--suscribete-confirmation"
         }
     }
 }

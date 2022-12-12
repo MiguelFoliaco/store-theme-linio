@@ -64,7 +64,8 @@
     "itgloberspartnercl.quick-store": "0.x",
     "itgloberspartnercl.special-diagramations": "0.x",
     "vtex.store-newsletter": "1.x",
-    "vtex.category-menu": "2.x"
+    "vtex.category-menu": "2.x",
+    "vtex.disclosure-layout": "1.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"

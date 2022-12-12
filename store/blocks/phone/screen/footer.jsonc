@@ -1,57 +1,242 @@
 {
-    "footer-layout.mobile#phone_footer": {
-        "blocks":[
-            "flex-layout.row#footer-mobile"
-            //"flex-layout.row#phone__footer--payment-methods"
-            //"flex-layout.row#phone__footer--payment-methods"
-        ],
-        "props": {
-            //"blockClass": "global__footer"
-        }
+  "footer-layout.mobile#phone_footer": {
+    "children": [
+      "newsletter-form#mobile__footer--suscribete",
+      //"flex-layout.row#footer-mobile",
+      "flex-layout.row#phone__footer--payment-methods",
+      //"flex-layout.row#phone__footer--payment-methods"
+      "disclosure-layout#mobile_footer--disclousure-item1",
+      "disclosure-layout#mobile_footer--disclousure-item2",
+      "disclosure-layout#mobile_footer--disclousure-item3"
+     // "flex-layout.col#mobile_footer--social-networks-col"
+    ],
+    "props": {
+      "blockClass": "global__footer"
+    }
+  },
+  //* Medios de pago
+  "custom-grid#phone__footer--payment-methods": {
+    "children": [
+      "flex-layout.col#global__footer--payment-metods-item1",
+      "flex-layout.col#global__footer--payment-metods-item2",
+      "flex-layout.col#global__footer--payment-metods-item3",
+      "flex-layout.col#global__footer--payment-metods-item4",
+      "flex-layout.col#global__footer--payment-metods-item5",
+      "flex-layout.col#global__footer--payment-metods-item6",
+      "flex-layout.col#global__footer--payment-metods-item7"
+    ],
+    "props": {
+      "gridType": 3,
+      "gap": 5,
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#phone__footer--payment-methods": {
+    "children": [
+      "custom-grid#phone__footer--payment-methods"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "colJustify": "between",
+      "paddingTop": 2
     },
-    "flex-layout.row#phone__footer--payment-methods": {
-        "children": [
-            "rich-text#test"
-            // "flex-layout.col#global__footer--payment-metods-item1",
-            // "flex-layout.col#global__footer--payment-metods-item2",
-            // "flex-layout.col#global__footer--payment-metods-item3",
-            // "flex-layout.col#global__footer--payment-metods-item4",
-            // "flex-layout.col#global__footer--payment-metods-item5",
-            // "flex-layout.col#global__footer--payment-metods-item6",
-            // "flex-layout.col#global__footer--payment-metods-item7"
-        ],
-        "props": {
-           // "blockClass": "desktop-footer",
-            "horizontalAlign": "center",
-            "colJustify": "between",
-            "paddingTop": 3
+    "title": "Opciones de Pagos Mobile"
+  },
+  //* Forms
+  // "rich-text#test": {
+  //   "props": {
+  //     "text": "Hola mundo"
+  //   }
+  // },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://facebook.com/foo",
+          "name": "facebook"
         },
-        "title": "Opciones de Pagos Mobile"
-    },
-    "rich-text#test": {
-        "props": {
-            "text": "Hola mundo"
+        {
+          "url": "https://twitter.com/foo",
+          "name": "twitter"
         }
-    },
-    "flex-layout.row#footer-mobile": {
-        "children": [
-          "social-networks",
-          "accepted-payment-methods",
-          "powered-by"
-        ]
-      },
-      "social-networks": {
-        "props": {
-          "socialNetworks": [
-            { "url": "https://facebook.com/foo", "name": "Facebook" },
-            { "url": "https://twitter.com/foo", "name": "Twitter" }
-          ]
-        }
-      },
-      "accepted-payment-methods": {
-        "props": {
-          "paymentMethods": ["mastercard", "visa", "diners club"]
-        }
+      ]
+    }
+  },
+  "newsletter-form#mobile__footer--suscribete": {
+    "children": [
+      "rich-text#global__footer--suscribete-msg",
+      "newsletter-input-email",
+      "newsletter-submit#global__footer--suscribete-button",
+      "newsletter-checkbox-confirmation#global__footer--suscribete-confirmation"
+    ],
+    "props": {
+      "blockClass": "phone__footer--suscribete"
+    }
+  },
+  //* disclosure 1
+  "disclosure-layout#mobile_footer--disclousure-item1": {
+    "children": [
+      "disclosure-trigger#mobile_footer--disclousure-trigger-item1",
+      "disclosure-content#mobile_footer--disclousure-content-item1",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "animated": true,
+      "blockClass": "mobile_footer--disclousure"
+    }
+  },
+  "disclosure-trigger#mobile_footer--disclousure-trigger-item1": {
+    "children": [
+      "rich-text#global__footer-aboutus--title"
+    ],
+    "props": {
+      "Show": "icon#down",
+      "as": "div",
+      "Hide": "icon#up",
+      "blockClass": "mobile_footer--disclousure-trigger"
+    }
+  },
+  "disclosure-content#mobile_footer--disclousure-content-item1": {
+    "children": [
+      "link#global__footer-aboutus--pos1--item1",
+      "link#global__footer-aboutus--pos1--item2",
+      "link#global__footer-aboutus--pos1--item3",
+      "link#global__footer-aboutus--pos1--item4",
+      "link#global__footer-aboutus--pos1--item5",
+      "link#global__footer-aboutus--pos1--item6",
+      "link#global__footer-aboutus--pos1--item7",
+      "link#global__footer-aboutus--pos1--item8",
+      "link#global__footer-aboutus--pos1--item9",
+      "link#global__footer-aboutus--pos1--item10",
+      "link#global__footer-aboutus--pos1--item11",
+      "link#global__footer-aboutus--pos1--item12",
+      "link#global__footer-aboutus--pos1--item13",
+      "link#global__footer-aboutus--pos1--item14",
+      "link#global__footer-aboutus--pos1--item15",
+      "link#global__footer-aboutus--pos1--item16"
+    ],
+    "title": "Contenido desplegable",
+    "props": {
+      "blockClass": "mobile_footer--disclousure-content"
+    }
+  },
+  //* disclosure 2
+  "disclosure-trigger#mobile_footer--disclousure-trigger-item2": {
+    "children": [
+      "rich-text#global__footer-aboutus--pos2--title"
+    ],
+    "props": {
+      "Show": "icon#down",
+      "as": "div",
+      "Hide": "icon#up",
+      "blockClass": "mobile_footer--disclousure-trigger"
+    }
+  },
+  "disclosure-layout#mobile_footer--disclousure-item2": {
+    "children": [
+      "disclosure-trigger#mobile_footer--disclousure-trigger-item2",
+      "disclosure-content#mobile_footer--disclousure-content-item2"
+    ],
+    "props": {
+      "animated": true,
+      "blockClass": "mobile_footer--disclousure"
+    }
+  },
+  "disclosure-content#mobile_footer--disclousure-content-item2": {
+    "children": [
+      "link#global__footer-aboutus--pos2--item1",
+      "link#global__footer-aboutus--pos2--item2",
+      "link#global__footer-aboutus--pos2--item3",
+      "link#global__footer-aboutus--pos2--item4",
+      "link#global__footer-aboutus--pos2--item5",
+      "link#global__footer-aboutus--pos2--item6",
+      "link#global__footer-aboutus--pos2--item7",
+      "link#global__footer-aboutus--pos2--item8",
+      "link#global__footer-aboutus--pos2--item9"
+    ],
+    "title": "Contenido desplegable 2",
+    "props": {
+      "blockClass": "mobile_footer--disclousure-content"
+    }
+  },
+  //* disclosure 3
+  "disclosure-trigger#mobile_footer--disclousure-trigger-item3": {
+    "children": [
+      "rich-text#global__footer-aboutus--pos3--title"
+    ],
+    "props": {
+      "Show": "icon#down",
+      "as": "div",
+      "Hide": "icon#up",
+      "blockClass": "mobile_footer--disclousure-trigger"
+    }
+  },
+  "disclosure-layout#mobile_footer--disclousure-item3": {
+    "children": [
+      "disclosure-trigger#mobile_footer--disclousure-trigger-item3",
+      "disclosure-content#mobile_footer--disclousure-content-item3"
+    ],
+    "props": {
+      "animated": true,
+      "blockClass": "mobile_footer--disclousure"
+    }
+  },
+  "disclosure-content#mobile_footer--disclousure-content-item3": {
+    "children": [
+      "link#global__footer-aboutus--pos3--item1",
+      "link#global__footer-aboutus--pos3--item2"
+    ],
+    "title": "Contenido desplegable 2",
+    "props": {
+      "blockClass": "mobile_footer--disclousure-content"
+    }
+  },
+
+  //* ICONOS
+  "icon#up": {
+    "props": {
+      "id": "mpa-angle--up"
+    }
+  },
+  "icon#down": {
+    "props": {
+      "id": "mpa-angle--down",
+      "type": "filled"
+    }
+  },
+  // "disclosure-state-indicator": {
+  //   "props": {
+  //   //  "Show": "icon#down",
+  //     "Hide": "icon#up"
+  //   }
+  // }
+  "flex-layout.row#mobile_footer--social-networks": {
+    "children": [
+      "flex-layout.col#mobile_footer--social-networks-title-col",
+      "flex-layout.col#mobile_footer--social-networks-col"   
+    ],
+    "props": {
+      "marginTop":2,
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#mobile_footer--social-networks-col": {
+    "children": ["social-networks#footer"],
+    "props": {
+      "width":"60%"
+    }
+  },
+  "flex-layout.col#mobile_footer--social-networks-title-col": {
+    "children": ["rich-text#mobile_footer--social-networks-title"]
+  },
+  "rich-text#mobile_footer--social-networks-title": {
+    "props": {
+      "text": "Siguenos: ",
+      "props": {
+        "width":"35%"
       }
-    
+    }
+  }
 }

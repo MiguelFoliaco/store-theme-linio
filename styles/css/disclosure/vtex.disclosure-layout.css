@@ -1,0 +1,24 @@
+.trigger--mobile_footer--disclousure-trigger{
+    padding:5px 8px;
+}
+.trigger--mobile_footer--disclousure-trigger :global(.vtex-rich-text-0-x-strong--text-footer){
+    font-size: 18px;
+    font-weight: 100;
+}
+.content--mobile_footer--disclousure-content--visible{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 8px;
+    border-bottom:1px solid #7c7c7c
+}
+.content--mobile_footer--disclousure-content--visible :global(.vtex-store-link-0-x-link--text-footer){
+    padding: 8px 10px !important;
+}
+.content--mobile_footer--disclousure-content--visible :global(.vtex-store-link-0-x-label--text-footer){
+    font-size: 12px;
+}
+.content--mobile_footer--disclousure-content--hidden{
+    overflow: hidden;
+    height: 0px;
+    border-bottom:1px solid #7c7c7c;
+}
