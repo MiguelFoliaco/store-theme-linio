@@ -8,3 +8,13 @@
 .menuContainer--menu-content-mobile{
     flex-direction: column;
 }
+.menuContainer--submenu-content-mobile{
+    flex-direction: column;
+}
+.menuItem--phone_subdrawer_menu-category{
+    padding: 10px;
+}
+.styledLink--phone_subdrawer_menu-category{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}

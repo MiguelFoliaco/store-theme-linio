@@ -9,13 +9,15 @@
     "image#playstore": {
         "props": {
             "src": "assets/images/apps/app.jpg",
-            "maxWidth": 80
+            "maxWidth":120,
+            "blockClass":"image-apps-stores"
         }
     },
     "image#appstore": {
         "props": {
             "src": "assets/images/apps/play.png",
-            "maxWidth": 80
+            "maxWidth": 100,
+            "blockClass":"image-apps-stores"
         }
     },
     "image#global__image_pais_1": {

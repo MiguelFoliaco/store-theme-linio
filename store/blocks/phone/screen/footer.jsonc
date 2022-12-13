@@ -7,8 +7,11 @@
       //"flex-layout.row#phone__footer--payment-methods"
       "disclosure-layout#mobile_footer--disclousure-item1",
       "disclosure-layout#mobile_footer--disclousure-item2",
-      "disclosure-layout#mobile_footer--disclousure-item3"
-     // "flex-layout.col#mobile_footer--social-networks-col"
+      "disclosure-layout#mobile_footer--disclousure-item3",
+      "flex-layout.col#mobile_footer--social-networks-col",
+      "flex-layout.row#mobile_footer--social-networks",
+      "flex-layout.row#mobile__footer--descarga-apps",
+      "rich-text#derechos_autor"
     ],
     "props": {
       "blockClass": "global__footer"
@@ -219,7 +222,8 @@
       "marginTop":2,
       "colSizing": "auto",
       "horizontalAlign": "left",
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "mobile_footer--social-networks"
     }
   },
   "flex-layout.col#mobile_footer--social-networks-col": {
@@ -237,6 +241,17 @@
       "props": {
         "width":"35%"
       }
+    }
+  },
+  //* Descargar app
+
+  "flex-layout.row#mobile__footer--descarga-apps":{
+    "children": ["image#appstore", "image#playstore"],
+    "props": {
+      "fullWidth": true,
+      "colJustify": "between",
+      "colSizing": "auto",
+      "blockClass": "mobile__footer--descarga-apps"
     }
   }
 }

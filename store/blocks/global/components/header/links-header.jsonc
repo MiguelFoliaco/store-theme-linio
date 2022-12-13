@@ -32,7 +32,7 @@
         "props": {
             "id": "item-menu-1",
             "type": "custom",
-            "highlight": true,
+            "highlight": false,
             "itemProps": {
                 "text": "Solo Hoy",
                 "href": "#",
@@ -45,7 +45,7 @@
         "props": {
             "id": "item-menu-2",
             "type": "custom",
-            "highlight": true,
+            "highlight": false,
             "itemProps": {
                 "text": "Solo Para Ti",
                 "href": "#",
@@ -58,7 +58,7 @@
         "props": {
             "id": "item-menu-3",
             "type": "custom",
-            "highlight": true,
+            "highlight": false,
             "itemProps": {
                 "href": "#",
                 "text": "Tiendas Oficiales",
@@ -71,7 +71,7 @@
         "props": {
             "id": "item-menu-4",
             "type": "custom",
-            "highlight": true,
+            "highlight": false,
             "itemProps": {
                 "text": "Vende en Linio",
                 "href": "#",
@@ -84,7 +84,7 @@
         "props": {
             "id": "item-menu-5",
             "type": "custom",
-            "highlight": true,
+            "highlight": false,
             "itemProps": {
                 "text": "Fallabela",
                 "href": "#",
@@ -97,7 +97,7 @@
         "props": {
             "id": "item-menu-6",
             "type": "custom",
-            "highlight": true,
+            "highlight": false,
             "itemProps": {
                 "text": "Ayuda",
                 "href": "#",
@@ -110,7 +110,7 @@
         "props": {
             "id": "item-menu-7",
             "type": "custom",
-            "highlight": true,
+            "highlight": false,
             "itemProps": {
                 "text": "Banco Fallabela",
                 "href": "#",
@@ -123,7 +123,7 @@
         "props": {
             "id": "item-menu-8",
             "type": "custom",
-            "highlight": true,
+            "highlight": false,
             "itemProps": {
                 "text": "Ventas Telefonicas",
                 "href": "#",

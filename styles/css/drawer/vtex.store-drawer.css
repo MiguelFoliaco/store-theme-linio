@@ -5,3 +5,18 @@
 .childrenContainer--menu-icon{
     width: 100%;
 }
+.closeIconButton--menu-icon{
+    /* position: absolute;
+    right: 5px;
+    top:5px; */
+    color:rgba(0,0,0,0.8);
+}
+.overlay--menu-icon--visible{
+    background-color: black;
+}
+.openIconContainer--submenu-icon{
+    padding: 0px 25px ;
+}
+.openIconContainer--submenu-icon :global(.vtex-rich-text-0-x-paragraph){
+    color:#f50;
+}

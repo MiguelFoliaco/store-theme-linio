@@ -7,12 +7,12 @@
         ],
         "props": {
             "blockClass": "menu-icon",
-            "fullWidth":true
+            "fullWidth": true
         }
     },
     "flex-layout.col#phone_items_drawer": {
         "children": [
-            "flex-layout.row#phone_drawer_loging-content",
+            "flex-layout.row#mobile__drawer-login-button-group",
             "menu#phone__drawer-menu"
         ],
         "props": {
@@ -22,6 +22,8 @@
     "menu#phone__drawer-menu": {
         "title": "Menu Vista Mobile",
         "children": [
+            "flex-layout.row#mobile__drawer-my-account",
+            "drawer#phone__sub-drawer",
             "menu-item#global_menu-item1",
             "menu-item#global_menu-item2",
             "menu-item#global_menu-item3",
@@ -35,30 +37,216 @@
             "blockClass": "menu-content-mobile"
         }
     },
-    "flex-layout.row#phone_drawer_loging-content": {
+    "flex-layout.row#mobile__drawer-login-button-group": {
         "children": [
-            //"rich-text#phone__drawer_login-text",
-            "login#phone__drawer-login"
+            "link#mobile__drawer-login-button",
+            "link#mobile__drawer-singup-button"
         ],
         "props": {
             "colSizing": "auto",
             "fullWidth": true,
-            "colJustify": "between"
+            "colJustify": "between",
+            "blockClass": "mobile__drawer-login-button-group"
         }
     },
-    "login#phone__drawer-login": {
+    "link#mobile__drawer-login-button": {
+        "title": "botton login",
         "props": {
-            "emailAndPasswordTitle": "LOG-IN",
-            "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
-            "passwordPlaceholder": "password",
-            "showIconProfile": true,
-            "showPasswordVerificationIntoTooltip": true
-          }
+            "displayMode": "button",
+            "href": "/login",
+            "label": "Inicia Session",
+            "blockClass": "mobile__drawer-login-button"
+        }
     },
-    "rich-text#phone__drawer_login-text": {
+    "link#mobile__drawer-singup-button": {
+        "title": "botton login",
         "props": {
-            "text": "Ingresa Aqui"
+            "displayMode": "button",
+            "href": "/login",
+            "label": "Crear Cuenta",
+            "blockClass": "mobile__drawer-singup-button"
+        }
+    },
+    //* Mi CUenta
+    "flex-layout.row#mobile__drawer-my-account": {
+        "children": [
+            "icon#mobile__drawer-my-account-image",
+            "flex-layout.col#mobile__drawer-my-account-col-link"
+        ],
+        "props": {
+            "blockClass": "mobile__drawer-my-account",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#mobile__drawer-my-account-col-link": {
+        "children": [
+            "link#mobile__drawer-my-account-link"
+        ]
+    },
+    "icon#mobile__drawer-my-account-image": {
+        "props": {
+            "id": "hpa-profile",
+            "type": "line",
+            "activeClassName": "mobile__drawer-my-account-image"
+        }
+    },
+    "link#mobile__drawer-my-account-link": {
+        "props": {
+            "label": "Mi Cuenta",
+            "href": "/account/",
+            "blockClass": "mobile__drawer-my-account-link"
+        }
+    },
+    //* sub drawer
+    "drawer#phone__sub-drawer": {
+        "title": "SUb Drawer Vista Mobile",
+        "blocks": [
+            "drawer-trigger#phone__sub-drawer"
+        ],
+        "children": [
+            "flex-layout.col#phone_items_subdrawer"
+        ],
+        "props": {
+            "blockClass": "submenu-icon",
+            "fullWidth": true
+        }
+    },
+    "drawer-trigger#phone__sub-drawer": {
+        "children": [
+            "rich-text#phone__sub-drawer"
+        ]
+    },
+    "rich-text#phone__sub-drawer": {
+        "props": {
+            "text": "Categorias"
+        }
+    },
+    "flex-layout.col#phone_items_subdrawer": {
+        "children": [
+            "custom-grid#phone_items_subdrawer-categorys"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "custom-grid#phone_items_subdrawer-categorys": {
+        "props": {
+            "gridType": 2,
+            "gap": 14,
+            "marginTop": 10,
+            "marginBottom": 40
+        },
+        "children": [
+            "flex-layout.row#phone_items_subdrawer-category1",
+            "flex-layout.row#phone_items_subdrawer-category2",
+            "flex-layout.row#phone_items_subdrawer-category3",
+            "flex-layout.row#phone_items_subdrawer-category4",
+            "flex-layout.row#phone_items_subdrawer-category5",
+            "flex-layout.row#phone_items_subdrawer-category6",
+            "flex-layout.row#phone_items_subdrawer-category7",
+            "flex-layout.row#phone_items_subdrawer-category8",
+            "flex-layout.row#phone_items_subdrawer-category9",
+            "flex-layout.row#phone_items_subdrawer-category10",
+            "flex-layout.row#phone_items_subdrawer-category11"
+        ]
+    },
+    "flex-layout.row#phone_items_subdrawer-category1": {
+        "children": [
+            "image#global_image_hogar",
+            "link#global__aboutus_empieza-comprar-categoria-1-link"
+        ],
+        "props": {
+            "blockClass": "phone_items_subdrawer-category-item-grid"
+        }
+    },
+    "flex-layout.row#phone_items_subdrawer-category2": {
+        "children": [
+            "image#global_image_electrodomestico",
+            "link#global__aboutus_empieza-comprar-categoria-2-link"
+        ],
+        "props": {
+            "blockClass": "phone_items_subdrawer-category-item-grid"
+        }
+    },
+    "flex-layout.row#phone_items_subdrawer-category3": {
+        "children": [
+            "image#global_image_celulares",
+            "link#global__aboutus_empieza-comprar-categoria-3-link"
+        ],
+        "props": {
+            "blockClass": "phone_items_subdrawer-category-item-grid"
+        }
+    },
+    "flex-layout.row#phone_items_subdrawer-category4": {
+        "children": [
+            "image#global_image_audio",
+            "link#global__aboutus_empieza-comprar-categoria-4-link"
+        ],
+        "props": {
+            "blockClass": "phone_items_subdrawer-category-item-grid"
+        }
+    },
+    "flex-layout.row#phone_items_subdrawer-category5": {
+        "children": [
+            "image#global_image_jugetes",
+            "link#global__aboutus_empieza-comprar-categoria-5-link"
+        ],
+        "props": {
+            "blockClass": "phone_items_subdrawer-category-item-grid"
+        }
+    },
+    "flex-layout.row#phone_items_subdrawer-category6": {
+        "children": [
+            "image#global_image_deportes",
+            "link#global__aboutus_empieza-comprar-categoria-6-link"
+        ],
+        "props": {
+            "blockClass": "phone_items_subdrawer-category-item-grid"
+        }
+    },
+    "flex-layout.row#phone_items_subdrawer-category7": {
+        "children": [
+            "image#global_image_libro",
+            "link#global__aboutus_empieza-comprar-categoria-7-link"
+        ],
+        "props": {
+            "blockClass": "phone_items_subdrawer-category-item-grid"
+        }
+    },
+    "flex-layout.row#phone_items_subdrawer-category8": {
+        "children": [
+            "image#global_image_tv",
+            "link#global__aboutus_empieza-comprar-categoria-8-link"
+        ],
+        "props": {
+            "blockClass": "phone_items_subdrawer-category-item-grid"
+        }
+    },
+    "flex-layout.row#phone_items_subdrawer-category9": {
+        "children": [
+            "image#global_image_salud-belleza",
+            "link#global__aboutus_empieza-comprar-categoria-9-link"
+        ],
+        "props": {
+            "blockClass": "phone_items_subdrawer-category-item-grid"
+        }
+    },
+    "flex-layout.row#phone_items_subdrawer-category10": {
+        "children": [
+            "image#global_image_ropa",
+            "link#global__aboutus_empieza-comprar-categoria-10-link"
+        ],
+        "props": {
+            "blockClass": "phone_items_subdrawer-category-item-grid"
+        }
+    },
+    "flex-layout.row#phone_items_subdrawer-category11": {
+        "children": [
+            "image#global_image_consola",
+            "link#global__aboutus_empieza-comprar-categoria-11-link"
+        ],
+        "props": {
+            "blockClass": "phone_items_subdrawer-category-item-grid"
         }
     }
 }
