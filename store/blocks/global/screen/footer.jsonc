@@ -16,7 +16,7 @@
             "flex-layout.col#global__footer--payment-metods-item6",
             "flex-layout.col#global__footer--payment-metods-item7"
         ],
-        "props": {
+        "props": { 
             "blockClass": "desktop-footer",
             "horizontalAlign": "center",
             "colJustify": "between",
@@ -670,7 +670,7 @@
         ],
         "props": {
             "horizontalAlign": "left",
-            "blockClass": "siguenos-container"
+            "blockClass": "global__footer--aboutus--pos4-item1"
         }
     },
     "rich-text#global__footer-aboutus--pos3--item4": {

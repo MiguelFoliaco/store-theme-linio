@@ -7,17 +7,6 @@
     margin: auto;
     margin-top: 30px;
 }
-.paragraph--home-banner2-text{
-    font-weight: bold;
-    font-size: 20px;
-}
-.paragraph--text-footer{
-    color:#666;
-    font-size: 0.6rem;
-}
-.wrapper--derechos-autor-text .paragraph{
-    font-size: 0.8rem;
-}
 .container--text-info, .container--text-info2{
     width: 85vw;
     margin: auto;
@@ -27,30 +16,6 @@
 }
 .paragraph--text-info, .paragraph--text-info2{
     font-size: 0.8rem;
-}
-.paragraph--about-us-banner-title{
-    color:#ffffff;
-    font-weight: bold;
-    font-size: 40px;
-}
-.paragraph--about-us-banner-text{
-    color:#ffffff;
-    font-weight: bold;
-    text-align: center;
-}
-.paragraph--aboutus-content-items-sup:hover{
-    text-decoration: underline;
-    color: #f50;
-    cursor: pointer;
-}
-.paragraph--aboutus-content-title-item1{
-    font-size: 30px;
-    font-weight: bold;
-}
-.paragraph--global_aboutus_linio-numeros-grid-item{
-    color: white;
-    font-size: 25px;
-    text-align: center;
 }
 .paragraph--pdp_product_delivery-days-text{
     margin:0;
@@ -62,12 +27,4 @@
 }
 .paragraph--pdp_product_promotion-crm-fallabela-text{
     font-size: 15px;
-}
-/** Footer*/
-.container--global__footer--suscribete-msg{
-    width:100%;
-    padding:0px 20px !important;
-}
-.paragraph--global__footer--suscribete-msg{
-    text-align: center;
 }

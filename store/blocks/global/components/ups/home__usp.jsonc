@@ -4,7 +4,7 @@
             "colSizing": "equal",
             "paddingTop": 6,
             "paddingBottom": 3,
-            "blockClass": "global__ups-home"
+            "blockClass": "global__ups-home" 
         },
         "children": [
             "flex-layout.col#global__ups-home-item1",

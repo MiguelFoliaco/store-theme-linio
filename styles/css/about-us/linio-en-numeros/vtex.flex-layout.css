@@ -1,0 +1,37 @@
+/** ABOUT US*/
+.flexRowContent--global_aboutus_linio-numeros-grid {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width:500px) {
+    .flexRowContent--global_aboutus_linio-numeros-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.flexColChild--global_aboutus_linio-numeros-grid-item,
+.flexColChild--global_aboutus_linio-numeros-grid-item2,
+.flexColChild--global_aboutus_linio-numeros-grid-item3,
+.flexColChild--global_aboutus_linio-numeros-grid-item4 {
+    width: 100%;
+    min-height: 200px;
+    background-image: linear-gradient(rgb(253, 220, 9) 0%, rgb(251, 77, 9) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexColChild--global_aboutus_linio-numeros-grid-item2 {
+    background-image: linear-gradient(rgba(251, 77, 9, 0.68) 0%, rgba(250, 0, 121, 0.82) 100%)
+}
+
+.flexColChild--global_aboutus_linio-numeros-grid-item3 {
+    background-image: linear-gradient(rgba(250, 0, 121, 0.62) 0%, rgba(203, 0, 169, 0.82) 100%);
+}
+
+.flexColChild--global_aboutus_linio-numeros-grid-item4 {
+    background-image: linear-gradient(rgba(203, 0, 169, 0.74) 0%, rgb(136, 1, 255) 100%);
+}

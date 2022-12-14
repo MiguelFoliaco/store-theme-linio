@@ -1,0 +1,23 @@
+.flexCol--aboutus_time-line-item1, .flexCol--aboutus_time-line-item2, .flexCol--aboutus_time-line-item3, .flexCol--aboutus_time-line-item4, .flexCol--aboutus_time-line-item5, .flexCol--aboutus_time-line-item6 {
+    min-width:19vw !important;
+    max-width: 300px;
+    min-height: 300px;
+    background-image: linear-gradient(rgb(253, 220, 9) 0%, rgb(251, 77, 9) 100%);
+    border-radius: 4px;
+    padding: 10px;
+}
+.flexCol--aboutus_time-line-item2{
+    background-image: linear-gradient(rgba(247, 201, 34, 0.68) 0%, rgba(250, 0, 121, 0.82) 100%);
+}
+.flexCol--aboutus_time-line-item3{
+    background-image: linear-gradient(rgba(250, 0, 121, 0.62) 0%, rgba(203, 0, 169, 0.82) 100%);
+}
+.flexCol--aboutus_time-line-item4{
+    background-image: linear-gradient(rgba(203, 0, 169, 0.74) 0%, rgb(136, 1, 255) 100%);
+}
+.flexCol--aboutus_time-line-item5{
+    background-image: linear-gradient(rgba(136, 1, 255, 0.76) 0%, rgb(77, 33, 255) 100%);
+}
+.flexCol--aboutus_time-line-item6{
+    background-image: linear-gradient(rgba(77, 33, 255, 0.93) 0%, rgb(22, 166, 255) 100%);
+}

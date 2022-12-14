@@ -2,7 +2,7 @@
     "flex-layout.row#global_aboutus_linio-numeros_row": {
         "children": [
             "flex-layout.col#global_aboutus_linio-numeros_col"
-        ]
+        ] 
     },
     "flex-layout.col#global_aboutus_linio-numeros_col": {
         "children": [

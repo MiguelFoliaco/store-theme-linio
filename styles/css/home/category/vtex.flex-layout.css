@@ -1,0 +1,9 @@
+.flexRowContent--category-home {
+    width: 85vw;
+    margin: auto;
+}
+
+.flexRowContent--category-home-phone {
+    width: 70vw;
+    margin: 30px auto;
+}

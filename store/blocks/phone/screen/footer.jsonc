@@ -51,20 +51,20 @@
   //     "text": "Hola mundo"
   //   }
   // },
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "url": "https://facebook.com/foo",
-          "name": "facebook"
-        },
-        {
-          "url": "https://twitter.com/foo",
-          "name": "twitter"
-        }
-      ]
-    }
-  },
+  // "social-networks": {
+  //   "props": {
+  //     "socialNetworks": [
+  //       {
+  //         "url": "https://facebook.com/foo",
+  //         "name": "facebook"
+  //       },
+  //       {
+  //         "url": "https://twitter.com/foo",
+  //         "name": "twitter"
+  //       }
+  //     ]
+  //   }
+  // },
   "newsletter-form#mobile__footer--suscribete": {
     "children": [
       "rich-text#global__footer--suscribete-msg",

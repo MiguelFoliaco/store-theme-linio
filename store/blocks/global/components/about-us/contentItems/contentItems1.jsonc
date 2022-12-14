@@ -16,7 +16,7 @@
             "text": "Que Tenemos Para Ti",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "blockClass": "aboutus-content-title-item1"
+            "blockClass": "aboutus-content-title-item1" 
         }
     },
     "flex-layout.col#aboutus-content-items1-sup": {

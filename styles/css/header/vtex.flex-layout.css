@@ -1,0 +1,40 @@
+/*? Header*/
+/** Refactory - Buenas Practicas*/
+.flexRowContent--desktop__header-inferior-menu {
+    width: 85vw;
+    justify-content: flex-start;
+}
+
+/** Refactory - Buenas Practicas*/
+.flexRow--desktop__header-inferior-menu {
+    margin: auto;
+}
+
+/*? MENU*/
+.flexRowContent--mobile__drawer-login-button-group {
+    display: flex;
+    padding: 30px 20px;
+    background-color: #eee;
+}
+
+.flexRowContent--mobile__drawer-my-account {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    padding: 15px 25px;
+}
+
+.flexRow--phone_items_subdrawer-category-item-grid {
+    background-color: #f50;
+    width: 35vw;
+    padding: 5px;
+    min-height: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flexRow--phone_items_subdrawer-category-item-grid:global(.vtex-store-link-0-x-label--global__aboutus_empieza-comprar-categoria-1-link) {
+    width: 90%;
+}

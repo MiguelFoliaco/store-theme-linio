@@ -9,7 +9,7 @@
         "props": {
             "src": "assets/images/categorys/celulares.jpg",
             "alt": "Categoria 1",
-            "blockClass": "img-category"
+            "blockClass": "img-category" 
         },
         "title": "Primera Imagen"
     },

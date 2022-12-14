@@ -1,0 +1,18 @@
+.flexRowContent--home-banner2-img-content {
+    width: 85vw;
+    margin: auto;
+    min-height: 30vh;
+    max-height: 30vh;
+
+}
+
+.flexRow--home-banner-items-titles {
+    margin: auto;
+    margin-top: 20px;
+    width: 85vw;
+}
+
+.flexRowContent--home-banner3-img-content{
+    width: 85vw;
+    margin: 30px auto;
+}

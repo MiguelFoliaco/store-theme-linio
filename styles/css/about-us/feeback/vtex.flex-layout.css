@@ -1,0 +1,44 @@
+/** Clientes Feedback */
+.flexCol--global_about_us_feedback-client-1,
+.flexCol--global_about_us_feedback-client-2,
+.flexCol--global_about_us_feedback-client-3 {
+    width: 29vw!important;
+    min-width: 320px;
+    background-image: linear-gradient(rgb(253, 220, 9) 0%, rgb(251, 77, 9) 100%);
+    padding: 10px 20px;
+    position: relative;
+    margin-bottom: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.flexCol--global_about_us_feedback-client-2 {
+    background-image: linear-gradient(rgba(250, 0, 121, 0.62) 0%, rgba(203, 0, 169, 0.82) 100%);
+}
+
+.flexCol--global_about_us_feedback-client-3 {
+    background-image: linear-gradient(rgba(203, 0, 169, 0.74) 0%, rgb(136, 1, 255) 100%);
+}
+
+.flexCol--global_about_us_feedback-client-1::before,
+.flexCol--global_about_us_feedback-client-2::before,
+.flexCol--global_about_us_feedback-client-3::before {
+    width: 0px;
+    height: 0px;
+    content: "";
+    position: absolute;
+    bottom: -28px;
+    right: 0;
+    border-right: 30px solid rgb(251, 77, 9);
+    border-top: 0px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+
+.flexCol--global_about_us_feedback-client-2::before {
+    border-right:30px solid rgba(203, 0, 169, 0.82);
+}
+
+.flexCol--global_about_us_feedback-client-3::before {
+    border-right: 30px solid rgb(136, 1, 255);
+}

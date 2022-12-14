@@ -1,0 +1,34 @@
+.flexRowContent--product-modal {
+    min-width: 80vw;
+    max-width: 80vw;
+}
+
+.flexRowContent--pdp-product-main {
+    width: 90vw;
+    margin: 30px auto;
+}
+
+/** PDP */
+.flexRowContent--pdp_product_buy-and-quantity {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.flexCol--pdp_product-delivery-days {
+    height: auto;
+    padding: 8px;
+    margin: 10px auto;
+    border: 1px solid var(--border);
+}
+
+.flexColChild--pdp_product-delivery-days {
+    max-height: 30% !important;
+}
+
+.flexRowContent--pdp_product_promotion-crm-fallabela {
+    border: 1px solid var(--green);
+    padding: 5px;
+    cursor: pointer;
+    transition: 200ms;
+}

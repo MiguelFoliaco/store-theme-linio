@@ -11,3 +11,13 @@
 .headerRowContainer--header-mobile {
     justify-content: space-between;
 }
+
+.flexRowContent--header-row-mobile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.flexRow--header-row-mobile {
+    width: 100%;
+}

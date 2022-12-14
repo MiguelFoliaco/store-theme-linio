@@ -128,23 +128,25 @@
             "maxWidth": 30
         }
     },
-      "flex-layout.row#mega-menu": {
-        "children": ["mega-menu#desktop"],
+    "flex-layout.row#mega-menu": {
+        "children": [
+            "mega-menu#desktop"
+        ],
         "props": {
             "blockClass": "mega-menu-header"
         }
-      },
-      "mega-menu#desktop": {
+    },
+    "mega-menu#desktop": {
         "props": {
-          "openOnly": "horizontal",
-          "blockClass":"mega-menu-header"
+            "openOnly": "horizontal",
+            "blockClass": "mega-menu-header"
         }
-      },
-      "mega-menu-trigger-btn": {
+    },
+    "mega-menu-trigger-btn": {
         "props": {
-          "Drawer": "drawer",
-          "color":"c-on-emphacis",
-          "blockClass":"mega-menu-btn"
+            "Drawer": "drawer",
+            "color": "c-on-emphacis",
+            "blockClass": "mega-menu-btn"
         }
-      }
+    }
 }

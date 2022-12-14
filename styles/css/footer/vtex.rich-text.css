@@ -1,0 +1,14 @@
+.paragraph--text-footer{
+    color:#666;
+    font-size: 0.6rem;
+}
+.wrapper--derechos-autor-text .paragraph{
+    font-size: 0.8rem;
+}
+.container--global__footer--suscribete-msg{
+    width:100%;
+    padding:0px 20px !important;
+}
+.paragraph--global__footer--suscribete-msg{
+    text-align: center;
+}

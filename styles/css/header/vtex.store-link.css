@@ -1,0 +1,17 @@
+/*? Header */
+.link--desktop__header-superior-button{
+    font-size:0.8rem;
+    color:var(--text-secondary);
+    text-decoration: none;
+}
+.link--link_header{
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.label--link_header{
+    width: 100%;
+}
+.link--link_header:hover{
+    opacity: 0.8;
+}

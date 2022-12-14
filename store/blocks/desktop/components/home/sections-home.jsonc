@@ -7,18 +7,18 @@
     },
     "flex-layout.col#sections-home_col": {
         "children": [
-            "responsive-layout.desktop#desktop__ups-home", //* refactor
+            "responsive-layout.desktop#desktop__ups-home", //* refactor *
             //* banner crm
-            "responsive-layout.desktop#desktop_home-banner-crm", //* refactor
-            "responsive-layout.mobile#tablet_home-banner-crm", //* refactor
+            "responsive-layout.desktop#desktop_home-banner-crm", //* refactor *
+            "responsive-layout.mobile#tablet_home-banner-crm", //* refactor *
             //* slider home 
-            "responsive-layout.desktop#desktop_home_slider", //* Refactor
-            "responsive-layout.mobile#mobile_home-slider", //* Refactor
+            "responsive-layout.desktop#desktop_home_slider", //* Refactor *
+            "responsive-layout.mobile#mobile_home-slider", //* Refactor *
             //* Categorias
             // "responsive-layout.desktop#desktop_category-home",
             // "responsive-layout.mobile#mobile_category-home",
             //* Categorias Custom 
-            "list-context.bullets-group#global",
+            "list-context.bullets-group#global", //* Refactor *
             //"responsive-layout.mobile#departament",
             //* Customs
             "whatsapp-button",
@@ -31,8 +31,8 @@
             // //* Quick store //
             // "quick-store",
             //* Banner 2
-            "flex-layout.row#home-banner2-items-title",
-            "flex-layout.row#home-banner2-items-group",
+            "flex-layout.row#home-banner2-items-title",//* Refactory
+            "flex-layout.row#home-banner2-items-group",//* Refactory
             //* Banner 3
             "flex-layout.row#home-banner3-items-group",
             //* Vintrina 2
@@ -46,7 +46,7 @@
             //* Novedades
             "flex-layout.row#desktop__novedades_content",
             //* Banco Falabella
-            "flex-layout.row#home-banner5",
+            "flex-layout.row#home-banner5", 
             //* descarga la app,
             "flex-layout.row#home-banner6",
             //* info

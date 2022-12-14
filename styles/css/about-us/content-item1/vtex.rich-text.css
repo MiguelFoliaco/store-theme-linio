@@ -1,0 +1,9 @@
+.paragraph--aboutus-content-title-item1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.paragraph--aboutus-content-items-sup:hover{
+    text-decoration: underline;
+    color: #f50;
+    cursor: pointer;
+}

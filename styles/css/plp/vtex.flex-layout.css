@@ -1,0 +1,14 @@
+.flexRowContent--content-search-result {
+    width: 90vw;
+    margin: 30px auto;
+}
+
+/* .flexRowContent--pdp_product_promotion-crm-fallabela:hover{
+    background-color: var(--green);
+    color:white;
+} */
+/** not found*/
+
+.flexCol--custom_not_found-col{
+    border-bottom: 1px solid var(--border-color);
+}

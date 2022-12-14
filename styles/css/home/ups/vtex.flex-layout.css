@@ -1,0 +1,8 @@
+/*? UPS*/
+.flexRowContent--global__ups-home {
+    margin: auto;
+}
+
+.flexRowContent--global__ups-home .link {
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.imageElement--banner-home-image {
+    height: 100%;
+    object-fit: contain;
+}
+
+.imageElement--home-banner2-img-1,
+.imageElement--home-banner2-img-2,
+.imageElement--home-banner2-img-3 {
+    height: 100%;
+    object-fit: cover;
+}

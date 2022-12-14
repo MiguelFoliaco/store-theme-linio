@@ -1,6 +1,6 @@
 {
     //* banco falabela
-    "flex-layout.row#home-banner5": {
+    "flex-layout.row#home-banner5": { 
         "title": "Banner 5",
         "children": [
             "flex-layout.col#home-banner5-item1"

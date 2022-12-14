@@ -1,26 +1,9 @@
 .autoCompleteOuterContainer{
     width:35vw;
 }
-.imageElement--img-category{
-    width: 100%;
-}
-.imageElement--banner-home-image{
- height:100%;
- object-fit: contain;
-}
-.imageElement--home-banner2-img-1, .imageElement--home-banner2-img-2, .imageElement--home-banner2-img-3{
-    height: 100%;
-    object-fit: cover;
-}
-.imageElement--home-banner3-img-1{
-    width: 100%;
-}
 .imageElement--home-banner4-img-1{
     height: 200px;
     object-fit: cover;
-}
-.imageElement--about-us-banner-img{
-    height: 100%;
 }
 :global(.vtex-reviews-and-ratings-3-x-star){
     color: var(--secondary-color);
