@@ -1,8 +1,11 @@
 {
     "search-not-found-layout#custom_not_found": {
-        "children": [
+        "blocks": [
             "flex-layout.row#custom_not_found-row"
-        ]
+        ],
+        "props": {
+            "preventRouteChange": true
+        }
     },
     "flex-layout.row#custom_not_found-row": {
         "children": [
@@ -27,7 +30,8 @@
     "flex-layout.col#custom_not_found-col": {
         "children": [
             "flex-layout.row#custom_not_found-row-text",
-            "list-context.bullets-group#global"
+            "list-context.bullets-group#global",
+            "flex-layout.row#custom_not_found-banner"
            // "responsive-layout.desktop#desktop_home-banner-crm"
         ],
         "props": {

@@ -38,6 +38,7 @@
                 "stopOnHover": true,
                 "timeout": 6000
             },
+            "showPaginationDots": "never",
             "blockClass": "slide-layout-container"
         }
     }

@@ -45,11 +45,11 @@
             "autocomplete-result-list.v2#desktop__header-superior-autocomplete"
         ],
         "props": {
-            "customSearchPageUrl": "",
-            "openAutocompleteOnFocus": true,
-            "attemptPageTypeSearch": true,
-            "autocompleteFullWidth": false,
-            "autocompleteAlignment": "left"
+            // "customSearchPageUrl": "",
+            // "openAutocompleteOnFocus": true,
+            "attemptPageTypeSearch": false
+            // "autocompleteFullWidth": false,
+            //"autocompleteAlignment": "left"
         }
     },
     "autocomplete-result-list.v2#desktop__header-superior-autocomplete": {

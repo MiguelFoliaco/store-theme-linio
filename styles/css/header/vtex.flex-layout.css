@@ -9,6 +9,16 @@
 .flexRow--desktop__header-inferior-menu {
     margin: auto;
 }
+.flexRowContent--header-row-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flexRow--header-row-mobile {
+    width: 100%;
+}
 
 /*? MENU*/
 .flexRowContent--mobile__drawer-login-button-group {

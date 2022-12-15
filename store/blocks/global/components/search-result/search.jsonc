@@ -5,7 +5,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
@@ -16,7 +16,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
@@ -27,7 +27,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
@@ -49,7 +49,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
@@ -84,7 +84,8 @@
   },
   "flex-layout.row#desktop_department__breadcrumb": {
     "children": [
-      "breadcrumb.search"
+      "breadcrumb.search",
+      "flex-layout.row#result_content_department_product-title"
     ]
   },
   "flex-layout.row#desktop_department_result": {
@@ -115,6 +116,31 @@
       "width": "70%"
     }
   },
+  //* Search title
+  "flex-layout.row#result_content_department_product-title": {
+    "children": [
+      "rich-text#result_content_department_product-title",
+      "search-title.v2#result_content_department_product-title"
+    ],
+    "props": {
+      "preventHorizontalStretch": false,
+      "horizontalAlign": "left",
+      "colSizing": "auto",
+      "colGap":0,
+      "preventVerticalStretch": true,
+      "blockClass": "result_content_department_product-title"
+    }
+  },
+  "rich-text#result_content_department_product-title": {
+    "props": {
+      "text": "Resultados para la busqueda de: &nbsp;"
+    }
+  },
+  "search-title.v2#result_content_department_product-title": {
+    "props": {
+      "wrapperClass":"result_content_department_product-title"
+    }
+  },
   "search-content#result_content_department_product": {
     "blocks": [
       // "gallery",
@@ -135,8 +161,8 @@
           }
         }
       ],
-      "GridSummary": "product-summary.shelf#product-search",
-      "ListSummary": "product-summary.shelf#product-search-list"
+      "GridSummary": "product-summary.shelf#global__home-productlist-product",
+      "ListSummary": "product-summary.shelf#global__home-productlist-product"
     }
   },
   "product-summary.shelf#product-search": {

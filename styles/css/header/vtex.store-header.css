@@ -10,6 +10,7 @@
 
 .headerRowContainer--header-mobile {
     justify-content: space-between;
+    width: 100%;
 }
 
 .flexRowContent--header-row-mobile {
@@ -17,7 +18,6 @@
     align-items: center;
     width: 100%;
 }
-
-.flexRow--header-row-mobile {
-    width: 100%;
+.headerRowContainer--header-mobile-containaer{
+    width:100%;
 }

@@ -12,3 +12,6 @@
 .flexCol--custom_not_found-col{
     border-bottom: 1px solid var(--border-color);
 }
+.flexRowContent--result_content_department_product-title{
+    align-items: center;
+}

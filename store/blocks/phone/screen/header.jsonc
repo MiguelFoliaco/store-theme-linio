@@ -13,7 +13,8 @@
         ],
         "props": {
             "fullWidth": true,
-            "sticky": true
+            "sticky": true,
+            "blockClass":"header-mobile-containaer"
         }
     },
     "flex-layout.row#header-mobile-row": {
