@@ -18,6 +18,7 @@
         "title": "Titulos Vendedores",
         "props": {
             "text": "**TIENDAS OFICIALES [Ver más](/)**",
+            "htmlId": "title-sellers",
             "blockClass": "text-title-slider"
         }
     },

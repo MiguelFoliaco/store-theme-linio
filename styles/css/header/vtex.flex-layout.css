@@ -9,7 +9,8 @@
 .flexRow--desktop__header-inferior-menu {
     margin: auto;
 }
-.flexRowContent--header-row-mobile{
+
+.flexRowContent--header-row-mobile {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,4 +48,19 @@
 
 .flexRow--phone_items_subdrawer-category-item-grid:global(.vtex-store-link-0-x-label--global__aboutus_empieza-comprar-categoria-1-link) {
     width: 90%;
+}
+
+:global(.vtex-mega-menu-2-x-menuContainer){
+    background-color: white;
+}
+
+:global(.vtex-mega-menu-2-x-menuContainerNav--mega-menu-header ){
+    background-color: #fdfdfd;
+}
+:global(.vtex-mega-menu-2-x-menuContainerNav--mega-menu-header ) :global(.vtex-mega-menu-2-x-styledLinkText--mega-menu-header):hover:not(:global(.vtex-mega-menu-2-x-menuContainer) :global(.vtex-mega-menu-2-x-styledLinkText--mega-menu-header)){
+    color:#f50;
+    text-decoration: underline;
+}
+:global(.vtex-mega-menu-2-x-seeAllLink--mega-menu-header):hover{
+    color: #f50;
 }

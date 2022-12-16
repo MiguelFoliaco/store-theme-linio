@@ -169,71 +169,6 @@
       "ListSummary": "product-summary.shelf#global__home-productlist-product"
     }
   },
-  // "product-summary.shelf#product-search": {
-  //   "children": [
-  //     "product-summary-image#product-search",
-  //     "product-summary-name#product-search",
-  //     // "product-list-price",
-  //     // "product-selling-price",
-  //     "product-summary-sku-selector#product-search",
-  //     "add-to-cart-button",
-  //     "modal-trigger#global__quick-view--trigger"
-  //     // "link.product"
-  //   ],
-  //   "props": {
-  //     "trackListName": true,
-  //     "priceBehavior": "async"
-  //   }
-  // },
-  // "product-summary.shelf#product-search-list": {
-  //   "children": [
-  //     //"product-summary-image#product-search",
-  //     "product-summary-name#product-search",
-  //     // // "product-list-price",
-  //     // // "product-selling-price",
-  //     // "product-summary-sku-selector#product-search",
-  //     "add-to-cart-button",
-  //     "modal-trigger#global__quick-view--trigger"
-  //     // "link.product"
-  //   ],
-  //   "props": {
-  //     "trackListName": true,
-  //     "priceBehavior": "async"
-  //   }
-  // },
-  "product-summary-name#product-search": {
-    "props": {
-      "tag": "h3"
-    }
-  },
-  "product-summary-sku-selector#product-search": {
-    "props": {
-      "hideImpossibleCombinations": false,
-      "visibility": "always"
-    }
-  },
-  "product-summary-image#product-search": {
-    "props": {
-      "width": 200,
-      "maxHeight": 120
-    }
-  },
-  "add-to-cart-button": {
-    "props": {
-      "display": "button",
-      "text": "Agregar"
-    }
-  },
-  "modal-trigger#global__quick-view--trigger": {
-    "children": [
-      "rich-text#global__quick-view--trigger",
-      "modal-layout#global__quick-view--trigger"
-    ],
-    "props": {
-      "trigger": "click"
-    },
-    "title": "Modal Producto"
-  },
   "rich-text#global__quick-view--trigger": {
     "props": {
       "text": "Vista rapida",
@@ -269,6 +204,7 @@
     ]
   },
   "product-images": {
+    "title":"Image de Producto",
     "props": {
       "displayThumbnailsArrows": true
     }
@@ -294,6 +230,7 @@
     ]
   },
   "product-price#product-details": {
+    "title":"Precio del producto",
     "props": {
       "showInstallments": true,
       "showSavings": true
@@ -309,6 +246,7 @@
     ]
   },
   "share#default": {
+    "title":"Compartir Producto",
     "props": {
       "social": {
         "Facebook": true,

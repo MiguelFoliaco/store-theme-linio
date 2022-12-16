@@ -26,6 +26,7 @@
     },
     //* Item 1
     "flex-layout.col#global__footer--payment-metods-item1": {
+        "title": "Medio de pago 1",
         "children": [
             "image#global__footer--payment-metods-item1-img",
             "rich-text#global__footer--payment-metods-item1-text"
@@ -35,12 +36,14 @@
         }
     },
     "rich-text#global__footer--payment-metods-item1-text": {
+        "title": "Nombre",
         "props": {
             "text": "Visa",
             "blockClass": "text-footer"
         }
     },
     "image#global__footer--payment-metods-item1-img": {
+        "title": "Icono",
         "props": {
             "src": "assets/images/icons/visa.png",
             "maxHeight": 30
@@ -48,6 +51,7 @@
     },
     //* Item 2
     "flex-layout.col#global__footer--payment-metods-item2": {
+        "title": "Medio de pago 2",
         "children": [
             "image#global__footer--payment-metods-item2-text",
             "rich-text#global__footer--payment-metods-item2-text"
@@ -57,12 +61,14 @@
         }
     },
     "rich-text#global__footer--payment-metods-item2-text": {
+        "title": "Nombre",
         "props": {
             "text": "MasterCard",
             "blockClass": "text-footer"
         }
     },
     "image#global__footer--payment-metods-item2-text": {
+        "title": "Icono",
         "props": {
             "src": "assets/images/icons/maestro.png",
             "maxHeight": 30
@@ -70,6 +76,7 @@
     },
     //* Item 3
     "flex-layout.col#global__footer--payment-metods-item3": {
+        "title": "Medio de pago 3",
         "children": [
             "image#global__footer--payment-metods-item3-text",
             "rich-text#global__footer--payment-metods-item3-text"
@@ -79,12 +86,14 @@
         }
     },
     "rich-text#global__footer--payment-metods-item3-text": {
+        "title": "Nombre",
         "props": {
             "text": "America Express",
             "blockClass": "text-footer"
         }
     },
     "image#global__footer--payment-metods-item3-text": {
+        "title": "Icono",
         "props": {
             "src": "assets/images/icons/american-express.png",
             "maxHeight": 30
@@ -92,6 +101,7 @@
     },
     //* Item 4
     "flex-layout.col#global__footer--payment-metods-item4": {
+        "title": "Medio de pago 4",
         "children": [
             "image#global__footer--payment-metods-item4-text",
             "rich-text#global__footer--payment-metods-item4-text"
@@ -101,12 +111,14 @@
         }
     },
     "rich-text#global__footer--payment-metods-item4-text": {
+        "title": "Nombre",
         "props": {
             "text": "Targeta Codensa",
             "blockClass": "text-footer"
         }
     },
     "image#global__footer--payment-metods-item4-text": {
+        "title": "Icono",
         "props": {
             "src": "assets/images/icons/credit-card (1).png",
             "maxHeight": 30
@@ -114,6 +126,7 @@
     },
     //* Item 5
     "flex-layout.col#global__footer--payment-metods-item5": {
+        "title": "Medio de pago 5",
         "children": [
             "image#global__footer--payment-metods-item5-text",
             "rich-text#global__footer--payment-metods-item5-text"
@@ -123,12 +136,14 @@
         }
     },
     "rich-text#global__footer--payment-metods-item5-text": {
+        "title": "Nombre",
         "props": {
             "text": "PSE",
             "blockClass": "text-footer"
         }
     },
     "image#global__footer--payment-metods-item5-text": {
+        "title": "",//! *
         "props": {
             "src": "assets/images/icons/Icon-PSE.png",
             "maxHeight": 30
@@ -730,29 +745,34 @@
     },
     //* Form
     "rich-text#global__footer--suscribete-msg-error": {
+        "title": "Mensaje de Error",
         "props": {
             "text": "El mensaje no se pudo enviar"
         }
     },
     "rich-text#global__footer--suscribete-msg": {
+        "title":"Titulo de Formulario",
         "props": {
             "text": "**¡SUSCRÍBETE A NUESTRO NEWSLETTER!**",
             "blockClass": "global__footer--suscribete-msg"
         }
     },
     "newsletter-input-email": {
+        "title": "Input de Email",
         "props": {
             "blockClass": "global__footer--suscribete-form-email",
             "placeholderText": "Suscribete con tu email"
         }
     },
     "newsletter-submit#global__footer--suscribete-button": {
+        "title": "Boton de enviar",
         "props": {
             "blockClass": "global__footer--suscribete-button",
             "submitButtonLabel": "Suscribete!"
         }
     },
     "newsletter-checkbox-confirmation#global__footer--suscribete-confirmation": {
+        "title":"Casilla de Autorizacion",
         "props": {
             "checkboxLabel": "Declaro que he leído y autorizo el uso de mis datos personales de acuerdo a la Autorización y acepto los Términos y Condiciones de Linio",
             "blockClass": "global__footer--suscribete-confirmation"

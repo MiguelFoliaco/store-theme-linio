@@ -1,8 +1,7 @@
 {
     "footer-layout.desktop": {
-        "title": "Pie de Pagina",
         "children": [
-            "newsletter-form#desktop__footer--suscribete",
+            "flex-layout.row#desktop__footer--suscribete",
             "flex-layout.row#desktop__footer--payment-methods",
             "flex-layout.row#global__footer--aboutus",
             "flex-layout.row#global__footer--abouts--derechos_autor-row"
@@ -10,6 +9,10 @@
         "props": {
             "blockClass": "global__footer"
         }
+    },
+    "flex-layout.row#desktop__footer--suscribete": {
+        "title": "Formulario de Subcripcion",
+        "children": ["newsletter-form#desktop__footer--suscribete"]
     },
     "newsletter-form#desktop__footer--suscribete": {
         "children": [

@@ -1,6 +1,17 @@
 {
   "store.product": {
+    "title":"Pagina producto",
     "blocks": [
+      "flex-layout.row#store-product-row"
+    ]
+  },
+  "flex-layout.row#store-product-row": {
+    "title":"Pagina producto",
+    "children": ["flex-layout.col#store-product-col"
+    ]
+  },
+  "flex-layout.col#store-product-col": {
+    "children": [
       "flex-layout.row#pdp_breadcrumb-product",
       "flex-layout.row#pdp_product-main",
       "flex-layout.row#pdp_product_comentarios",
@@ -8,7 +19,7 @@
     ]
   },
   "flex-layout.row#pdp_breadcrumb-product": {
-    "title": "Ruta de la pagina",
+    "title":"Contenedor de Ruta de la pagin",
     "children": [
       "breadcrumb#pdp_breadcrumb-product"
     ],
@@ -17,6 +28,7 @@
     }
   },
   "breadcrumb#pdp_breadcrumb-product": {
+    "title": "Ruta de la pagina",
     "props": {
       "showOnMobile": true
     }
@@ -70,13 +82,13 @@
       "width": "30%"
     },
     "children": [
-      "product-name",
+      "product-name#pdp_product-main--right-product",
       "flex-layout.row#pdp_product_brand-and-rating",
-      "product-price",
+      "product-price#pdp_product-main--right-product",
       "product-separator",
-      "flex-layout.col#pdp_product-delivery-days",
-      "product-identifier.product",
-      "sku-selector",
+      "flex-layout.row#pdp_product-delivery-days-row",
+      "product-identifier.product#pdp_product-main--right-product",
+      "sku-selector#pdp_product-main--right-product",
       "flex-layout.row#pdp_product_buy-and-quantity",
       //"shipping-simulator",
       "flex-layout.row#pdp_product_promotion-crm-fallabela",
@@ -84,6 +96,18 @@
       "product-gifts",
       "modal-trigger#product__add-to-cart-info" //? Custom
     ]
+  },
+  "sku-selector#pdp_product-main--right-product":{
+    "title":"Selector de SKU"
+  },
+  "product-identifier.product#pdp_product-main--right-product":{
+    "title":"Identificador del Producto"
+  },
+  "product-price#pdp_product-main--right-product":{
+    "title":"Precio de producto"
+  },
+  "product-name#pdp_product-main--right-product":{
+    "title":"Nombre de Producto"
   },
   "flex-layout.row#pdp_product-description": {
     "children": [
@@ -127,6 +151,7 @@
     }
   },
   "add-to-cart-button#pdp_product_buy-and-quantity": {
+    "title": "Boton añadir al carrito",
     "props": {
       "blockClass": "pdp_product_buy-and-quantity",
       "text": "Comprar"
@@ -134,14 +159,15 @@
   },
   "flex-layout.col#pdp_product_buy-and-quantity-grid-item1": {
     "children": [
-      "product-quantity"
+      "product-quantity#pdp_product_buy-and-quantity-grid-item1"
     ],
     "props": {
       "blockClass": "pdp_product_buy-and-quantity-grid-item1",
       "width": "30%"
     }
   },
-  "product-quantity": {
+  "product-quantity#pdp_product_buy-and-quantity-grid-item1": {
+    "title": "Cantidad de Productos",
     "props": {
       "selectorType": "dropdown",
       "showLabel": false,
@@ -191,6 +217,7 @@
   },
   //* Gifts
   "product-gifts": {
+    "title":"Productos de Regalo",
     "props": {
       "maxVisibleItems": {
         "desktop": 2,
@@ -220,6 +247,10 @@
     ]
   },
   //* Bloque Dias de entrega
+  "flex-layout.row#pdp_product-delivery-days-row": {
+    "title": "Informacion Dia de entrega",
+    "children": ["flex-layout.col#pdp_product-delivery-days"]
+  },
   "flex-layout.col#pdp_product-delivery-days": {
     "children": [
       "flex-layout.row#pdp_product_delivery-days-icon-content",
@@ -250,7 +281,7 @@
     }
   },
   "rich-text#pdp_product_delivery-days-text": {
-    "title": "Titulo",
+    "title": "Titulo de dias de entrega",
     "props": {
       "text": "**Recibelo mañana**",
       "textPosition": "CENTER",
@@ -266,6 +297,7 @@
     }
   },
   "image#flex-layout.col#pdp_product_delivery-days-icon": {
+    "title":"Icono de Entrega",
     "props": {
       "src": "assets/images/icons/track.png",
       "maxWidth": 30,
@@ -273,6 +305,7 @@
     }
   },
   "rich-text#pdp_product_delivery-days-text-link": {
+    "title": "Informacion de dia de entregas",
     "props": {
       "text": "Recíbelo el 6 de diciembre Gratis en Usaquen<br/>[Calcular envío en otra dirección](/checkout)",
       "blockClass": "pdp_product_delivery-days-text-link"
@@ -280,6 +313,7 @@
   },
   //* Promocion CMR
   "flex-layout.row#pdp_product_promotion-crm-fallabela": {
+    "title":"Promocion con CRM",
     "children": [
       "flex-layout.col#pdp_product_promotion-crm-fallabela-img-content",
       "flex-layout.col#pdp_product_promotion-crm-fallabela-text-content"
@@ -299,6 +333,7 @@
     }
   },
   "image#pdp_product_promotion-crm-fallabela-img": {
+    "title":"Imagen CRM",
     "props": {
       "src": "assets/images/icons/cmr.svg",
       "width": 90
@@ -313,6 +348,7 @@
     }
   },
   "rich-text#pdp_product_promotion-crm-fallabela-text": {
+    "title":"Descripcion de promocion CRM",
     "props": {
       "text": "¡Obtén $45.000 en tu primera compra! Solicita tu tarjeta de crédito Banco Falabella aquí.*. Aplican TYC.",
       "blockClass": "pdp_product_promotion-crm-fallabela-text"
