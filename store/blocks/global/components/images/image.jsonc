@@ -7,6 +7,7 @@
         "title": "banner img"
     },
     "image#playstore": {
+        "title": "Play Store link",
         "props": {
             "src": "assets/images/apps/app.jpg",
             "maxWidth":120,
@@ -14,6 +15,7 @@
         }
     },
     "image#appstore": {
+        "title": "App Store link",
         "props": {
             "src": "assets/images/apps/play.png",
             "maxWidth": 100,

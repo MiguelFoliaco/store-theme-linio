@@ -1,5 +1,6 @@
 {
     "flex-layout.row#global__ups-home-row": {
+        "title": "Seccion UPS",
         "props": {
             "colSizing": "equal",
             "paddingTop": 6,

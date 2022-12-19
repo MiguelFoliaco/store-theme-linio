@@ -20,7 +20,7 @@
         "children": [
             "slider-layout#mobile_sliders-images"
         ],
-        "title": "Lista de imagenes",
+        "title": "Lista de imagenes Mobile",
         "props": {
             "preload": true,
             "images": [

@@ -1,5 +1,6 @@
 {
     "header-layout.mobile": {
+        "title":"header-mobile",
         "children": [
             "header-row#header-mobile-containaer"
         ],
@@ -50,6 +51,9 @@
     },
     //* Item4
     "flex-layout.col#heeader-mobile-item4": {
-        "children": ["search-bar"]
+        "children": ["search-bar#heeader-mobile-item4-mobile"]
+    },
+    "search-bar#heeader-mobile-item4-mobile":{
+        "title":"Entrada de busqueda Mobile"
     }
 }

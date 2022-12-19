@@ -12,6 +12,7 @@
         }
     },
     "rich-text#title-home-banner6": {
+        "title": "Titulo Banner",
         "props": {
             "text": "Descarga la app",
             "blockClass": "text-title-slider"

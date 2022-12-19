@@ -1,7 +1,7 @@
 {
     //* Banner 3
     "flex-layout.row#home-banner3-items-group": {
-        "title": "Banner 3",
+        "title": "Banner Cabello",
         "children": [
             "flex-layout.col#home-banner3-item3"
         ],

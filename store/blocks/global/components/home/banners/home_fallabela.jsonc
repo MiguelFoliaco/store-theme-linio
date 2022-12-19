@@ -1,7 +1,7 @@
 {
     //* banco falabela
     "flex-layout.row#home-banner5": { 
-        "title": "Banner 5",
+        "title": "Banner Banco Falabella",
         "children": [
             "flex-layout.col#home-banner5-item1"
         ],
@@ -12,7 +12,7 @@
         }
     },
     "rich-text#title-home-banner5": {
-        "title": "Titulo banner 5",
+        "title": "Titulo Banco Falabella",
         "props": {
             "text": "Banco Falabella",
             "blockClass": "text-title-slider"

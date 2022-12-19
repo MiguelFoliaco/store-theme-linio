@@ -66,6 +66,7 @@
   //   }
   // },
   "newsletter-form#mobile__footer--suscribete": {
+    "title": "Formulario Subscribete Mobile",
     "children": [
       "rich-text#global__footer--suscribete-msg",
       "newsletter-input-email",
@@ -78,6 +79,7 @@
   },
   //* disclosure 1
   "disclosure-layout#mobile_footer--disclousure-item1": {
+    "title": "Contenido Desplegable Mobile - Acerca de Linio",
     "children": [
       "disclosure-trigger#mobile_footer--disclousure-trigger-item1",
       "disclosure-content#mobile_footer--disclousure-content-item1",
@@ -89,6 +91,7 @@
     }
   },
   "disclosure-trigger#mobile_footer--disclousure-trigger-item1": {
+    "title": "Boton de despliegue - Acerca de Linio",
     "children": [
       "rich-text#global__footer-aboutus--title"
     ],
@@ -118,13 +121,14 @@
       "link#global__footer-aboutus--pos1--item15",
       "link#global__footer-aboutus--pos1--item16"
     ],
-    "title": "Contenido desplegable",
+    "title": "Contenido desplegable Acerca de linio",
     "props": {
       "blockClass": "mobile_footer--disclousure-content"
     }
   },
   //* disclosure 2
   "disclosure-trigger#mobile_footer--disclousure-trigger-item2": {
+    "title": "Boton de despliegue - Servicio al Cliente",
     "children": [
       "rich-text#global__footer-aboutus--pos2--title"
     ],
@@ -136,6 +140,7 @@
     }
   },
   "disclosure-layout#mobile_footer--disclousure-item2": {
+    "title": "Contenido Desplegable Mobile - Servicio al Cliente",
     "children": [
       "disclosure-trigger#mobile_footer--disclousure-trigger-item2",
       "disclosure-content#mobile_footer--disclousure-content-item2"
@@ -157,13 +162,14 @@
       "link#global__footer-aboutus--pos2--item8",
       "link#global__footer-aboutus--pos2--item9"
     ],
-    "title": "Contenido desplegable 2",
+    "title": "Contenido Desplegable - Servicio al Cliente",
     "props": {
       "blockClass": "mobile_footer--disclousure-content"
     }
   },
   //* disclosure 3
   "disclosure-trigger#mobile_footer--disclousure-trigger-item3": {
+    "title": "Boton de despliegue - Linio Latinoamerica",
     "children": [
       "rich-text#global__footer-aboutus--pos3--title"
     ],
@@ -175,6 +181,7 @@
     }
   },
   "disclosure-layout#mobile_footer--disclousure-item3": {
+    "title": "Contenido Desplegable Mobile - Linio Latinoamerica",
     "children": [
       "disclosure-trigger#mobile_footer--disclousure-trigger-item3",
       "disclosure-content#mobile_footer--disclousure-content-item3"
@@ -189,7 +196,7 @@
       "link#global__footer-aboutus--pos3--item1",
       "link#global__footer-aboutus--pos3--item2"
     ],
-    "title": "Contenido desplegable 2",
+    "title": "Contenido Desplegable Mobile - Linio Latinoamerica",
     "props": {
       "blockClass": "mobile_footer--disclousure-content"
     }

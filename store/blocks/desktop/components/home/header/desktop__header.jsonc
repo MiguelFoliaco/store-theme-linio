@@ -41,6 +41,7 @@
         }
     },
     "search-bar#desktop__header-superior-searchbar": {
+        "title":"Entrada de Busqueda",
         "blocks": [
             "autocomplete-result-list.v2#desktop__header-superior-autocomplete"
         ],
@@ -53,8 +54,9 @@
         }
     },
     "autocomplete-result-list.v2#desktop__header-superior-autocomplete": {
+        "title":"Auto Completado",
         "blocks": [
-            "product-summary"
+            "product-summary.shelf#global__home-productlist-product"
         ]
     },
     //* Login

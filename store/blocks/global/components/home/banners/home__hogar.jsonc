@@ -1,7 +1,7 @@
 {
         //* Banner 2
         "flex-layout.row#home-banner2-items-group": {
-            "title": "Banner 2",
+            "title": "Banner Hogar",
             "children": [
                 "flex-layout.col#home-banner2-item2",
                 "flex-layout.col#home-banner2-item3",
@@ -15,7 +15,7 @@
         },
         //* Item 1
         "flex-layout.row#home-banner2-items-title": {
-            "title": "Contenedor Titulo Banner 2",
+            "title": "Contenedor Titulo Hogar",
             "children": [
                 "flex-layout.col#home-banner2-item1"
             ],
@@ -29,7 +29,7 @@
             ]
         },
         "rich-text#home-banner2-item1": {
-            "title": "Titulo Banner 2",
+            "title": "Titulo Banner Hogar",
             "props": {
                 "text": "DALE UN NUEVO LOOK A TU HOGAR",
                 "blockClass": "home-banner2-text"

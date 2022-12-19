@@ -143,7 +143,7 @@
         }
     },
     "image#global__footer--payment-metods-item5-text": {
-        "title": "",//! *
+        "title": "Icono",
         "props": {
             "src": "assets/images/icons/Icon-PSE.png",
             "maxHeight": 30
@@ -151,6 +151,7 @@
     },
     //* Item 6
     "flex-layout.col#global__footer--payment-metods-item6": {
+        "title": "Medio de pago 6",
         "children": [
             "image#global__footer--payment-metods-item6-text",
             "rich-text#global__footer--payment-metods-item6-text"
@@ -160,12 +161,14 @@
         }
     },
     "rich-text#global__footer--payment-metods-item6-text": {
+        "title":"Nombre",
         "props": {
             "text": "Efecty",
             "blockClass": "text-footer"
         }
     },
     "image#global__footer--payment-metods-item6-text": {
+        "title": "Icono",
         "props": {
             "maxHeight": 30,
             "src": "assets/images/icons/logo-vector-efecty.jpg"
@@ -173,6 +176,7 @@
     },
     //* Item 7
     "flex-layout.col#global__footer--payment-metods-item7": {
+        "title":"Medio de pago 7",
         "children": [
             "image#global__footer--payment-metods-item7-text",
             "rich-text#global__footer--payment-metods-item7-text"
@@ -182,12 +186,14 @@
         }
     },
     "rich-text#global__footer--payment-metods-item7-text": {
+        "title":"Nombre",
         "props": {
             "text": "Contra entrega",
             "blockClass": "text-footer"
         }
     },
     "image#global__footer--payment-metods-item7-text": {
+        "title": "Icono",
         "props": {
             "maxHeight": 30,
             "src": "assets/images/icons/track.png"
@@ -195,6 +201,7 @@
     },
     //* Footer seccition
     "flex-layout.row#global__footer--aboutus": {
+        "title":"Seccion de Links",
         "children": [
             "flex-layout.col#global__footer--aboutus--pos1",
             "flex-layout.col#global__footer--aboutus--pos2",
@@ -207,6 +214,7 @@
     },
     //* Footer seccition pos 1
     "flex-layout.col#global__footer--aboutus--pos1": {
+        "title":"Grupos de link - Acerca de linio",
         "children": [
             "flex-layout.row#global__footer--aboutus--left-row",
             "flex-layout.row#global__footer--aboutus--left-list1",
@@ -237,6 +245,7 @@
         ]
     },
     "rich-text#global__footer-aboutus--title": {
+        "title": "Acerca de Linio - Title",
         "props": {
             "text": "**Acerca de Linio**",
             "blockClass": "text-footer"
@@ -249,6 +258,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item1": {
+        "title":"Acerca de Nosotros - Link 1",
         "props": {
             "label": "Conocenos",
             "blockClass": "text-footer",
@@ -262,6 +272,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item2": {
+        "title":"Acerca de Nosotros - Link 2",
         "props": {
             "label": "¿Quienes somos?",
             "blockClass": "text-footer",
@@ -275,6 +286,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item3": {
+        "title":"Acerca de Nosotros - Link 3",
         "props": {
             "label": "Terminos de Uso",
             "blockClass": "text-footer",
@@ -288,6 +300,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item4": {
+        "title":"Acerca de Nosotros - Link 4",
         "props": {
             "label": "Terminos de uso",
             "blockClass": "text-footer",
@@ -301,6 +314,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item5": {
+        "title":"Acerca de Nosotros - Link 5",
         "props": {
             "label": "Proteccion de propiedad Intelectual",
             "blockClass": "text-footer",
@@ -314,6 +328,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item6": {
+        "title":"Acerca de Nosotros - Link 6",
         "props": {
             "label": "Ventas Corporativas",
             "blockClass": "text-footer",
@@ -327,6 +342,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item7": {
+        "title":"Acerca de Nosotros - Link 7",
         "props": {
             "label": "Programas de Leatad",
             "blockClass": "text-footer",
@@ -340,6 +356,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item8": {
+        "title":"Acerca de Nosotros - Link 8",
         "props": {
             "label": "Velevete un Afiliado",
             "blockClass": "text-footer",
@@ -353,6 +370,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item9": {
+        "title":"Acerca de Nosotros - Link 9",
         "props": {
             "label": "Directorio",
             "blockClass": "text-footer",
@@ -366,6 +384,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item10": {
+        "title":"Acerca de Nosotros - Link 10",
         "props": {
             "label": "Login",
             "blockClass": "text-footer",
@@ -379,6 +398,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item11": {
+        "title":"Acerca de Nosotros - Link 11",
         "props": {
             "label": "Beneficios",
             "blockClass": "text-footer",
@@ -392,6 +412,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item12": {
+        "title":"Acerca de Nosotros - Link 12",
         "props": {
             "label": "Trabaje con nosotros",
             "blockClass": "text-footer",
@@ -405,6 +426,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item13": {
+        "title":"Acerca de Nosotros - Link 13",
         "props": {
             "label": "Canal de Integridad",
             "blockClass": "text-footer",
@@ -418,6 +440,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item14": {
+        "title":"Acerca de Nosotros - Link 14",
         "props": {
             "label": "Grupo Falabella",
             "blockClass": "text-footer",
@@ -431,6 +454,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item15": {
+        "title":"Acerca de Nosotros - Link 15",
         "props": {
             "label": "Developers",
             "blockClass": "text-footer",
@@ -444,6 +468,7 @@
         ]
     },
     "link#global__footer-aboutus--pos1--item16": {
+        "title":"Acerca de Nosotros - Link 16",
         "props": {
             "label": "Notificaciones judiciales",
             "blockClass": "text-footer",
@@ -452,6 +477,7 @@
     },
     //* Footer seccition bottom pos 2
     "flex-layout.col#global__footer--aboutus--pos2": {
+        "title": "Grupos Link - Servicio al Cliente",
         "children": [
             "flex-layout.row#global__footer--aboutus--pos2-row",
             "flex-layout.row#global__footer--aboutus--pos2-list1",
@@ -483,6 +509,7 @@
         ]
     },
     "link#global__footer-aboutus--pos2--item1": {
+        "title":"Servicio al Cliente - Link 1",
         "props": {
             "label": "Preguntas Frecuentes",
             "blockClass": "text-footer",
@@ -496,6 +523,7 @@
         ]
     },
     "link#global__footer-aboutus--pos2--item2": {
+        "title":"Servicio al Cliente - Link 2",
         "props": {
             "label": "Aplicar mi garantía",
             "blockClass": "text-footer",
@@ -509,6 +537,7 @@
         ]
     },
     "link#global__footer-aboutus--pos2--item3": {
+        "title":"Servicio al Cliente - Link 3",
         "props": {
             "label": "Aplicar mi garantía",
             "blockClass": "text-footer",
@@ -522,6 +551,7 @@
         ]
     },
     "link#global__footer-aboutus--pos2--item4": {
+        "title":"Servicio al Cliente - Link 4",
         "props": {
             "label": "Estado de mi recolección",
             "blockClass": "text-footer",
@@ -535,6 +565,7 @@
         ]
     },
     "link#global__footer-aboutus--pos2--item5": {
+        "title":"Servicio al Cliente - Link 5",
         "props": {
             "label": "Autorización para el Tratamiento de Datos Personales",
             "blockClass": "text-footer",
@@ -548,6 +579,7 @@
         ]
     },
     "link#global__footer-aboutus--pos2--item6": {
+        "title":"Servicio al Cliente - Link 6",
         "props": {
             "label": "Términos y Condiciones",
             "blockClass": "text-footer",
@@ -561,6 +593,7 @@
         ]
     },
     "link#global__footer-aboutus--pos2--item7": {
+        "title":"Servicio al Cliente - Link 7",
         "props": {
             "label": "Política de venta de productos internacionales",
             "blockClass": "text-footer",
@@ -574,6 +607,7 @@
         ]
     },
     "link#global__footer-aboutus--pos2--item8": {
+        "title":"Servicio al Cliente - Link 8",
         "props": {
             "label": "Legales",
             "blockClass": "text-footer",
@@ -587,6 +621,7 @@
         ]
     },
     "link#global__footer-aboutus--pos2--item9": {
+        "title":"Servicio al Cliente - Link 9",
         "props": {
             "label": "Peticiones, quejas o reclamos",
             "blockClass": "text-footer",
@@ -595,6 +630,7 @@
     },
     //* Footer seccition bottom pos 3
     "flex-layout.col#global__footer--aboutus--pos3": {
+        "title": "Grupo de Links - Paises",
         "children": [
             "flex-layout.row#global__footer--aboutus--pos3-row",
             "flex-layout.row#global__footer--aboutus--pos3-list1",
@@ -607,6 +643,7 @@
         ]
     },
     "rich-text#global__footer-aboutus--pos3--title": {
+        "title":"Grupo de Links - Paises Titulo",
         "props": {
             "text": "**Linio Latinoamerica**",
             "blockClass": "text-footer"
@@ -620,6 +657,7 @@
         ]
     },
     "link#global__footer-aboutus--pos3--item1": {
+        "title":"Linio Latinoamerica - Link 1",
         "props": {
             "label": "Colombia",
             "blockClass": "text-footer",
@@ -627,6 +665,7 @@
         }
     },
     "link#global__footer-aboutus--pos3--item2": {
+        "title":"Linio Latinoamerica - Link 2",
         "props": {
             "label": "Chile",
             "blockClass": "text-footer",
@@ -641,6 +680,7 @@
         ]
     },
     "link#global__footer-aboutus--pos3--item3": {
+        "title":"Linio Latinoamerica - Link 3",
         "props": {
             "label": "Mexico",
             "blockClass": "text-footer",
@@ -648,6 +688,7 @@
         }
     },
     "link#global__footer-aboutus--pos3--item4": {
+        "title":"Linio Latinoamerica - Link 4",
         "props": {
             "label": "Peru",
             "blockClass": "text-footer",
@@ -656,6 +697,7 @@
     },
     //* Footer seccition bottom pos 4
     "flex-layout.col#global__footer--aboutus--pos4": {
+        "title": "Seccion Redes Footer",
         "children": [
             "flex-layout.row#global__footer--aboutus--pos4-row",
             "flex-layout.col#global__footer--aboutus--pos4-item1",
@@ -666,19 +708,22 @@
         }
     },
     "flex-layout.row#global__footer--aboutus--pos4-row": {
+        "title": "Redes",
         "children": [
             "rich-text#global__footer-aboutus--pos4--title"
         ]
     },
     "rich-text#global__footer-aboutus--pos4--title": {
+        "title": "Texto",
         "props": {
-            "text": "**Linio Latinoamerica**",
+            "text": "**Siguenos en nuestras redes**",
             "blockClass": "text-footer"
         }
     },
 
     //* Item 1
     "flex-layout.col#global__footer--aboutus--pos4-item1": {
+        "title": "Siguenos",
         "children": [
             "rich-text#global__footer-aboutus--pos3--item4",
             "social-networks#footer"
@@ -689,12 +734,14 @@
         }
     },
     "rich-text#global__footer-aboutus--pos3--item4": {
+        "title": "Titulo Siguenos",
         "props": {
             "text": "Siguenos: ",
             "blockClass":"text-footer"
         }
     },
     "social-networks#footer": {
+        "title":"Redes Sociales",
         "props": {
             "socialNetworks": [
                 {
@@ -714,6 +761,7 @@
     },
     //* Item 2
     "flex-layout.col#global__footer--aboutus--pos4-item2": {
+        "title": "Links de descarga", //*******
         "children": [
             "image#playstore",
             "image#appstore"

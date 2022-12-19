@@ -11,7 +11,7 @@
         }
     },
     "flex-layout.row#desktop__footer--suscribete": {
-        "title": "Formulario de Subcripcion",
+        "title": "Formulario de Subscripcion",
         "children": ["newsletter-form#desktop__footer--suscribete"]
     },
     "newsletter-form#desktop__footer--suscribete": {

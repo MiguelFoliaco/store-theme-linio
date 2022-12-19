@@ -1,7 +1,7 @@
 {
     //* Banner 4
     "flex-layout.row#home-banner4-items-group": {
-        "title": "Banner 4",
+        "title": "Banner Promos",
         "children": [
             "flex-layout.col#home-banner4-item1",
             "flex-layout.col#home-banner4-item2",

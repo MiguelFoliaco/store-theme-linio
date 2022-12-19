@@ -7,8 +7,7 @@
     },
     "flex-layout.col#sections-home_col": {
         "children": [
-            "responsive-layout.desktop#desktop__ups-home", //* refactor *
-            //* banner crm
+            "responsive-layout.desktop#desktop__ups-home",
             "responsive-layout.desktop#desktop_home-banner-crm", //* refactor *
             "responsive-layout.mobile#tablet_home-banner-crm", //* refactor *
             //* slider home 
