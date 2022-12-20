@@ -26,30 +26,30 @@
             "flex-layout.col#header-mobile-item3"
         ],
         "props": {
-            // "horizontalAlign": "center",
+            
             "colJustify": "between",
             "fullWidth": true,
             "colSizing": "auto",
             "blockClass":"header-row-mobile"
         }
     },
-    //* Item 1
+    
     "flex-layout.col#header-mobile-item1": {
         "children": [
             "logo"
         ]
     },
-    //* Item2
+    
     "flex-layout.col#header-mobile-item2": {
         "children": [
             "drawer#phone__drawer"
         ]
     },
-    //* Item3
+    
     "flex-layout.col#header-mobile-item3": {
         "children": ["minicart.v2"]
     },
-    //* Item4
+    
     "flex-layout.col#heeader-mobile-item4": {
         "children": ["search-bar#heeader-mobile-item4-mobile"]
     },

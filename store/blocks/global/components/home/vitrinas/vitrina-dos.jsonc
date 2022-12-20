@@ -1,5 +1,5 @@
 {
-    //* contenedor de vitrina 2
+    
     "flex-layout.row#global__home-productlist2-row": {
         "title": "Contenedor vitrina 2",
         "children": [

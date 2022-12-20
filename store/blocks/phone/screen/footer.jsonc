@@ -2,9 +2,9 @@
   "footer-layout.mobile#phone_footer": {
     "children": [
       "newsletter-form#mobile__footer--suscribete",
-      //"flex-layout.row#footer-mobile",
+      
       "flex-layout.row#phone__footer--payment-methods",
-      //"flex-layout.row#phone__footer--payment-methods"
+      
       "disclosure-layout#mobile_footer--disclousure-item1",
       "disclosure-layout#mobile_footer--disclousure-item2",
       "disclosure-layout#mobile_footer--disclousure-item3",
@@ -17,7 +17,7 @@
       "blockClass": "global__footer"
     }
   },
-  //* Medios de pago
+  
   "custom-grid#phone__footer--payment-methods": {
     "children": [
       "flex-layout.col#global__footer--payment-metods-item1",
@@ -45,26 +45,26 @@
     },
     "title": "Opciones de Pagos Mobile"
   },
-  //* Forms
-  // "rich-text#test": {
-  //   "props": {
-  //     "text": "Hola mundo"
-  //   }
-  // },
-  // "social-networks": {
-  //   "props": {
-  //     "socialNetworks": [
-  //       {
-  //         "url": "https://facebook.com/foo",
-  //         "name": "facebook"
-  //       },
-  //       {
-  //         "url": "https://twitter.com/foo",
-  //         "name": "twitter"
-  //       }
-  //     ]
-  //   }
-  // },
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   "newsletter-form#mobile__footer--suscribete": {
     "title": "Formulario Subscribete Mobile",
     "children": [
@@ -77,7 +77,7 @@
       "blockClass": "phone__footer--suscribete"
     }
   },
-  //* disclosure 1
+  
   "disclosure-layout#mobile_footer--disclousure-item1": {
     "title": "Contenido Desplegable Mobile - Acerca de Linio",
     "children": [
@@ -126,7 +126,7 @@
       "blockClass": "mobile_footer--disclousure-content"
     }
   },
-  //* disclosure 2
+  
   "disclosure-trigger#mobile_footer--disclousure-trigger-item2": {
     "title": "Boton de despliegue - Servicio al Cliente",
     "children": [
@@ -167,7 +167,7 @@
       "blockClass": "mobile_footer--disclousure-content"
     }
   },
-  //* disclosure 3
+  
   "disclosure-trigger#mobile_footer--disclousure-trigger-item3": {
     "title": "Boton de despliegue - Linio Latinoamerica",
     "children": [
@@ -202,7 +202,7 @@
     }
   },
 
-  //* ICONOS
+  
   "icon#up": {
     "props": {
       "id": "mpa-angle--up"
@@ -214,12 +214,12 @@
       "type": "filled"
     }
   },
-  // "disclosure-state-indicator": {
-  //   "props": {
-  //   //  "Show": "icon#down",
-  //     "Hide": "icon#up"
-  //   }
-  // }
+  
+  
+  
+  
+  
+  
   "flex-layout.row#mobile_footer--social-networks": {
     "children": [
       "flex-layout.col#mobile_footer--social-networks-title-col",
@@ -250,7 +250,7 @@
       }
     }
   },
-  //* Descargar app
+  
 
   "flex-layout.row#mobile__footer--descarga-apps":{
     "children": ["image#appstore", "image#playstore"],

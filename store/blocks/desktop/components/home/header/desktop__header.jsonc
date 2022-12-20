@@ -5,7 +5,7 @@
             "header-row#desktop__header-inferior-row"
         ]
     },
-    //* Header Desktop Superior
+    
     "header-row#desktop__header-superior-row": {
         "children": [
             "mega-menu-trigger-btn",
@@ -22,7 +22,7 @@
             "sticky": true
         }
     },
-    //* Header Desktop Inferior
+    
     "header-row#desktop__header-inferior-row": {
         "children": [
             "flex-layout.row#desktop__header-inferior-menu"
@@ -31,7 +31,7 @@
             "fullWidth": true
         }
     },
-    //* SearchBar
+    
     "flex-layout.row#desktop__header-superor-searchbar": {
         "children": [
             "search-bar#desktop__header-superior-searchbar"
@@ -46,11 +46,11 @@
             "autocomplete-result-list.v2#desktop__header-superior-autocomplete"
         ],
         "props": {
-            // "customSearchPageUrl": "",
-            // "openAutocompleteOnFocus": true,
+            
+            
             "attemptPageTypeSearch": false
-            // "autocompleteFullWidth": false,
-            //"autocompleteAlignment": "left"
+            
+            
         }
     },
     "autocomplete-result-list.v2#desktop__header-superior-autocomplete": {
@@ -59,7 +59,7 @@
             "product-summary.shelf#global__home-productlist-product"
         ]
     },
-    //* Login
+    
     "flex-layout.row#desktop__header-superior-login-row": {
         "children": [
             "flex-layout.row#desktop__header-superior-login-col"
@@ -87,7 +87,7 @@
             "showIconProfile": false
         }
     },
-    //* Button Pedidos
+    
     "flex-layout.row#desktop__header-superior-button-pedidos-row": {
         "children": [
             "flex-layout.col#desktop__header-superior-button-pedidos-col-2",

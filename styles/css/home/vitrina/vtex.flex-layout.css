@@ -4,9 +4,9 @@
     margin: auto;
 }
 
-/** Vitrinas */
+
 .flexColChild--button-add-cart {
-    /* background-color: var(--secondary-color); */
+    
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;

@@ -5,7 +5,7 @@
             "footer-layout.mobile#phone_footer"
         ]
     },
-    //* Metodos de pago
+    
     "flex-layout.row#desktop__footer--payment-methods": {
         "children": [
             "flex-layout.col#global__footer--payment-metods-item1",
@@ -24,7 +24,7 @@
         },
         "title": "Opciones de Pagos"
     },
-    //* Item 1
+    
     "flex-layout.col#global__footer--payment-metods-item1": {
         "title": "Medio de pago 1",
         "children": [
@@ -49,7 +49,7 @@
             "maxHeight": 30
         }
     },
-    //* Item 2
+    
     "flex-layout.col#global__footer--payment-metods-item2": {
         "title": "Medio de pago 2",
         "children": [
@@ -74,7 +74,7 @@
             "maxHeight": 30
         }
     },
-    //* Item 3
+    
     "flex-layout.col#global__footer--payment-metods-item3": {
         "title": "Medio de pago 3",
         "children": [
@@ -99,7 +99,7 @@
             "maxHeight": 30
         }
     },
-    //* Item 4
+    
     "flex-layout.col#global__footer--payment-metods-item4": {
         "title": "Medio de pago 4",
         "children": [
@@ -124,7 +124,7 @@
             "maxHeight": 30
         }
     },
-    //* Item 5
+    
     "flex-layout.col#global__footer--payment-metods-item5": {
         "title": "Medio de pago 5",
         "children": [
@@ -149,7 +149,7 @@
             "maxHeight": 30
         }
     },
-    //* Item 6
+    
     "flex-layout.col#global__footer--payment-metods-item6": {
         "title": "Medio de pago 6",
         "children": [
@@ -174,7 +174,7 @@
             "src": "assets/images/icons/logo-vector-efecty.jpg"
         }
     },
-    //* Item 7
+    
     "flex-layout.col#global__footer--payment-metods-item7": {
         "title":"Medio de pago 7",
         "children": [
@@ -199,7 +199,7 @@
             "src": "assets/images/icons/track.png"
         }
     },
-    //* Footer seccition
+    
     "flex-layout.row#global__footer--aboutus": {
         "title":"Seccion de Links",
         "children": [
@@ -212,7 +212,7 @@
             "blockClass": "footer-secction-bottom"
         }
     },
-    //* Footer seccition pos 1
+    
     "flex-layout.col#global__footer--aboutus--pos1": {
         "title":"Grupos de link - Acerca de linio",
         "children": [
@@ -238,7 +238,7 @@
             "blockClass":"footer-secction-1"
         }
     },
-    //* Footer seccition  pos1 title
+    
     "flex-layout.row#global__footer--aboutus--left-row": {
         "children": [
             "rich-text#global__footer-aboutus--title"
@@ -251,7 +251,7 @@
             "blockClass": "text-footer"
         }
     },
-    //* Item 1
+    
     "flex-layout.row#global__footer--aboutus--left-list1": {
         "children": [
             "link#global__footer-aboutus--pos1--item1"
@@ -265,7 +265,7 @@
             "href": "#"
         }
     },
-    //* Item 2
+    
     "flex-layout.row#global__footer--aboutus--left-list2": {
         "children": [
             "link#global__footer-aboutus--pos1--item2"
@@ -279,7 +279,7 @@
             "href": "/sobre-nosotros"
         }
     },
-    //* Item 3
+    
     "flex-layout.row#global__footer--aboutus--left-list3": {
         "children": [
             "link#global__footer-aboutus--pos1--item3"
@@ -293,7 +293,7 @@
             "href": "#"
         }
     },
-    //* Item 4
+    
     "flex-layout.row#global__footer--aboutus--left-list4": {
         "children": [
             "link#global__footer-aboutus--pos1--item4"
@@ -307,7 +307,7 @@
             "href": "#"
         }
     },
-    //* Item 5
+    
     "flex-layout.row#global__footer--aboutus--left-list5": {
         "children": [
             "link#global__footer-aboutus--pos1--item5"
@@ -321,7 +321,7 @@
             "href": "#"
         }
     },
-    //* Item 6
+    
     "flex-layout.row#global__footer--aboutus--left-list6": {
         "children": [
             "link#global__footer-aboutus--pos1--item6"
@@ -335,7 +335,7 @@
             "href": "#"
         }
     },
-    //* Item 7
+    
     "flex-layout.row#global__footer--aboutus--left-list7": {
         "children": [
             "link#global__footer-aboutus--pos1--item7"
@@ -349,7 +349,7 @@
             "href": "#"
         }
     },
-    //* Item 8
+    
     "flex-layout.row#global__footer--aboutus--left-list8": {
         "children": [
             "link#global__footer-aboutus--pos1--item8"
@@ -363,7 +363,7 @@
             "href": "#"
         }
     },
-    //* Item 9
+    
     "flex-layout.row#global__footer--aboutus--left-list9": {
         "children": [
             "link#global__footer-aboutus--pos1--item9"
@@ -377,7 +377,7 @@
             "href": "#"
         }
     },
-    //* Item 10
+    
     "flex-layout.row#global__footer--aboutus--left-list10": {
         "children": [
             "link#global__footer-aboutus--pos1--item10"
@@ -391,7 +391,7 @@
             "href": "#"
         }
     },
-    //* Item 11
+    
     "flex-layout.row#global__footer--aboutus--left-list11": {
         "children": [
             "link#global__footer-aboutus--pos1--item11"
@@ -405,7 +405,7 @@
             "href": "#"
         }
     },
-    //* Item 12
+    
     "flex-layout.row#global__footer--aboutus--left-list12": {
         "children": [
             "link#global__footer-aboutus--pos1--item12"
@@ -419,7 +419,7 @@
             "href": "#"
         }
     },
-    //* Item 13
+    
     "flex-layout.row#global__footer--aboutus--left-list13": {
         "children": [
             "link#global__footer-aboutus--pos1--item13"
@@ -433,7 +433,7 @@
             "href": "#"
         }
     },
-    //* Item 14
+    
     "flex-layout.row#global__footer--aboutus--left-list14": {
         "children": [
             "link#global__footer-aboutus--pos1--item14"
@@ -447,7 +447,7 @@
             "href": "#"
         }
     },
-    //* Item 15
+    
     "flex-layout.row#global__footer--aboutus--left-list15": {
         "children": [
             "link#global__footer-aboutus--pos1--item15"
@@ -461,7 +461,7 @@
             "href": "#"
         }
     },
-    //* Item 16
+    
     "flex-layout.row#global__footer--aboutus--left-list16": {
         "children": [
             "link#global__footer-aboutus--pos1--item16"
@@ -475,7 +475,7 @@
             "href": "#"
         }
     },
-    //* Footer seccition bottom pos 2
+    
     "flex-layout.col#global__footer--aboutus--pos2": {
         "title": "Grupos Link - Servicio al Cliente",
         "children": [
@@ -502,7 +502,7 @@
             "blockClass": "text-footer"
         }
     },
-    //* Item 1
+    
     "flex-layout.row#global__footer--aboutus--pos2-list1": {
         "children": [
             "link#global__footer-aboutus--pos2--item1"
@@ -516,7 +516,7 @@
             "href": "#"
         }
     },
-    //* Item 2
+    
     "flex-layout.row#global__footer--aboutus--pos2-list2": {
         "children": [
             "link#global__footer-aboutus--pos2--item2"
@@ -530,7 +530,7 @@
             "href": "#"
         }
     },
-    //* Item 3
+    
     "flex-layout.row#global__footer--aboutus--pos2-list3": {
         "children": [
             "link#global__footer-aboutus--pos2--item3"
@@ -544,7 +544,7 @@
             "href": "#"
         }
     },
-    //* Item 4
+    
     "flex-layout.row#global__footer--aboutus--pos2-list4": {
         "children": [
             "link#global__footer-aboutus--pos2--item4"
@@ -558,7 +558,7 @@
             "href": "#"
         }
     },
-    //* Item 5
+    
     "flex-layout.row#global__footer--aboutus--pos2-list5": {
         "children": [
             "link#global__footer-aboutus--pos2--item5"
@@ -572,7 +572,7 @@
             "href": "#"
         }
     },
-    //* Item 6
+    
     "flex-layout.row#global__footer--aboutus--pos2-list6": {
         "children": [
             "link#global__footer-aboutus--pos2--item6"
@@ -586,7 +586,7 @@
             "href": "#"
         }
     },
-    //* Item 7
+    
     "flex-layout.row#global__footer--aboutus--pos2-list7": {
         "children": [
             "link#global__footer-aboutus--pos2--item7"
@@ -600,7 +600,7 @@
             "href": "#"
         }
     },
-    //* Item 8
+    
     "flex-layout.row#global__footer--aboutus--pos2-list8": {
         "children": [
             "link#global__footer-aboutus--pos2--item8"
@@ -614,7 +614,7 @@
             "href": "#"
         }
     },
-    //* Item 9
+    
     "flex-layout.row#global__footer--aboutus--pos2-list9": {
         "children": [
             "link#global__footer-aboutus--pos2--item9"
@@ -628,7 +628,7 @@
             "href": "#"
         }
     },
-    //* Footer seccition bottom pos 3
+    
     "flex-layout.col#global__footer--aboutus--pos3": {
         "title": "Grupo de Links - Paises",
         "children": [
@@ -649,7 +649,7 @@
             "blockClass": "text-footer"
         }
     },
-    //* Item 1
+    
     "flex-layout.row#global__footer--aboutus--pos3-list1": {
         "children": [
             "link#global__footer-aboutus--pos3--item1",
@@ -672,7 +672,7 @@
             "href": "#"
         }
     },
-    //* Item 2
+    
     "flex-layout.row#global__footer--aboutus--pos3-list2": {
         "children": [
             "link#global__footer-aboutus--pos3--item3",
@@ -695,7 +695,7 @@
             "href": "#"
         }
     },
-    //* Footer seccition bottom pos 4
+    
     "flex-layout.col#global__footer--aboutus--pos4": {
         "title": "Seccion Redes Footer",
         "children": [
@@ -721,7 +721,7 @@
         }
     },
 
-    //* Item 1
+    
     "flex-layout.col#global__footer--aboutus--pos4-item1": {
         "title": "Siguenos",
         "children": [
@@ -759,19 +759,19 @@
             ]
         }
     },
-    //* Item 2
+    
     "flex-layout.col#global__footer--aboutus--pos4-item2": {
-        "title": "Links de descarga", //*******
+        "title": "Links de descarga",
         "children": [
             "image#playstore",
             "image#appstore"
         ],
         "props": {
-            //"horizontalAlign": "left",
-            //"blockClass": "siguenos-container"
+            
+            
         }
     },
-    //* Derecho de autor
+    
     "flex-layout.row#global__footer--abouts--derechos_autor-row": {
         "children": ["flex-layout.col#global__footer--abouts--derechos_autor-col"],
         "props": {
@@ -791,7 +791,7 @@
             "textAlignment": "CENTER"
         }
     },
-    //* Form
+    
     "rich-text#global__footer--suscribete-msg-error": {
         "title": "Mensaje de Error",
         "props": {

@@ -6,9 +6,6 @@
     width: 100%;
 }
 .closeIconButton--menu-icon{
-    /* position: absolute;
-    right: 5px;
-    top:5px; */
     color:rgba(0,0,0,0.8);
 }
 .overlay--menu-icon--visible{

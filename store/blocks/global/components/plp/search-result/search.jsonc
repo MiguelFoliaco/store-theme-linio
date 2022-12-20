@@ -120,7 +120,7 @@
       "width": "70%"
     }
   },
-  //* Search title
+  
   "flex-layout.row#result_content_department_product-title": {
     "children": [
       "rich-text#result_content_department_product-title",
@@ -147,7 +147,7 @@
   },
   "search-content#result_content_department_product": {
     "blocks": [
-      // "gallery",
+      
       "gallery#gird-and-list",
       "not-found"
     ]
@@ -180,7 +180,7 @@
       "flex-layout.row#product-main"
     ]
   },
-  //* product modal
+  
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 7,

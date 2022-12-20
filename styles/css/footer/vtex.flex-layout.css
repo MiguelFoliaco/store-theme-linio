@@ -1,4 +1,4 @@
-/** Footer */
+
 .flexRowContent--desktop-footer {
     border-bottom: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
@@ -31,7 +31,7 @@
     padding: 10px 0px;
 }
 
-/*? Footer Mobile*/
+
 .flexRowContent--mobile_footer--social-networks{
     display: flex;
     padding:0px 10px ;

@@ -1,5 +1,5 @@
 {
-    //* contenedor de vitrina 3
+    
     "flex-layout.row#global__home-productlist3-row": {
         "title": "Contenedor vitrina 3",
         "children": [
@@ -11,7 +11,7 @@
             "marginTop": 4
         }
     },
-    //* Titulo vitrina 3
+    
     "rich-text#global__home-productlist3-title": {
         "title": "Titulo vitrina",
         "props": {

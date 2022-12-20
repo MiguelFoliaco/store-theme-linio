@@ -13,21 +13,17 @@
     flex-direction: column;
     max-height: 260px;
 }
-
-/* .container--product-card:hover{
-    transform: scale(1.1);
-} */
 .container--product-card .productBrand,
 .container--product-card .sellingPrice {
     font-weight: bold;
     font-size: 1.2rem;
 }
 .container--product-card :global(.vtex-button){
-    /* background-color: red; */
+    
 min-height: 1rem;
 }
 .container--product-card:hover:global(.vtex-button){
-    /* background-color: red; */
+    
     background-color: green;
 }
 .nameContainer{

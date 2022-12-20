@@ -1,11 +1,11 @@
-/*? Header*/
-/** Refactory - Buenas Practicas*/
+
+
 .flexRowContent--desktop__header-inferior-menu {
     width: 85vw;
     justify-content: flex-start;
 }
 
-/** Refactory - Buenas Practicas*/
+
 .flexRow--desktop__header-inferior-menu {
     margin: auto;
 }
@@ -21,7 +21,7 @@
     width: 100%;
 }
 
-/*? MENU*/
+
 .flexRowContent--mobile__drawer-login-button-group {
     display: flex;
     padding: 30px 20px;

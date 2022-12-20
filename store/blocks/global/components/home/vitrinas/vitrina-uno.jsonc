@@ -1,5 +1,5 @@
 {
-    //* contenedor de vitrina 1
+    
     "rich-text#global__home-productlist-title": {
         "title": "Titulo de vitrina 1",
         "props": {
@@ -54,7 +54,7 @@
         }
     },
     
-    //* Producto
+    
     "product-summary.shelf#global__home-productlist-product": {
         "title": "Producto",
         "children": [
@@ -64,7 +64,7 @@
             "product-selling-price",
             "product-installments-list",
             "flex-layout.col#global__home-productlist-button-show-product"
-            //"flex-layout.col#global__home-productlist-button-add-to-cart"
+            
         ],
         "props": {
             "blockClass": "product-card",

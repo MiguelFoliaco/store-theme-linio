@@ -67,7 +67,7 @@
             "blockClass": "mobile__drawer-singup-button"
         }
     },
-    //* Mi CUenta
+    
     "flex-layout.row#mobile__drawer-my-account": {
         "children": [
             "icon#mobile__drawer-my-account-image",
@@ -97,7 +97,7 @@
             "blockClass": "mobile__drawer-my-account-link"
         }
     },
-    //* sub drawer
+    
     "drawer#phone__sub-drawer": {
         "title": "SUb Drawer Vista Mobile",
         "blocks": [

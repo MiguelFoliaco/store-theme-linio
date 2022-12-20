@@ -1,5 +1,5 @@
 {
-        //* Banner 2
+        
         "flex-layout.row#home-banner2-items-group": {
             "title": "Banner Hogar",
             "children": [
@@ -13,7 +13,7 @@
                 "colGap": 3
             }
         },
-        //* Item 1
+        
         "flex-layout.row#home-banner2-items-title": {
             "title": "Contenedor Titulo Hogar",
             "children": [
@@ -35,7 +35,7 @@
                 "blockClass": "home-banner2-text"
             }
         },
-        //* Item 2
+        
         "flex-layout.col#home-banner2-item2": {
             "children": [
                 "image#home-banner2-item2"
@@ -49,7 +49,7 @@
                 "blockClass": "home-banner2-img-1"
             }
         },
-        //* Item 3
+        
         "flex-layout.col#home-banner2-item3": {
             "children": [
                 "image#home-banner2-item3"
@@ -63,7 +63,7 @@
                 "blockClass": "home-banner2-img-2"
             }
         },
-        //* Item 4
+        
         "flex-layout.col#home-banner2-item4": {
             "children": [
                 "image#home-banner2-item4"

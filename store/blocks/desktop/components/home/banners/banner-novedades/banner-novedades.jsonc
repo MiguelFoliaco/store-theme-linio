@@ -1,5 +1,5 @@
 {
-    //* Novedades
+    
     "flex-layout.row#desktop__novedades_content": {
         "title": "Banner Novedades",
         "children": ["flex-layout.col#desktop__novedadesrow--content-img"]

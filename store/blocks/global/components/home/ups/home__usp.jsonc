@@ -15,7 +15,7 @@
             "flex-layout.col#global__ups-home-item5"
         ]
     },
-    //* Item 1
+    
     "flex-layout.col#global__ups-home-item1": {
         "title": "Item 1",
         "children": [
@@ -52,7 +52,7 @@
             "maxWidth": 30
         }
     },
-    //* Item 2
+    
     "flex-layout.col#global__ups-home-item2": {
         "title": "Item 2",
         "children": [
@@ -88,7 +88,7 @@
             "maxWidth": 30
         }
     },
-    //* Item 3
+    
     "flex-layout.col#global__ups-home-item3": {
         "title": "Item 3",
         "children": [
@@ -124,7 +124,7 @@
             "blockClass": "global__ups-home"
         }
     },
-    //* Item 4
+    
     "flex-layout.col#global__ups-home-item4": {
         "title": "Item 4",
         "children": [
@@ -160,7 +160,7 @@
             "blockClass": "global__ups-home"
         }
     },
-    //* Item 5
+    
     "flex-layout.col#global__ups-home-item5": {
         "title": "Item 5",
         "children": [

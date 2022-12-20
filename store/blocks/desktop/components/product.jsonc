@@ -71,7 +71,7 @@
     "title": "Imagen de producto",
     "props": {
       "displayThumbnailsArrows": true
-      //"ModalZoom": tr layout modal
+      
     }
   },
   "flex-layout.col#pdp_product-main--right": {
@@ -90,7 +90,7 @@
       "product-identifier.product#pdp_product-main--right-product",
       "sku-selector#pdp_product-main--right-product",
       "flex-layout.row#pdp_product_buy-and-quantity",
-      //"shipping-simulator",
+      
       "flex-layout.row#pdp_product_promotion-crm-fallabela",
       "share#default",
       "product-gifts",
@@ -123,14 +123,14 @@
       "title": "Descripcion de Producto"
     }
   },
-  //* Rating y Marca
+  
   "flex-layout.row#pdp_product_brand-and-rating": {
     "children": [
       "product-brand",
       "product-rating-summary"
     ]
   },
-  //* Buy y quantity
+  
   "flex-layout.row#pdp_product_buy-and-quantity": {
     "children": [
       "flex-layout.col#pdp_product_buy-and-quantity-grid-item1",
@@ -174,13 +174,13 @@
       "size": "regular"
     }
   },
-  //* Comentarios
+  
   "flex-layout.row#pdp_product_comentarios": {
     "children": [
       "product-reviews"
     ]
   },
-  //* Especificaciones de producto
+  
   "product-specification-group": {
     "title": "Especificacion de producto",
     "children": [
@@ -215,7 +215,7 @@
       "message": "{specificationValue}"
     }
   },
-  //* Gifts
+  
   "product-gifts": {
     "title":"Productos de Regalo",
     "props": {
@@ -246,7 +246,7 @@
       "add-to-cart-info"
     ]
   },
-  //* Bloque Dias de entrega
+  
   "flex-layout.row#pdp_product-delivery-days-row": {
     "title": "Informacion Dia de entrega",
     "children": ["flex-layout.col#pdp_product-delivery-days"]
@@ -311,7 +311,7 @@
       "blockClass": "pdp_product_delivery-days-text-link"
     }
   },
-  //* Promocion CMR
+  
   "flex-layout.row#pdp_product_promotion-crm-fallabela": {
     "title":"Promocion con CRM",
     "children": [

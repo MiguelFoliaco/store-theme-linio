@@ -9,6 +9,7 @@
     height: 65vh;
     max-height: 65vh;
 }
+
 .menuContainer::-webkit-scrollbar, .submenuContainer::-webkit-scrollbar{
     display: none;
 }

@@ -18,7 +18,7 @@
             "blockClass": "aboutus-content-title-item1"
         }
     },
-    //* GRID
+    
     "flex-layout.row#global_aboutus_linio-numeros-grid_item": {
         "children": [
             "flex-layout.col#global_aboutus_linio_numeros-productos-orbita",
@@ -32,7 +32,7 @@
             "preventHorizontalStretch": false
         }
     },
-    //* item1
+    
     "flex-layout.col#global_aboutus_linio_numeros-productos-orbita": {
         "children": [
             "rich-text#global_aboutus_linio_numeros-productos-orbita"
@@ -47,7 +47,7 @@
             "blockClass": "global_aboutus_linio-numeros-grid-item"
         }
     },
-    //* item2
+    
     "flex-layout.col#global_aboutus_linio_numeros-grid-item2": {
         "children": [
             "rich-text#global_aboutus_linio_numeros-grid-item2"
@@ -62,7 +62,7 @@
             "blockClass": "global_aboutus_linio-numeros-grid-item"
         }
     },
-    //* item3
+    
     "flex-layout.col#global_aboutus_linio_numeros-grid-item3": {
         "children": [
             "rich-text#global_aboutus_linio_numeros-grid-item3"
@@ -77,7 +77,7 @@
             "blockClass": "global_aboutus_linio-numeros-grid-item"
         }
     },
-    //* item4
+    
     "flex-layout.col#global_aboutus_linio_numeros-grid-item4": {
         "children": [
             "rich-text#global_aboutus_linio_numeros-grid-item4"

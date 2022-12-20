@@ -44,7 +44,7 @@
             }
         }
     },
-    //* Item 1
+    
     "flex-layout.col#aboutus-content-items1-sup-item1": {
         "children": [
             "image#about-us-content-item1-sup-items1-img",
@@ -69,7 +69,7 @@
             "blockClass": "aboutus-content-items-sup"
         }
     },
-    //* Item 2
+    
     "flex-layout.col#aboutus-content-items1-sup-item2": {
         "children": [
             "image#about-us-content-item1-sup-items2-img",
@@ -93,7 +93,7 @@
             "blockClass": "aboutus-content-items-sup"
         }
     },
-    //* Item 3
+    
     "flex-layout.col#aboutus-content-items1-sup-item3": {
         "children": [
             "image#about-us-content-item1-sup-items3-img",
@@ -117,7 +117,7 @@
             "blockClass": "aboutus-content-items-sup"
         }
     },
-    //* Item 4
+    
     "flex-layout.col#aboutus-content-items1-sup-item4": {
         "children": [
             "image#about-us-content-item1-sup-items4-img",
@@ -141,7 +141,7 @@
             "blockClass": "aboutus-content-items-sup"
         }
     },
-    //* Item 5
+    
     "flex-layout.col#aboutus-content-items1-bottom": {
         "children": [
             "flex-layout.col#aboutus-content-items1-sup-item5",
@@ -173,7 +173,7 @@
             "textAlignment": "CENTER"
         }
     },
-    //* Medios de pagos
+    
     "flex-layout.row#aboutus-content-paymaent": {
         "children": [
             "flex-layout.col#global__footer--payment-metods-item1",

@@ -17,7 +17,7 @@
             "blockClass":""
         }
     },
-    //* TITULO
+    
     "rich-text#global_aboutus_aliados-title": {
         "props": {
             "text": "Aliados de la galaxia Linio",
@@ -27,7 +27,7 @@
         }
     },
 
-    //* ITEM 1
+    
     "flex-layout.row#custom-grid-4": {
         "children": [
             "custom-grid#grid-4"
@@ -74,7 +74,7 @@
             "maxHeight": 50
         }
     },
-    //* ITEM 2
+    
     "flex-layout.row#global_aboutus_aliados-group-image2": {
         "children": [
             "image#global_aboutus_aliados-image-4",
@@ -104,7 +104,7 @@
             "maxHeight": 50
         }
     },
-    //* ITEM 3
+    
     "flex-layout.col#global_aboutus_aliados-group-link":{
         "children": ["link#global_aboutus_aliados-group-link"],
         "props": {

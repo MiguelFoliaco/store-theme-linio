@@ -8,47 +8,46 @@
     "flex-layout.col#sections-home_col": {
         "children": [
             "responsive-layout.desktop#desktop__ups-home",
-            "responsive-layout.desktop#desktop_home-banner-crm", //* refactor *
-            "responsive-layout.mobile#tablet_home-banner-crm", //* refactor *
-            //* slider home 
-            "responsive-layout.desktop#desktop_home_slider", //* Refactor *
-            "responsive-layout.mobile#mobile_home-slider", //* Refactor *
-            //* Categorias
-            // "responsive-layout.desktop#desktop_category-home",
-            // "responsive-layout.mobile#mobile_category-home",
-            //* Categorias Custom 
-            "list-context.bullets-group#global", //* Refactor *
-            //"responsive-layout.mobile#departament",
-            //* Customs
+            "responsive-layout.desktop#desktop_home-banner-crm", 
+            "responsive-layout.mobile#tablet_home-banner-crm", 
+            
+            "responsive-layout.desktop#desktop_home_slider", 
+            "responsive-layout.mobile#mobile_home-slider", 
+            
+            
+            
+            
+            "list-context.bullets-group#global", 
+            
+            
             "whatsapp-button",
       
-            //* Vitrina 1
-            //"rich-text#productlist_1",
-            "flex-layout.row#global__home-productlist-row", //* Refactory
+            
+            
+            "flex-layout.row#global__home-productlist-row", 
       
-            //! No funciona
-            // //* Quick store //
-            // "quick-store",
-            //* Banner 2
-            "flex-layout.row#home-banner2-items-title",//* Refactory
-            "flex-layout.row#home-banner2-items-group",//* Refactory
-            //* Banner 3
+            
+            
+            
+            
+            "flex-layout.row#home-banner2-items-title",
+            "flex-layout.row#home-banner2-items-group",
+            
             "flex-layout.row#home-banner3-items-group",
-            //* Vintrina 2
-            "flex-layout.row#global__home-productlist2-row", //* Refactory
-            //* Banner 4
+            
+            "flex-layout.row#global__home-productlist2-row", 
+            
             "flex-layout.row#home-banner4-items-group",
-            //*Vitrina 3
-            "flex-layout.row#global__home-productlist3-row", //* Refactory
-            //* Vendedores oficiales
+            "flex-layout.row#global__home-productlist3-row", 
+            
             "flex-layout.row#global_contenedor_slider2-seller",
-            //* Novedades
+            
             "flex-layout.row#desktop__novedades_content",
-            //* Banco Falabella
+            
             "flex-layout.row#home-banner5", 
-            //* descarga la app,
+            
             "flex-layout.row#home-banner6",
-            //* info
+            
             "rich-text#info-home",
             "rich-text#info-home2"
         ]

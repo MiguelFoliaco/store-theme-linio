@@ -1,5 +1,5 @@
 {
-    //* Slider
+    
     "flex-layout.row#global_contenedor_slider2-seller": {
         "title": "Vendedores Oficiales",
         "children": [
@@ -13,7 +13,7 @@
             "slider-layout#global__slider2_config"
         ]
     },
-    //* Titulo Vendedores
+    
     "rich-text#title-sellers": {
         "title": "Titulos Vendedores",
         "props": {

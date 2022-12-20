@@ -18,7 +18,7 @@
             "width": "80%"
         }
     },
-    //* GRID PHONE
+    
     "responsive-layout.phone#aboutus_time-line-grid-phone": {
         "children": [
             "custom-grid#aboutus_time-line-grid-phone"
@@ -39,7 +39,7 @@
             "width": "90%"
         }
     },
-        //* GRID MOBILE
+        
         "responsive-layout.tablet#aboutus_time-line-grid-mobile": {
             "children": [
                 "custom-grid#aboutus_time-line-grid-mobile"
@@ -60,7 +60,7 @@
                 "width": "80%"
             }
         },
-    //* GRID DESKTOP
+    
     "responsive-layout.desktop#aboutus_time-line-grid-desktop": {
         "children": [
             "custom-grid#aboutus_time-line-grid-desktop"
@@ -95,7 +95,7 @@
             "textAlignment": "CENTER"
         }
     },
-    //* item 1
+    
     "flex-layout.col#aboutus_time-line-item1": {
         "children": [
             "rich-text#aboutus_time-line-item1-year",
@@ -140,7 +140,7 @@
             "image#global__image_pais_3"
         ]
     },
-    //* item 2
+    
     "flex-layout.col#aboutus_time-line-item2": {
         "children": [
             "rich-text#aboutus_time-line-item2-year",
@@ -183,11 +183,11 @@
             "image#global__image_pais_4"
         ]
     },
-    //* item 3
+    
     "flex-layout.col#aboutus_time-line-item3": {
         "children": [
             "rich-text#aboutus_time-line-item3-year",
-            // "image#aboutus_time-line-item3-image",
+            
             "rich-text#aboutus_time-line-item3-description",
             "custom-grid#aboutus_time-line-item3-paises"
         ],
@@ -226,7 +226,7 @@
             "image#global__image_pais_5"
         ]
     },
-    //* item 4
+    
     "flex-layout.col#aboutus_time-line-item4": {
         "children": [
             "rich-text#aboutus_time-line-item4-year",
@@ -269,13 +269,13 @@
             "image#global__image_pais_5"
         ]
     },
-    //* item 5
+    
     "flex-layout.col#aboutus_time-line-item5": {
         "children": [
             "rich-text#aboutus_time-line-item5-year",
             "image#aboutus_time-line-item5-image",
             "rich-text#aboutus_time-line-item5-description"
-            //"custom-grid#aboutus_time-line-item5-paises"
+            
         ],
         "props": {
             "blockClass": "aboutus_time-line-item5",
@@ -303,13 +303,13 @@
             "textColor": "c-on-emphasis"
         }
     },
-    //* item 6
+    
     "flex-layout.col#aboutus_time-line-item6": {
         "children": [
             "rich-text#aboutus_time-line-item6-year",
             "image#aboutus_time-line-item6-image",
             "rich-text#aboutus_time-line-item6-description"
-            //"custom-grid#aboutus_time-line-item5-paises"
+            
         ],
         "props": {
             "blockClass": "aboutus_time-line-item6",

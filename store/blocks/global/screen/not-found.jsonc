@@ -1,7 +1,7 @@
 {
-    // "store.custom#not-found":{
-    //     "blocks": ["search-not-found-layout#custom_not_found"]
-    // },
+    
+    
+    
     "store.not-found#product": {
         "blocks": [
             "flex-layout.row#custom_not_found-row"
